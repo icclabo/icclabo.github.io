@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: icclabo/icclabo.github.io/sitemap.xml
+Sitemap: icclabo.github.io/sitemap.xml
