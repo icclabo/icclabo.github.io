@@ -136,7 +136,20 @@
         <div class="author">
         
 
-        Nguyen Thi Thanh Van, Nguyen Cong Luong, Shaohan Feng, Van-Dinh Nguyen, and Dong In Kim</div>
+        Nguyen Thi Thanh Van, Nguyen Cong Luong, Shaohan Feng, Van-Dinh Nguyen, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Dong In Kim' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -252,7 +265,20 @@
         <div class="author">
         
 
-        Dang Van Huynh, Van-Dinh Nguyen, Symeon Chatzinotas, Saeed R. Khosravirad, H. Vincent Poor, and Trung Q. Duong</div>
+        Dang Van Huynh, Van-Dinh Nguyen, Symeon Chatzinotas, Saeed R. Khosravirad, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'H. Vincent Poor, Trung Q. Duong' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -303,7 +329,20 @@
         <div class="author">
         
 
-        Toan-Van Nguyen, Van-Dinh Nguyen, Daniel Benevides Costa, Thien Huynh-The, Rose Qingyang Hu, and Beongku An</div>
+        Toan-Van Nguyen, Van-Dinh Nguyen, Daniel Benevides Costa, Thien Huynh-The, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Rose Qingyang Hu, Beongku An' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -354,7 +393,20 @@
         <div class="author">
         
 
-        Anastasios Papazafeiropoulos, Cunhua Pan, Ahmet M. Elbir, Van-Dinh Nguyen, Pandelis Kourtessis, and Symeon Chatzinotas</div>
+        Anastasios Papazafeiropoulos, Cunhua Pan, Ahmet M. Elbir, Van-Dinh Nguyen, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Pandelis Kourtessis, Symeon Chatzinotas' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -405,7 +457,20 @@
         <div class="author">
         
 
-        Md Arman Hossen, Thang X. Vu, Van-Dinh Nguyen, Symeon Chatzinotas, and Björn Ottersten</div>
+        Md Arman Hossen, Thang X. Vu, Van-Dinh Nguyen, Symeon Chatzinotas, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Björn Ottersten' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -456,11 +521,11 @@
         <div class="author">
         
 
-        Nguyen Cong Luong, Le Khac Chau, Nguyen Do Duy Anh, Nguyen Huu Sang, Shaohan Feng, Van-Dinh Nguyen, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
+        Nguyen Cong Luong, Le Khac Chau, Nguyen Do Duy Anh, Nguyen Huu Sang, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Dusit Niyato, Dong In Kim' : '2 more authors';
+                var more_authors_text = element.text() == '4 more authors' ? 'Shaohan Feng, Van-Dinh Nguyen, Dusit Niyato, Dong In Kim' : '4 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -468,7 +533,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">2 more authors</span>
+              ">4 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -582,11 +647,11 @@
         <div class="author">
         
 
-        Dinh C. Nguyen, Van-Dinh Nguyen, Ming Ding, Symeon Chatzinotas, Pubudu N. Pathirana, Aruna Seneviratne, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
+        Dinh C. Nguyen, Van-Dinh Nguyen, Ming Ding, Symeon Chatzinotas, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Octavia Dobre, Albert Y. Zomaya' : '2 more authors';
+                var more_authors_text = element.text() == '4 more authors' ? 'Pubudu N. Pathirana, Aruna Seneviratne, Octavia Dobre, Albert Y. Zomaya' : '4 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -594,7 +659,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">2 more authors</span>
+              ">4 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -646,7 +711,20 @@
         <div class="author">
         
 
-        Arsham Mostaani, Thang X. Vu, Shree Krishna Sharma, Van-Dinh Nguyen, Qi Liao, and Symeon Chatzinotas</div>
+        Arsham Mostaani, Thang X. Vu, Shree Krishna Sharma, Van-Dinh Nguyen, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Qi Liao, Symeon Chatzinotas' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -697,11 +775,11 @@
         <div class="author">
         
 
-        Dang Van Huynh, Van-Dinh Nguyen, Saeed R. Khosravirad, Vishal Sharma, Octavia A. Dobre, Hyundong Shin, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
+        Dang Van Huynh, Van-Dinh Nguyen, Saeed R. Khosravirad, Vishal Sharma, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Trung Q. Duong' : '1 more author';
+                var more_authors_text = element.text() == '3 more authors' ? 'Octavia A. Dobre, Hyundong Shin, Trung Q. Duong' : '3 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -709,7 +787,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">1 more author</span>
+              ">3 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -761,7 +839,20 @@
         <div class="author">
         
 
-        Dinh-Hieu Tran, Van-Dinh Nguyen, Symeon Chatzinotas, Thang X. Vu, and Björn Ottersten</div>
+        Dinh-Hieu Tran, Van-Dinh Nguyen, Symeon Chatzinotas, Thang X. Vu, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Björn Ottersten' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -863,7 +954,20 @@
         <div class="author">
         
 
-        Nhan T. Nguyen, V.-Dinh Nguyen, Qingqing Wu, Antti Tölli, Symeon Chatzinotas, and Markku Juntti</div>
+        Nhan T. Nguyen, V.-Dinh Nguyen, Qingqing Wu, Antti Tölli, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Symeon Chatzinotas, Markku Juntti' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -965,7 +1069,20 @@
         <div class="author">
         
 
-        Nhan T. Nguyen, V.-Dinh Nguyen, Hieu V. Nguyen, Hien Q. Ngo, Symeon Chatzinotas, and Markku Juntti</div>
+        Nhan T. Nguyen, V.-Dinh Nguyen, Hieu V. Nguyen, Hien Q. Ngo, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Symeon Chatzinotas, Markku Juntti' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1016,7 +1133,20 @@
         <div class="author">
         
 
-        Dang Van Huynh, Van-Dinh Nguyen, Vishal Sharma, Octavia A. Dobre, and Trung Q. Duong</div>
+        Dang Van Huynh, Van-Dinh Nguyen, Vishal Sharma, Octavia A. Dobre, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Trung Q. Duong' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1067,7 +1197,20 @@
         <div class="author">
         
 
-        Toan-Van Nguyen, Thien Huynh-The, Van-Dinh Nguyen, Daniel Benevides Da Costa, Rose Qingyang Hu, and Beongku An</div>
+        Toan-Van Nguyen, Thien Huynh-The, Van-Dinh Nguyen, Daniel Benevides Da Costa, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Rose Qingyang Hu, Beongku An' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1118,7 +1261,20 @@
         <div class="author">
         
 
-        Nhan T. Nguyen, V.-Dinh Nguyen, Qingqing Wu, Antti Tölli, Symeon Chatzinotas, and Markku Juntti</div>
+        Nhan T. Nguyen, V.-Dinh Nguyen, Qingqing Wu, Antti Tölli, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Symeon Chatzinotas, Markku Juntti' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1220,11 +1376,11 @@
         <div class="author">
         
 
-        Progress Zivuku, Steven Kisseleff, Van-Dinh Nguyen, Konstantinos Ntontin, Wallace A. Martins, Symeon Chatzinotas, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
+        Progress Zivuku, Steven Kisseleff, Van-Dinh Nguyen, Konstantinos Ntontin, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Björn Ottersten' : '1 more author';
+                var more_authors_text = element.text() == '3 more authors' ? 'Wallace A. Martins, Symeon Chatzinotas, Björn Ottersten' : '3 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -1232,7 +1388,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">1 more author</span>
+              ">3 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -1288,7 +1444,20 @@
         <div class="author">
         
 
-        Quang Nhat Le, Van-Dinh Nguyen, Octavia A. Dobre, Nam-Phong Nguyen, Ruiqin Zhao, and Symeon Chatzinotas</div>
+        Quang Nhat Le, Van-Dinh Nguyen, Octavia A. Dobre, Nam-Phong Nguyen, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Ruiqin Zhao, Symeon Chatzinotas' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1441,11 +1610,11 @@
         <div class="author">
         
 
-        Thang X. Vu, Symeon Chatzinotas, Van-Dinh Nguyen, Dinh Thai Hoang, Diep N. Nguyen, Marco Di Renzo, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
+        Thang X. Vu, Symeon Chatzinotas, Van-Dinh Nguyen, Dinh Thai Hoang, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Björn Ottersten' : '1 more author';
+                var more_authors_text = element.text() == '3 more authors' ? 'Diep N. Nguyen, Marco Di Renzo, Björn Ottersten' : '3 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -1453,7 +1622,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">1 more author</span>
+              ">3 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -1505,7 +1674,20 @@
         <div class="author">
         
 
-        Tien-Tung Nguyen, Van-Dinh Nguyen, Quoc-Viet Pham, Jong-Ho Lee, and Yong-Hwa Kim</div>
+        Tien-Tung Nguyen, Van-Dinh Nguyen, Quoc-Viet Pham, Jong-Ho Lee, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Yong-Hwa Kim' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1556,7 +1738,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Shree Krishna Sharma, Thang X. Vu, Symeon Chatzinotas, and Björn Ottersten</div>
+        Van-Dinh Nguyen, Shree Krishna Sharma, Thang X. Vu, Symeon Chatzinotas, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Björn Ottersten' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1662,11 +1857,11 @@
         <div class="author">
         
 
-        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Shree Krishna Sharma, Symeon Chatzinotas, Björn Ottersten, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
+        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Shree Krishna Sharma, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var more_authors_text = element.text() == '3 more authors' ? 'Symeon Chatzinotas, Björn Ottersten, Oh-Soon Shin' : '3 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -1674,7 +1869,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">1 more author</span>
+              ">3 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -1734,7 +1929,20 @@
         <div class="author">
         
 
-        Tien-Tung Nguyen, Quoc-Viet Pham, Van-Dinh Nguyen, Jong-Ho Lee, and Yong-Hwa Kim</div>
+        Tien-Tung Nguyen, Quoc-Viet Pham, Van-Dinh Nguyen, Jong-Ho Lee, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Yong-Hwa Kim' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1836,7 +2044,20 @@
         <div class="author">
         
 
-        Van-Phuc Bui, Van-Dinh Nguyen, Hieu V. Nguyen, Octavia A. Dobre, and Oh-Soon Shin</div>
+        Van-Phuc Bui, Van-Dinh Nguyen, Hieu V. Nguyen, Octavia A. Dobre, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1887,7 +2108,20 @@
         <div class="author">
         
 
-        Dinh-Hieu Tran, Van-Dinh Nguyen, Sumit Gautam, Symeon Chatzinotas, Thang X. Vu, and Björn Ottersten</div>
+        Dinh-Hieu Tran, Van-Dinh Nguyen, Sumit Gautam, Symeon Chatzinotas, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Thang X. Vu, Björn Ottersten' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1938,11 +2172,11 @@
         <div class="author">
         
 
-        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Shree Krishna Sharma, Symeon Chatzinotas, Björn Ottersten, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
+        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Shree Krishna Sharma, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var more_authors_text = element.text() == '3 more authors' ? 'Symeon Chatzinotas, Björn Ottersten, Oh-Soon Shin' : '3 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -1950,7 +2184,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">1 more author</span>
+              ">3 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -2057,7 +2291,20 @@
         <div class="author">
         
 
-        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Diep N. Nguyen, Eryk Dutkiewicz, and Oh-Soon Shin</div>
+        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Diep N. Nguyen, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Eryk Dutkiewicz, Oh-Soon Shin' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2159,7 +2406,20 @@
         <div class="author">
         
 
-        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Yongpeng Wu, and Oh-Soon Shin</div>
+        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Yongpeng Wu, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2312,7 +2572,20 @@
         <div class="author">
         
 
-        Toan-Van Nguyen, Van-Dinh Nguyen, Tri-Nhu Do, Daniel Benevides Costa, and Beongku An</div>
+        Toan-Van Nguyen, Van-Dinh Nguyen, Tri-Nhu Do, Daniel Benevides Costa, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Beongku An' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2363,7 +2636,20 @@
         <div class="author">
         
 
-        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Diep N. Nguyen, Eryk Dutkiewicz, and Oh-Soon Shin</div>
+        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Diep N. Nguyen, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Eryk Dutkiewicz, Oh-Soon Shin' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2414,7 +2700,20 @@
         <div class="author">
         
 
-        Van-Phuc Bui, Phu X. Nguyen, Hieu V. Nguyen, Van-Dinh Nguyen, and Oh-Soon Shin</div>
+        Van-Phuc Bui, Phu X. Nguyen, Hieu V. Nguyen, Van-Dinh Nguyen, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2787,7 +3086,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Trung Q. Duong, Oh-Soon Shin, Arumugam Nallanathan, and George K. Karagiannidis</div>
+        Van-Dinh Nguyen, Trung Q. Duong, Oh-Soon Shin, Arumugam Nallanathan, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'George K. Karagiannidis' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2838,7 +3150,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Hoang Duong Tuan, Trung Q. Duong, Oh-Soon Shin, and H. Vincent Poor</div>
+        Van-Dinh Nguyen, Hoang Duong Tuan, Trung Q. Duong, Oh-Soon Shin, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'H. Vincent Poor' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2889,7 +3214,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Hoang Duong Tuan, Trung Q. Duong, H. Vincent Poor, and Oh-Soon Shin</div>
+        Van-Dinh Nguyen, Hoang Duong Tuan, Trung Q. Duong, H. Vincent Poor, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -3041,7 +3379,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Trung Q. Duong, Hoang Duong Tuan, Oh-Soon Shin, and H. Vincent Poor</div>
+        Van-Dinh Nguyen, Trung Q. Duong, Hoang Duong Tuan, Oh-Soon Shin, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'H. Vincent Poor' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -3143,7 +3494,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Le-Nam Tran, Trung Q. Duong, Oh-Soon Shin, and Ronan Farrell</div>
+        Van-Dinh Nguyen, Le-Nam Tran, Trung Q. Duong, Oh-Soon Shin, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Ronan Farrell' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -3244,7 +3608,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Hoang D. Tuan, Trung Q. Duong, H. Vincent Poor, and Oh-Soon Shin</div>
+        Van-Dinh Nguyen, Hoang D. Tuan, Trung Q. Duong, H. Vincent Poor, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -3346,7 +3723,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Trung Q. Duong, Oh-Soon Shin, Arumugam Nallanathan, and George K. Karagiannidis</div>
+        Van-Dinh Nguyen, Trung Q. Duong, Oh-Soon Shin, Arumugam Nallanathan, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'George K. Karagiannidis' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -3503,7 +3893,20 @@
         <div class="author">
         
 
-        Nam-Phong Nguyen, Chinmoy Kundu, Van-Dinh Nguyen, Trung Q. Duong, and Lisheng Fan</div>
+        Nam-Phong Nguyen, Chinmoy Kundu, Van-Dinh Nguyen, Trung Q. Duong, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Lisheng Fan' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -3554,7 +3957,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Hieu V. Nguyen, Gil-Mo Kang, Hyeon Min Kim, and Oh-Soon Shin</div>
+        Van-Dinh Nguyen, Hieu V. Nguyen, Gil-Mo Kang, Hyeon Min Kim, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -3918,7 +4334,20 @@
         <div class="author">
         
 
-        Van-Dinh Nguyen, Son Dinh-Van, Yoan Shin, Won Cheol Lee, and Oh-Soon Shin</div>
+        Van-Dinh Nguyen, Son Dinh-Van, Yoan Shin, Won Cheol Lee, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         

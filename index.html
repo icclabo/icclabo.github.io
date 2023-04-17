@@ -213,7 +213,20 @@
         <div class="author">
         
 
-        Nguyen Thi Thanh Van, Nguyen Cong Luong, Shaohan Feng, Van-Dinh Nguyen, and Dong In Kim</div>
+        Nguyen Thi Thanh Van, Nguyen Cong Luong, Shaohan Feng, Van-Dinh Nguyen, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Dong In Kim' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -387,11 +400,11 @@
         <div class="author">
         
 
-        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Shree Krishna Sharma, Symeon Chatzinotas, Björn Ottersten, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
+        Hieu V. Nguyen, Van-Dinh Nguyen, Octavia A. Dobre, Shree Krishna Sharma, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Oh-Soon Shin' : '1 more author';
+                var more_authors_text = element.text() == '3 more authors' ? 'Symeon Chatzinotas, Björn Ottersten, Oh-Soon Shin' : '3 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -399,7 +412,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">1 more author</span>
+              ">3 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
