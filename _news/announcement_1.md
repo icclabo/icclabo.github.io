@@ -2,7 +2,7 @@
 layout: post
 title: Dr. Dinh Nguyen joined VinUni 
 date: 2022-09-05
-inline: true
+inline: false
 related_posts: true
 ---
 
