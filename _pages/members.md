@@ -12,9 +12,9 @@ NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">PhD candidates</p> 
- * TRUONG Tuan Vu (2023 - 2026)
- * VO Phi Son (2023 - 2026)
- * NGUYEN Minh Tuong (2023 - 2026)
+ * TRUONG Tuan Vu (2023 - 2026): ORAN Network Slicing
+ * VO Phi Son (2023 - 2026): Computing IoT
+ * NGUYEN Minh Tuong (2023 - 2026): Computing IoT
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research assistants</p> 
