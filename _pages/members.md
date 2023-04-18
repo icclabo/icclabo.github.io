@@ -18,6 +18,10 @@ NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research assistants</p> 
+* NGO Minh Ngoc
+* NGUYEN Manh Duc
+* PHAM Anh Quan
+* LE Viet Hai
 * DUONG Minh Hoang (HUST)
 
 
