@@ -8,7 +8,7 @@ nav_order: 5
 
 
 
-<p style="text-align: left; color: black; font-size:16px;font-weight:bold"></p> 
+<p style="text-align: left; color: black; font-size:16px;font-weight:bold">VinUniversity</p> 
 * Electromagnetic Fields and Waves (ELEC3020): Fall 2022
 * Digital Communication System Design (ELEC4040): Fall 2022
 
