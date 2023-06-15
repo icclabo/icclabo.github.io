@@ -31,6 +31,8 @@ Our research interests are mainly on employing various applied mathematical tool
 * Open radio access networks
 * Wireless sensing
 
+<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Open positions:</p> We are looking for a highly motivated and an outstanding researcher in the area of wireless sensing and applied AL. Please send your CV to dinh.nv2@vinuni.edu.vn if interested.
+
 
 
 
