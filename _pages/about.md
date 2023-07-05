@@ -26,10 +26,10 @@ Our research interests are mainly on employing various applied mathematical tool
 <p style="text-align:left; color:black; font-size:18px;font-weight:bold">What is research? Why we conduct it?</p> “*The heart and soul of good writing is research; you should write not what you know but what you can find out about*” (Robert J. Sawyer)
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research interests</p> 
-* Applied AI/ML techniques: URLLC, UAV, PLS, CRN, FD, IoT, 5G/6G
-* Fog/edge computing
-* Open radio access networks
-* Wireless sensing
+* Applied AI/ML techniques: IoT, 5G/6G
+* Tasked-oriented communication
+* Open radio access networks: fog/edge computing, slicing, traffic steering, load balancing
+* Wireless sensing, wireless imaging
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Open positions:</p> [Research Assistant] We are looking for highly motivated and outstanding researchers in the area of wireless sensing and applied AI. Please send your CV to dinh.nv2@vinuni.edu.vn if interested.
 
