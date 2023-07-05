@@ -22,8 +22,8 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 * PHAM Anh Quan (VinUni)
 * Lai Dac Tien (VinUni)
 * DUONG Minh Hoang 
-* Nguyen Xuan Hoang 
-* Senura Hanasaja Wanasekara
+* NGUYEN Xuan Hoang 
+* SENURA Hanasaja Wanasekara
 
 
 
