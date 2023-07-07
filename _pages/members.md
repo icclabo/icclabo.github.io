@@ -26,9 +26,6 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 ---
 title: facility 
 ---
-* DUONG Minh Hoang 
-* NGUYEN Xuan Hoang 
-* SENURA Hanasaja Wanasekara
 
 
 
