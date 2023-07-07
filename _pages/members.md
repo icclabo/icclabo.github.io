@@ -23,9 +23,5 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 * Lai Dac Tien (VinUni)
 
 
----
-title: facility 
----
-
 
 
