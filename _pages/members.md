@@ -20,7 +20,10 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research assistants</p> 
 * NGO Minh Ngoc (VinUni)
 * PHAM Anh Quan (VinUni)
-* Lai Dac Tien (VinUni)
+* LAI Dac Tien (VinUni)
+* NGUYEN Xuan Hoang
+* Senura Hanasaja Wanasekara
+
 
 
 
