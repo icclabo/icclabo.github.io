@@ -135,7 +135,20 @@
         <div class="author">
         
 
-        </div>
+        N. T. Nguyen, V.-D. Nguyen, Q. Wu, A. Tolli, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'S. Chatzinotas, M. Juntti' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -162,7 +175,7 @@
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">NhanTWC23</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, N. T. and Nguyen, V.-D. and Wu, Q. and Tolli, A. and Chatzinotas, S. and Juntti, M.}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transaction on Wireless Communications}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
