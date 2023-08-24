@@ -8,7 +8,8 @@ nav: true
 nav_order: 3
 ---
 
-
+<!-- _pages/publications.md -->
+<div class="publications">
 
 <h2>Journal Articles</h2>
 {% for post in site.publications reversed %}
@@ -30,3 +31,4 @@ nav_order: 3
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+</div>
