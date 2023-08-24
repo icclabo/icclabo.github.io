@@ -12,21 +12,21 @@ nav_order: 3
 <div class="publications">
 
 <h2>Journal Articles</h2>
-{% for post in site.publications reversed %}
+{% for post in pages.publications reversed %}
   {% if post.pubtype == 'journal' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 <h2>Conference Papers</h2>
-{% for post in site.publications reversed %}
+{% for post in pages.publications reversed %}
   {% if post.pubtype == 'conference' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 <h2>Book/Book Chapters</h2>
-{% for post in site.publications reversed %}
+{% for post in pages.publications reversed %}
   {% if post.pubtype == 'book' %}
       {% include archive-single.html %}
   {% endif %}
