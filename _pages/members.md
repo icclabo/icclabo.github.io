@@ -30,7 +30,6 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 <div id="v-space">
 <br>
 <br>
-
 <figure>
   <img src="/assets/img/ICC_party9Sep23.jpg" width="500" />
   <figcaption> <center>Lab party Sept. 2023</center> </figcaption>
