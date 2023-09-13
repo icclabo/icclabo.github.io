@@ -25,12 +25,8 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 * Senura Hanasaja Wanasekara
 * Gian Dinh Toan
 
-profile:
-  align: center
-  image: ICCLab.jpg
-  image_circular: false # crops the image to make it circular
-  address: > 
-    <p style="text-align: center; color: purple; font-size:30px">ICCLab</p>
-    <p style="text-align: center;">College of Engineering and Computer Science, VinUniversity</p>
 
-
+<!--
+<img src="http://....jpg" width="200" height="200" />
+![ICC_party2023](/assets/img/ICC_party9Sep23.jpg)
+-->
