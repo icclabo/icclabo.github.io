@@ -25,8 +25,7 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 * Senura Hanasaja Wanasekara
 * Gian Dinh Toan
 
-
 <!--
 <img src="http://....jpg" width="200" height="200" />
 ![ICC_party2023](/assets/img/ICC_party9Sep23.jpg)
--->
+--> 
