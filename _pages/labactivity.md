@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /labactivity/
-title: activity
+title: activities
 nav: true
 nav_order: 6
 ---
@@ -34,3 +34,9 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 </figure>
 
 
+<div id="v-space">
+<br>
+<figure>
+  <img src="/assets/img/Vi" width="500" />
+  <figcaption>VinFast visit   - May 2023</figcaption>
+</figure>
