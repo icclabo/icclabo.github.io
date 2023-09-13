@@ -29,7 +29,7 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 
 profile:
   align: center
-  image: assets/img/ICC_party9Sep23.jpg
+  image: ICC_party9Sep23.jpg
   image_circular: false # crops the image to make it circular
   address: > 
        <p style="text-align: center;">Lab party, 09 Sept. 2023</p>
