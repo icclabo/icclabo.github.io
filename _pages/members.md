@@ -27,5 +27,9 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 * Gian Dinh Toan
 
 
-<img src="/assets/img/ICC_party9Sep23.jpg" width="500" />
 
+
+<figure>
+  <img src="/assets/img/ICC_party9Sep23.jpg" width="500" />
+  <figcaption>Lab party Sept. 2023.</figcaption>
+</figure>
