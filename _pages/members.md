@@ -27,7 +27,6 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 * Gian Dinh Toan
 
 
-
 <div id="v-space">
 <br>
 <br>
