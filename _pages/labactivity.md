@@ -37,6 +37,7 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <div id="v-space">
 <br>
 <figure>
-  <img src="/assets/img/Vi" width="500" />
-  <figcaption>VinFast visit   - May 2023</figcaption>
+  <img src="/assets/img/VinAI2023.jpeg" width="500" />
+  <figcaption>VinAI invited talk - Jan. 2023</figcaption>
 </figure>
+
