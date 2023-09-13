@@ -32,7 +32,7 @@ profile:
   image: ICC_party9Sep23.jpg
   image_circular: false # crops the image to make it circular
   address: > 
-       <p style="text-align: center;">Lab party, 09 Sept. 2023</p>
+        <p style="text-align: center;">Lab party, 09 Sept. 2023</p>
 
 
 
