@@ -32,5 +32,20 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 <br>
 <figure>
   <img src="/assets/img/ICC_party9Sep23.jpg" width="400" />
-  <figcaption>Lab party Sept. 2023</figcaption>
+  <figcaption>Lab party - Sept. 2023</figcaption>
 </figure>
+
+<div id="v-space">
+<br>
+<figure>
+  <img src="/assets/img/SSPBPA_2023.jpg" width="400" />
+  <figcaption>IEEE SSP Best Paper Award - Sept. 2023</figcaption>
+</figure>
+
+<div id="v-space">
+<br>
+<figure>
+  <img src="/assets/img/VFVisit2023.jpg" width="400" />
+  <figcaption>VinFast visit   - May 2023</figcaption>
+</figure>
+
