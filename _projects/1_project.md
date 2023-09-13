@@ -13,4 +13,4 @@ category: work
     Amount: $72k
     ---
     
-We would like to thank VinUniversity to support our research
+We would like to thank VinUniversity for supporting our research
