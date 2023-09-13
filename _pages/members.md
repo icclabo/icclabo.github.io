@@ -17,6 +17,7 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
  * NGUYEN Minh Tuong (2023 - 2026): *Computing ORAN*
 
 
+
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research assistants</p> 
 * NGO Minh Ngoc (VinUni)
 * PHAM Anh Quan (VinUni)
