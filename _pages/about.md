@@ -36,4 +36,4 @@ Our research interests are mainly on employing various applied mathematical tool
 * 2-3 full-time Research Assistants 
 
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Ficclabo.github.io%2F&label=ICCLab&countColor=%23263759)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Ficclabo.github.io%2F&label=ICCLab&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Ficclabo.github.io%2F)
