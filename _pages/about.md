@@ -35,6 +35,5 @@ Our research interests are mainly on employing various applied mathematical tool
 * 2 Ph.D.scholarships in CS/EE (fully funded within 4 years)
 * 2-3 full-time Research Assistants 
 
-![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
 
-
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Ficclabo.github.io%2F&label=ICCLab&countColor=%23263759)
