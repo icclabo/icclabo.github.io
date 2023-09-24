@@ -138,7 +138,20 @@
         <div class="author">
         
 
-        </div>
+        P. Zivuku, S. Kisseleff, V.-D. Nguyen, W. A. Martins, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'K. Ntontin, S. Chatzinotas, B. Ottersten' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -165,7 +178,7 @@
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">ZivukuTCOM23</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Joint RIS-aided Precoding and Multislot Scheduling for Maximum User Admission in Smart Cities}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zivuku, P. and Kisseleff, S. and Nguyen, V.-D. and Martins, W. A. and Ntontin, K. and Chatzinotas, S. and Ottersten, B.}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">sep</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Communications}</span><span class="p">,</span>
@@ -874,7 +887,7 @@
         <div class="author">
         
 
-        T. X. Vu F. Kavehmadavani, and S. Chatzinotas</div>
+        F. Kavehmadavani, V.-D. Nguyen, T. X. Vu, and  S. Chatzinotas</div>
 
         <!-- Journal/Book title and date -->
         
@@ -900,7 +913,7 @@
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">KavehmadavaniGC23</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{On Deep Reinforcement Learning for Traffic Steering Intelligent ORAN}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{F. Kavehmadavani, V.-D. Nguyen, T. X. Vu and Chatzinotas, S.}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kavehmadavani, F. and Nguyen, V.-D. and Vu, T. X. and and S. Chatzinotas}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proc. IEEE Global Commun. Conf. Wks (GLOBECOM Wks), Kuala Lumpur, Malaysia}</span><span class="p">,</span>
