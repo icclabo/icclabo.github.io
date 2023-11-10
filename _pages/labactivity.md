@@ -11,6 +11,16 @@ nav_order: 6
 We Put the ``Fun'' in Fundamental Research with the slogan:
 <p style="text-align: center; color: black; font-size:18px;font-weight:bold">"Pursue excellence, Revel in abundance" </p> 
 
+
+<div id="v-space">
+<br>
+<br>
+<figure>
+  <img src="/assets/img/Dinh_BD23.jpg" width="500" />
+  <figcaption>Dinh's Birthday 2023. Thanks all ICC members</figcaption>
+</figure>
+
+
 <div id="v-space">
 <br>
 <br>
