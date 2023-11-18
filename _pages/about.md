@@ -23,6 +23,8 @@ ICCLab was founded in September 2022, when [Dr. Dinh Nguyen](https://vinuni.edu.
 
 Our research interests are mainly on employing various applied mathematical tools (i.e., stochastic modeling, queueing theory and optimization theory) and machine learning techniques to design, analyze and optimize the cutting-edge applications in complex wire/wireless networks: fog/edge computing and data center, IoT networks, 5G/6G network resource allocations, and distributed machine learning for wireless networks.
 
+**Vision**: Our research vision centers on designing intelligent and resilient wireless systems that employ the power of optimization theory and AI/ML to advance wireless communication technologies. The goal is to address challenges and take opportunities across various domains, fostering sustainable and adaptive solutions and multidisciplinary research.
+
 <p style="text-align:left; color:black; font-size:18px;font-weight:bold">What is research? Why do we conduct it?</p> “*The heart and soul of good writing is research; you should write not what you know but what you can find out about*” (Robert J. Sawyer)
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research interests</p> 
