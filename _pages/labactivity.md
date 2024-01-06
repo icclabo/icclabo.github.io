@@ -17,6 +17,7 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <figure>
   <img src="/assets/img/NewYearparty2024_1.jpg" width="500" />
+  <img src="/assets/img/NewYearparty2024_2.jpg" width="500" />
   <figcaption>New Year's party - 2024</figcaption>
 </figure>
 
