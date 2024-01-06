@@ -16,6 +16,14 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <br>
 <figure>
+  <img src="/assets/img/NewYearparty2024_1.jpg" width="500" />
+  <figcaption>New Year's party - 2024</figcaption>
+</figure>
+
+<div id="v-space">
+<br>
+<br>
+<figure>
   <img src="/assets/img/Dinh_BD23.jpg" width="500" />
   <figcaption>Dinh's Birthday 2023. Thanks all ICC members</figcaption>
 </figure>
