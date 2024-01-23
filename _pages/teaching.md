@@ -9,6 +9,7 @@ nav_order: 5
 
 
 <p style="text-align: left; color: black; font-size:16px;font-weight:bold">VinUniversity, Hanoi, Vietnam</p> 
+* Computer Networks and Telecommunications (ELEC4030): Spring 2024
 * Networks (COMP3050): Fall 2023
 * Electromagnetic Fields and Waves (ELEC3020): Fall 2022, Fall 2023
 * Digital Communication System Design (ELEC4040): Fall 2022
