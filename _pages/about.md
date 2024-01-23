@@ -32,6 +32,15 @@ ICCLab was founded in September 2022, when [Dr. Dinh Nguyen](https://vinuni.edu.
 * Wireless sensing, wireless imaging
 * Multidisciplinary research (smart farming, smart healthcare, environmental intelligence)
 
+<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Awards and Prizes</p> 
+* Exemplary Editor Award: IEEE OJ-COMS 2021 \& 2023, IEEE COMML 2019 \& 2021
+* Best Conference Paper Award of IEEE Statistical Signal Processing (SSP) Workshop, 2023
+* Exemplary Reviewer Award of IEEE Transactions on Communications, 2018
+* Best Conference Paper Award of International Conference on Recent Advances in Signal Processing, Telecommunications & Computing, 2018
+* Student Travel Grant Award of IEEE Global Communications Conference (GLOBECOM), 2017
+* Best Conference Paper Award of IEEE Seoul Section Student Paper Contest, 2016
+*  Best Conference Paper Award of International Conference on Computing, Management \& Telecommunications (ComManTel), 2015
+
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Open positions:</p> We are looking for highly motivated and outstanding researchers in the area of wireless sensing/imaging, tasked-oriented/semantic communication, IoT, 5G/6G and applied AI/ML. We offer a high standard and flexible working environment  accompanied by a competitive salary package. Please send your CV to **dinh.nv2@vinuni.edu.vn** if interested:
 * 2 Ph.D.scholarships in CS/EE (fully funded within 4 years)
 * 2-3 full-time Research Assistants 
