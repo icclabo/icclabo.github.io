@@ -14,7 +14,7 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
  * Editor of IEEE Open Journal of the Communications Society
  * Editor of IEEE Systems Journal
  
-[WoS account]([https://vinuni.edu.vn/people/nguyen-van-dinh-phd/](https://www.webofscience.com/wos/author/record/ABE-6038-2020))
+[Web of Science account](https://www.webofscience.com/wos/author/record/ABE-6038-2020)
   
  
 
