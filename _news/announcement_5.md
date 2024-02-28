@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vu, Son and Tuong joined ICCLab as PhD students. Welcome guys!
+title: Our new project on open RAN is funded by NAFOSTED (National Foundation for Science and Technology Development).
 date: 2023-03-01 
 inline: false
 related_posts: true
@@ -8,4 +8,4 @@ related_posts: true
 
 
 
-Truong Tuan Vu, Vo Phi Son and Nguyen Minh Tuong started their PhD study in CS at VinUni
+
