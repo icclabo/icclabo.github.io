@@ -30,6 +30,8 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
 * NGO Minh Ngoc (VinUni)
 * PHAM Anh Quan (VinUni)
 * LAI Dac Tien (VinUni)
+* NGUYEN Thanh Trung (VinUni)
+* NGUYEN Hong Phuc (VinUni)
 * NGUYEN Xuan Hoang
 * Senura Hanasaja Wanasekara
 * GIAN Dinh Toan
