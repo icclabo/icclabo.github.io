@@ -11,6 +11,13 @@ profile:
   address: > 
     <p style="text-align: center; color: purple; font-size:30px">ICCLab</p>
     <p style="text-align: center;">College of Engineering and Computer Science, VinUniversity</p>
+profile:
+  align: center
+  image: ICCLab.jpg
+  image_circular: false # crops the image to make it circular
+  address: > 
+    <p style="text-align: center; color: purple; font-size:30px">ICCLab</p>
+    <p style="text-align: center;">College of Engineering and Computer Science, VinUniversity</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
