@@ -12,7 +12,7 @@ profile:
     <p style="text-align: center; color: purple; font-size:30px">ICCLab</p>
     <p style="text-align: center;">College of Engineering and Computer Science, VinUniversity</p>
 
-  <div id="v-space">
+<div id="v-space">
   <br>
   <br>
   <figure>
