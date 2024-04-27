@@ -13,7 +13,7 @@ profile:
     <p style="text-align: center;">College of Engineering and Computer Science, VinUniversity</p>
 
   align: center
-  image: ICCLab.jpg
+  image: vinuni.jpg
   image_circular: false # crops the image to make it circular
   address: > 
     <p style="text-align: center; color: purple; font-size:30px">ICCLab</p>
