@@ -8,7 +8,7 @@ nav_order: 2
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Faculty: Warden</p> 
-PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen)
+PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen in publications)
  * Senior Member IEEE
  * Senior Editor of IEEE Communications Letters
  * Editor of IEEE Open Journal of the Communications Society
