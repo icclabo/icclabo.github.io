@@ -16,6 +16,16 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <br>
 <figure>
+  <img src="/assets/img/FarewellHoang2024.jpg" width="500" />
+  <figcaption>Farewell Hoang to Institut Polytechnique de Paris - 2024</figcaption>
+</figure>
+
+
+
+<div id="v-space">
+<br>
+<br>
+<figure>
   <img src="/assets/img/NewYearparty2024_1.jpg" width="500" />
   <img src="/assets/img/NewYearparty2024_2.jpg" width="500" />
   <figcaption>New Year's party - 2024</figcaption>
