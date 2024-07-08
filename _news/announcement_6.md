@@ -1,8 +1,10 @@
 ---
 layout: post
-title: New paper accepted in ECCV 2024, entitled: ``WiFi-enabled Lightweight Dual Selective Kernel Convolution for Human Pose Estimation.'' Well done, Toan.
-date: 2024-07-04 
+title: Our new project on open RAN is funded by NAFOSTED (National Foundation for Science and Technology Development).
+date: 2024-02-01 
 inline: false
 related_posts: true
 ---
+
+
 
