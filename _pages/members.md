@@ -12,7 +12,7 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen in publications)
  * Senior Member IEEE
  * Senior Editor of IEEE Communications Letters
  * Editor of IEEE Open Journal of the Communications Society
- * Editor of IEEE Systems Journal
+ * Editor of IEEE Systems Journal (2022-2024)
  
 [Web of Science account](https://www.webofscience.com/wos/author/record/ABE-6038-2020)
   
