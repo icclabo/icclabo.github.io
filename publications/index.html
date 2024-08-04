@@ -358,8 +358,10 @@ Systems</div>
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://ieeexplore.ieee.org/document/10438353" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/HCNguyenToN24.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
           </div>
           
           <div class="badges">
@@ -367,7 +369,11 @@ Systems</div>
               <span class="__dimensions_badge_embed__" data-doi="10.1109/TNET.2024.3365815" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          <!-- Hidden bibtex block -->
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Federated Learning (FL) plays a pivotal role in enabling artificial intelligence (AI)-based mobile applications in mobile edge computing (MEC). However, due to the resource heterogeneity among participating mobile users (MUs), delayed updates from slow MUs may deteriorate the learning speed of the MEC-based FL system, commonly referred to as the straggling problem. To tackle the problem, this work proposes a novel privacy-preserving FL framework that utilizes homomorphic encryption (HE) based solutions to enable MUs, particularly resource-constrained MUs, to securely offload part of their training tasks to the cloud server (CS) and mobile edge nodes (MENs). Our framework first develops an efficient method for packing batches of training data into HE ciphertexts to reduce the complexity of HE-encrypted training at the MENs/CS. On that basis, the mobile service provider (MSP) can incentivize straggling MUs to encrypt part of their local datasets that are uploaded to certain MENs or the CS for caching and remote training. However, caching a large amount of encrypted data at the MENs and CS for FL may not only overburden those nodes but also incur a prohibitive cost of remote training, which ultimately reduces the MSP’s overall profit. To optimize the portion of MUs’ data to be encrypted, cached, and trained at the MENs/CS, we formulate an MSP’s profit maximization problem, considering all MUs’ and MENs’ resource capabilities and data handling costs (including encryption, caching, and training) as well as the MSP’s incentive budget. We then show that the problem is convex and can be efficiently solved using an interior point method. Extensive simulations on a real-world human activity recognition dataset show that our proposed framework can achieve much higher model accuracy (improving up to 24.29%) and faster convergence rate (by 2.86 times) than those of the conventional FedAvg approach when the straggling probability varies between 20% and 80%. Moreover, the proposed framework can improve the MSP’s profit up to 2.84 times compared with other baseline FL approaches without MEN-assisted training.</p>
+          </div>
+<!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">ToN2024</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N. and Nguyen, V. D. and Xiao, Y. and Dutkiewicz, E.}</span><span class="p">,</span>
