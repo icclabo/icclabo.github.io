@@ -11,7 +11,16 @@ nav_order: 6
 We Put the ``Fun'' in Fundamental Research with the slogan:
 <p style="text-align: center; color: black; font-size:18px;font-weight:bold">"Pursue excellence, Revel in abundance" </p> 
 
+<div id="v-space">
+<br>
+<br>
+<figure>
+  <img src="/assets/img/ToanECCV-1.jpg" width="500" />
+  <img src="/assets/img/ToanECCV-2.jpg" width="500" />
+  <figcaption>Gian Toan with his presentation at ECCV 2024, MiCo Milano</figcaption>
+</figure>
 
+  
 <div id="v-space">
 <br>
 <br>
