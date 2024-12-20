@@ -28,17 +28,18 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen in publications)
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research Assistants: Survivors/Escapees</p>
 * NGO Minh Ngoc (VinUni)
-* PHAM Anh Quan (VinUni)
 * NGUYEN Thanh Trung (VinUni)
 * NGUYEN Hong Phuc (VinUni)
 * Senura Hanasaja Wanasekara
-* GIAN Dinh Toan
-* LUU Ngoc Minh 
+ 
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Alumni</p>
-* NGUYEN Xuan Hoang (RA): now MS/PhD at Institut Polytechnique de Paris (France).
+* GIAN Dinh Toan (RA): now PhD candidate at Northeastern University (USA)
+* LUU Ngoc Minh (RA): now with Viettel, Hanoi (VN)
+* NGUYEN Xuan Hoang (RA): now MS/PhD at Institut Polytechnique de Paris (France)
 * LAI Dac Tien (VinUni, RA): now PhD at UIUC (USA)
+* PHAM Anh Quan (VinUni, RA): now MS student at University of Pennsylvania (USA)
 
 
 
