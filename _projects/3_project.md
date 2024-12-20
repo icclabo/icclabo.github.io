@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Building a Sustainable Smart Mariculture System based on IoT and AI Technologies 
-description: National Foundation for Science and Technology Development (NAFOSTED)
+description: Green Transformation Project
 img: assets/img/Project3_VinUniSA.png
 importance: 1
 category: work
@@ -22,17 +22,17 @@ category: work
 </figure>
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Brief Description of the Project Concept</p> 
- The project focuses on advancing Open Radio Access Network (O-RAN) systems by integrating cutting-edge technologies such as edge computing (EC), network slicing (NS), and artificial intelligence (AI)/machine learning (ML). This enables distributed intelligence in wireless networks, transforming them into low-power, high-efficiency computing systems capable of reasoning, inference, and near-zero latency decision-making. The project addresses challenges in handling exponential data traffic growth, tactile Internet requirements, and dynamic resource optimization.
+This project leverages IoT technology to improve aquaculture sustainability. It aims to develop an IoT-based system for real-time water quality monitoring, measuring parameters like temperature, pH, and dissolved oxygen. By continuously collecting and analyzing data, the system will enable proactive management of aquaculture conditions. Additionally, the project seeks to use IoT data to identify and reduce sources of marine pollution from aquaculture operations. Strategies will focus on optimizing resource use and implementing eco-friendly practices to minimize nutrient runoff and waste. 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Specific Objectives of the Project:</p> 
-* Develop a Multi-Layer Optimization Framework: Formalize a detailed framework and methodologies for joint computation and communication strategies within resilience-aware edge computing for O-RAN.
+This project will develop a precision aquaculture platform for leveraging synergies between communication and computation resources to yield resilient, sustainable, and productive resource management schemes.  Specifically, the project aims to: 
 
-* Innovative Learning Algorithms: Create advanced AI/ML algorithms specifically designed for large-scale O-RAN systems to enhance their adaptability and efficiency.
-  
-* Novel Network Slicing Solutions: Design dynamic and scalable resource optimization techniques for network slicing, ensuring flexibility, efficiency, and scalability while addressing the shared O-RAN infrastructure challenges.
+* monitor aquaculture water quality using an IoT platform. 
 
-<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Impacts:</p> 
-This project will revolutionize wireless networks by enabling resilient, low-latency, and intelligent O-RAN systems to meet the demands of 6G and beyond. Technologically, it will enhance network adaptability and efficiency, enabling seamless performance under diverse conditions while supporting applications like the tactile Internet and smart traffic systems. Distributed intelligence will transform networks into powerful computational platforms, providing near-instantaneous decision-making capabilities. 
+* exploit aquaculture water quality data to reduce marine pollution. 
+
+<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Impacts</p> 
+The outcome will be enhanced water quality, increased aquaculture productivity, and reduced environmental impact.
 
 
 
