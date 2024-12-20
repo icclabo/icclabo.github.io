@@ -11,6 +11,7 @@ category: work
     Funder: VinUni
     Period: 03/2023 - 02/2025
     Amount: $72k
+    Acknowledgment: We would like to thank VinUniversity for supporting our research
     ---
     
-We would like to thank VinUniversity for supporting our research
+
