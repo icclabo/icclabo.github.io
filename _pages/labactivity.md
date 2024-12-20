@@ -16,8 +16,8 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <br>
 <figure>
-  <img src="/assets/img/GianToanFarewell_1.jpg" width="500" />
-  <img src="/assets/img/GianToanFarewell_2.jpg" width="500" />
+  <img src="/assets/img/GianToanFarewell_1.jpg" width="400" />
+  <img src="/assets/img/GianToanFarewell_2.jpg" width="400" />
   <figcaption>Dec. 2024: Farewell, Gian Toan, on Joining Northeastern University as a PhD Student - 2025</figcaption>
 </figure>
 
