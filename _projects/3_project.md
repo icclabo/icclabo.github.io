@@ -12,6 +12,14 @@ category: work
     Period: 08/2024 - 10/2025
     Amount: ~$60k
     ---
+<div id="v-space">
+<br>
+<br>
+<figure>
+  <img src="/assets/img/Project3_VinUniSA" width="500" />
+  <figcaption>IoT/AI-based Sustainable Smart Mariculture System</figcaption>
+</figure>
+
     
 We would like to thank Vingroup and VinUni for supporting our research on this project
 
