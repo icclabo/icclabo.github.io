@@ -32,5 +32,5 @@ aims to:
 algorithms.
 
 
-<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Impacts:</p> 
+<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Impacts</p> 
 The successful development of truly smart IoT networks requires instilling resilience into the processes that manage common cyber-physical resources to prevent correlated failures. This project aims to address the heterogeneity and uncertainty of demands and ESs’ failures by augmenting recent advances in signal processing, wireless communications, operations research, optimization theory and machine learning to lay the mathematical foundations of resilient EC that enables massive and secure IoT networks.
