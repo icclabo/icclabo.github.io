@@ -20,7 +20,7 @@ category: work
 <br>
 <br>
 <figure>
-  <img src="/assets/img/Project2_NAFOSTED.png" width="700" />
+  <img src="/assets/img/Project2_NAFOSTED.png" width="800" />
   <figcaption>IoT/AI-based Sustainable Smart Mariculture System</figcaption>
 </figure>
 
@@ -32,14 +32,13 @@ The project focuses on advancing Open Radio Access Network (O-RAN) systems by in
 
 
 
+
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Specific Objectives of the Project</p>
 This project aims to
 
-* formalize a detailed framework and methodologies for joint computation and communication strategies within resilience-aware edge computing for O-RAN.
-
-* create advanced AI/ML algorithms specifically designed for large-scale O-RAN systems to enhance their adaptability and efficiency.
-
-* design dynamic and scalable resource optimization techniques for network slicing, ensuring flexibility, efficiency, and scalability while addressing the shared O-RAN infrastructure challenges.
+*    formalize a detailed framework and methodologies for joint computation and communication strategies within resilience-aware edge computing for O-RAN.
+*    create advanced AI/ML algorithms specifically designed for large-scale O-RAN systems to enhance their adaptability and efficiency.
+*    design dynamic and scalable resource optimization techniques for network slicing, ensuring flexibility, efficiency, and scalability while addressing the shared O-RAN infrastructure challenges.
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Impacts</p>
