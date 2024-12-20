@@ -16,7 +16,7 @@ category: work
 <br>
 <br>
 <figure>
-  <img src="/assets/img/Project3_VinUniSA" width="500" />
+  <img src="/assets/img/Project3_VinUniSA.png" width="500" />
   <figcaption>IoT/AI-based Sustainable Smart Mariculture System</figcaption>
 </figure>
 
