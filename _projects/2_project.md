@@ -20,7 +20,7 @@ category: work
 <br>
 <br>
 <figure>
-  <img src="/assets/img/Project2_NAFOSTED.png" width="800" />
+  <img src="/assets/img/Project2_NAFOSTED.png" width="900" />
   <figcaption>IoT/AI-based Sustainable Smart Mariculture System</figcaption>
 </figure>
 
