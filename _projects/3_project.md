@@ -17,7 +17,7 @@ category: work
 <br>
 <br>
 <figure>
-  <img src="/assets/img/Project3_VinUniSA.png" width="500" />
+  <img src="/assets/img/Project3_VinUniSA.png" width="700" />
   <figcaption>IoT/AI-based Sustainable Smart Mariculture System</figcaption>
 </figure>
 
@@ -29,7 +29,9 @@ This project will develop a precision aquaculture platform for leveraging synerg
 
 * monitor aquaculture water quality using an IoT platform. 
 
-* exploit aquaculture water quality data to reduce marine pollution. 
+* exploit aquaculture water quality data to reduce marine pollution.
+
+  
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Impacts</p> 
 The outcome will be enhanced water quality, increased aquaculture productivity, and reduced environmental impact.
