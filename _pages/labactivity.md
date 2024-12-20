@@ -11,6 +11,29 @@ nav_order: 6
 We Put the ``Fun'' in Fundamental Research with the slogan:
 <p style="text-align: center; color: black; font-size:18px;font-weight:bold">"Pursue excellence, Revel in abundance" </p> 
 
+
+<div id="v-space">
+<br>
+<br>
+<figure>
+  <img src="/assets/img/GianToanFarewell_1" width="500" />
+  <img src="/assets/img/GianToanFarewell_2" width="500" />
+  <figcaption>Farewell, Gian Toan, on Joining Northeastern University as a PhD Student - 2025</figcaption>
+</figure>
+
+  
+<div id="v-space">
+<br>
+<br>
+<figure>
+  <img src="/assets/img/VNTeacherDay_1" width="500" />
+  <img src="/assets/img/VNTeacherDay_2" width="500" />
+  <img src="/assets/img/VNTeacherDay_3" width="500" />
+  <figcaption>Vietnamese Teacher's Day 2024, VinUniversity</figcaption>
+</figure>
+
+
+  
 <div id="v-space">
 <br>
 <br>
@@ -26,7 +49,7 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <figure>
   <img src="/assets/img/FarewellHoang2024.jpg" width="500" />
-  <figcaption>Farewell Hoang to Institut Polytechnique de Paris - 2024</figcaption>
+  <figcaption>Farewell, Hoang, on Joining Institut Polytechnique de Paris as a PhD Student - 2024</figcaption>
 </figure>
 
 
