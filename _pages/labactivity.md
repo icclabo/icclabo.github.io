@@ -16,8 +16,8 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <br>
 <figure>
-  <img src="/assets/img/GianToanFarewell_1" width="500" />
-  <img src="/assets/img/GianToanFarewell_2" width="500" />
+  <img src="/assets/img/GianToanFarewell_1.jpg" width="500" />
+  <img src="/assets/img/GianToanFarewell_2.jpg" width="500" />
   <figcaption>Farewell, Gian Toan, on Joining Northeastern University as a PhD Student - 2025</figcaption>
 </figure>
 
@@ -26,9 +26,9 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <br>
 <figure>
-  <img src="/assets/img/VNTeacherDay_1" width="500" />
-  <img src="/assets/img/VNTeacherDay_2" width="500" />
-  <img src="/assets/img/VNTeacherDay_3" width="500" />
+  <img src="/assets/img/VNTeacherDay_1.jpg" width="500" />
+  <img src="/assets/img/VNTeacherDay_2.jpg" width="500" />
+  <img src="/assets/img/VNTeacherDay_3.jpg" width="500" />
   <figcaption>Vietnamese Teacher's Day 2024, VinUniversity</figcaption>
 </figure>
 
