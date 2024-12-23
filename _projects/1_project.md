@@ -22,13 +22,13 @@ This project aims to develop a novel resilience-aware edge computing framework f
 This project will lay a novel theoretical framework for leveraging synergies between communication and computation resources to yield resilient, sustainable and secure resource management schemes, in the presence of uncertainty of users’ demands and edge nodes’ failures. Specifically, the project 
 aims to: 
 
-* develop innovative learning and distributed optimization algorithms uniquely tailored towards massive and secure IoT networks based on the proposed novel resilience-aware edge computing (EC) framework, enabling optimal management of shared common resources under various system uncertainties.
+1) develop innovative learning and distributed optimization algorithms uniquely tailored towards massive and secure IoT networks based on the proposed novel resilience-aware edge computing (EC) framework, enabling optimal management of shared common resources under various system uncertainties.
 
-* develop novel wireless interfaces for next-generation EC networks (e.g. IoT and 6G) based on random access protocols that provide seamless and high-quality wireless services for a massive number of IoT devices under resource-constrained networks.
+2) develop novel wireless interfaces for next-generation EC networks (e.g. IoT and 6G) based on random access protocols that provide seamless and high-quality wireless services for a massive number of IoT devices under resource-constrained networks.
   
-* develop novel security solutions to defend against wireless jamming attacks to achieve both authentication and secure data transmission.
+3) develop novel security solutions to defend against wireless jamming attacks to achieve both authentication and secure data transmission.
 
-*  develop and implement the world's first prototypes to validate the efficiency of the proposed 
+4)  develop and implement the world's first prototypes to validate the efficiency of the proposed 
 algorithms.
 
 
