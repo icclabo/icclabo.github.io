@@ -50,6 +50,6 @@ Communications (ATC), 2024
 * 2 Ph.D.scholarships in CS/EE (fully funded within 4 years)
 * 2-3 full-time Research Assistants 
 
-Last updated: December 12, 2024
+**Last updated: December 12, 2024**
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Ficclabo.github.io%2F&label=ICCLab&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Ficclabo.github.io%2F)
