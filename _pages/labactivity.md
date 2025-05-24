@@ -8,9 +8,19 @@ nav_order: 6
 
 
 
+
+
 We Put the ``Fun'' in Fundamental Research with the slogan:
 <p style="text-align: center; color: black; font-size:18px;font-weight:bold">"Pursue excellence, Revel in abundance" </p> 
 
+
+<div id="v-space">
+<br>
+<br>
+<figure>
+  <img src="/assets/img/Minh_farwell.jpg" width="500" />
+  <figcaption>April 2025: Farewell, Ngoc Minh, on Joining Northeastern University as a PhD Student</figcaption>
+</figure>
 
 <div id="v-space">
 <br>
