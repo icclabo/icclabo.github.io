@@ -18,7 +18,7 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <br>
 <figure>
-  <img src="/assets/img/Minh_farwell.jpg" width="500" />
+  <img src="/assets/img/Minh_farwell.jpg" width="400" />
   <figcaption>April 2025: Farewell, Ngoc Minh, on Joining Northeastern University as a PhD Student</figcaption>
 </figure>
 
