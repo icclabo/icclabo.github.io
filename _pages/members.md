@@ -31,6 +31,7 @@ PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen in publications)
 * NGO Minh Ngoc (VinUni)
 * NGUYEN Thanh Trung (VinUni)
 * NGUYEN Hong Phuc (VinUni)
+* PHAN Tuan Khoi (VinUni)
 * HOANG Le Hung (HUST)
 * PHAM Hoang (HUST)
  
