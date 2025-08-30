@@ -45,6 +45,6 @@ Communications (ATC), 2024
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Open positions:</p> We are looking for highly motivated and outstanding researchers in the area of wireless sensing/imaging, tasked-oriented/semantic communication, IoT, 5G/6G and applied AI/ML. We offer a high-standard and flexible working environment  accompanied by a competitive salary package. Please send your CV to **dinh.nguyen@tcd.ie** if interested.
 
-**Last updated: Aug. 2024**
+**Last updated: Aug. 2025**
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Ficclabo.github.io%2F&label=ICCLab&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Ficclabo.github.io%2F)
