@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>
+subtitle: <a href='#'>Intelligence, Computing and Communication Lab</a>, <a href='https://www.tcd.ie/scss/'>School of Computer Science and Statistics, Trinity College Dublin</a>
 
 profile:
   align: center
