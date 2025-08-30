@@ -21,9 +21,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-
-# ICCLab was founded in September 2022, when [Dr. Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/) joined the [College of Engineering Computer Science, VinUniversity](https://vinuni.edu.vn/college-of-engineering-computer-science/).
-
 **Vision**: Our research vision centers on designing intelligent and resilient wireless systems that employ the power of optimization theory and AI/ML to advance wireless communication technologies. The goal is to address challenges and take opportunities across various domains, fostering sustainable and adaptive solutions and multidisciplinary research (Smart Farming, Smart Healthcare, Intelligent Transportation, Environmental Intelligence).
 
 <p style="text-align:left; color:black; font-size:18px;font-weight:bold">What is research? Why do we conduct it?</p> “*The heart and soul of good writing is research; you should write not what you know but what you can find out about*” (Robert J. Sawyer)
