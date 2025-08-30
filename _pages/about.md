@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: > 
     <p style="text-align: center; color: purple; font-size:30px">ICCLab</p>
-    <p style="text-align: center;">College of Engineering and Computer Science, VinUniversity</p>
+    <p style="text-align: center;">School of Computer Science and Statistics, Trinity College Dublin</p>
   
 
 
@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-ICCLab was founded in September 2022, when [Dr. Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/) joined the [College of Engineering Computer Science, VinUniversity](https://vinuni.edu.vn/college-of-engineering-computer-science/).
+# ICCLab was founded in September 2022, when [Dr. Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/) joined the [College of Engineering Computer Science, VinUniversity](https://vinuni.edu.vn/college-of-engineering-computer-science/).
 
 **Vision**: Our research vision centers on designing intelligent and resilient wireless systems that employ the power of optimization theory and AI/ML to advance wireless communication technologies. The goal is to address challenges and take opportunities across various domains, fostering sustainable and adaptive solutions and multidisciplinary research (Smart Farming, Smart Healthcare, Intelligent Transportation, Environmental Intelligence).
 
@@ -46,11 +46,8 @@ Communications (ATC), 2024
 * Best Conference Paper Award of IEEE Seoul Section Student Paper Contest, 2016
 * Best Conference Paper Award of International Conference on Computing, Management & Telecommunications, 2015
 
-<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Open positions:</p> We are looking for highly motivated and outstanding researchers in the area of wireless sensing/imaging, tasked-oriented/semantic communication, IoT, 5G/6G and applied AI/ML. We offer a high-standard and flexible working environment  accompanied by a competitive salary package. Please send your CV to **dinh.nv2@vinuni.edu.vn** if interested:
-* 3 postdoc researchers
-* 2 Ph.D.scholarships in CS/EE (fully funded within 4 years)
-* 2-3 full-time Research Assistants 
+<p style="text-align: left; color: black; font-size:18px;font-weight:bold">Open positions:</p> We are looking for highly motivated and outstanding researchers in the area of wireless sensing/imaging, tasked-oriented/semantic communication, IoT, 5G/6G and applied AI/ML. We offer a high-standard and flexible working environment  accompanied by a competitive salary package. Please send your CV to **dinh.nguyen@tcd.ie** if interested.
 
-**Last updated: December 12, 2024**
+**Last updated: Aug. 2024**
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Ficclabo.github.io%2F&label=ICCLab&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Ficclabo.github.io%2F)
