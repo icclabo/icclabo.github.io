@@ -8,7 +8,7 @@ nav_order: 2
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Faculty: Warden</p> 
-PI, NGUYEN Van Dinh (a.k.a. Van-Dinh Nguyen in publications)
+PI, [NGUYEN Van Dinh](https://www.tcd.ie/scss/people/academic-staff/nguyenva/) (a.k.a. Van-Dinh Nguyen in publications)
  * Senior Member IEEE
  * Senior Editor of IEEE Communications Letters (2024-now)
  * Associate Editor of IEEE Communications Letters (2018-2023)
