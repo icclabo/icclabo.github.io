@@ -18,6 +18,16 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <br>
 <figure>
+  <img src="/assets/img/ICC_Aug_1.jpg" width="500" />
+  <img src="/assets/img/ICC_Aug_2.jpg" width="500" />
+  <img src="/assets/img/ICC_Aug_3.jpg" width="500" />
+  <figcaption>Farewell Party for PI Dinh Nguyen. Thank You to all Colleagues and Students for Your Hard work Together </figcaption>
+</figure>
+
+<div id="v-space">
+<br>
+<br>
+<figure>
   <img src="/assets/img/Minh_farwell.jpg" width="400" />
   <figcaption>April 2025: Farewell, Ngoc Minh, on Joining Northeastern University as a PhD Student</figcaption>
 </figure>
