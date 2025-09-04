@@ -21,6 +21,7 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
   <img src="/assets/img/ICC_Aug_1.jpg" width="500" />
   <img src="/assets/img/ICC_Aug_2.jpg" width="500" />
   <img src="/assets/img/ICC_Aug_3.jpg" width="500" />
+  <img src="/assets/img/ICC_Aug_4.jpg" width="500" />
   <figcaption>Farewell Party for PI Dinh Nguyen. Thank You to all Colleagues and Students for Your Hard work Together </figcaption>
 </figure>
 
