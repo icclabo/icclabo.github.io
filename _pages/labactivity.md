@@ -9,6 +9,12 @@ nav_order: 6
 
 
   
+
+
+We Put the ``Fun'' in Fundamental Research with the slogan:
+<p style="text-align: center; color: black; font-size:18px;font-weight:bold">"Pursue excellence, Revel in abundance" </p> 
+
+
 <div id="v-space">
 <br>
 <br>
@@ -16,10 +22,6 @@ nav_order: 6
   <img src="/assets/img/ICC_Sept-Vu.jpg" width="500" />
   <figcaption>Farewell, Vu, to UTS for the Joint Degree between UTS and VinUni</figcaption>
 </figure>
-
-We Put the ``Fun'' in Fundamental Research with the slogan:
-<p style="text-align: center; color: black; font-size:18px;font-weight:bold">"Pursue excellence, Revel in abundance" </p> 
-
 
 <div id="v-space">
 <br>
