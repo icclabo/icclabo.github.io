@@ -20,7 +20,7 @@ We Put the ``Fun'' in Fundamental Research with the slogan:
 <br>
 <figure>
   <img src="/assets/img/ICC_Sept-Vu.jpg" width="500" />
-  <figcaption>Farewell, Vu, to UTS for the Joint Degree between UTS and VinUni</figcaption>
+  <figcaption>Farewell, Truong Tuan Vu, to UTS for the Joint Degree between UTS and VinUni</figcaption>
 </figure>
 
 <div id="v-space">
