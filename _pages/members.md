@@ -15,25 +15,29 @@ PI, [NGUYEN Van Dinh](https://www.tcd.ie/scss/people/academic-staff/nguyenva/) (
  * Editor of IEEE Open Journal of the Communications Society (2019-2025)
  * Editor of IEEE Systems Journal (2022-2024)
  
-[Web of Science account](https://www.webofscience.com/wos/author/record/ABE-6038-2020)
+[Web of Science account](https://www.webofscience.com/wos/author/record/ABE-6038-2020)  
   
- 
+ <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Postdoc Research Fellows: Survivors/Escapees</p>
+ * Nguyen Dang An (08.2025 - 07.2027)
+ * LE Huu Hoang (11.2025 - 10.2027)
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">PhD Candidates: Survivors/Escapees</p>
- * TRUONG Tuan Vu (2023 - 2026): *ORAN Network Slicing*
- * VO Phi Son (2023 - 2026): *Computing IoT*
- * NGUYEN Minh Tuong (2023 - 2026): *Computing IoT*
+ * TRUONG Tuan Vu (09.2023 - 2026): *ORAN Network Slicing*
+ * VO Phi Son (09.2023 - 2026): *Computing IoT*
+ * NGUYEN Minh Tuong (09.2023 - 2026): *Computing IoT*
 
 
 
 <p style="text-align: left; color: black; font-size:18px;font-weight:bold">Research Assistants: Survivors/Escapees</p>
-* NGO Minh Ngoc (VinUni)
-* NGUYEN Thanh Trung (VinUni)
-* NGUYEN Hong Phuc (VinUni)
-* PHAN Tuan Khoi (VinUni)
-* HOANG Le Hung (HUST)
-* PHAM Hoang (HUST)
+* NGO Minh Ngoc (VinUni): 10.2022 - now
+* NGUYEN Thanh Trung (VinUni): 09.2023 - now
+* NGUYEN Hong Phuc (VinUni): 09.2023 - now
+* PHAN Tuan Khoi (VinUni): 09.2024 - now
+* DUONG Nghiep Quy (VinUni): 03.2025 - now
+* LE Quang Nhat (VinUni): 03.2025 - now
+* HOANG Le Hung (HUST): 03.2025 - now
+* PHAM Hoang (HUST): 02.2025 - now
  
 
 
