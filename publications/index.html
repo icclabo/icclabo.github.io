@@ -167,14 +167,33 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/JSAC.2025.3610821"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/JSAC.2025.3610821" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/JIOT.2024.3425854"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2024.3425854" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper explores the energy efficiency (EE) of integrated sensing and communication (ISAC) systems employing massive multiple-input multiple-output (mMIMO) techniques to leverage spatial beamforming gains for both communication and sensing. We focus on an mMIMO-ISAC system operating in an orthogonal frequency-division multiplexing setting with a uniform planar array, zero-forcing downlink transmission, and mono-static radar sensing to exploit multi-carrier channel diversity. By deriving closed-form expressions for the achievable communication rate and Cramér-Rao bounds (CRBs), we are able to determine the overall EE in closed-form. A power allocation problem is then formulated to maximize the system’s EE by balancing communication and sensing efficiency while satisfying communication rate requirements and CRB constraints. Through a detailed analysis of CRB properties, we reformulate the problem into a more manageable form and leverage Dinkelbach’s and successive convex approximation (SCA) techniques to develop an efficient iterative algorithm. A novel initialization strategy is also proposed to ensure high-quality feasible starting points for the iterative optimization process. Extensive simulations demonstrate the significant performance improvement of the proposed approach over baseline approaches. Results further reveal that as communication spectral efficiency rises, the influence of sensing EE on the overall system EE becomes more pronounced, even in sensing-dominated scenarios. Specifically, in the high ω regime of 2 × 10−3, we observe a 16.7% reduction in overall EE when spectral efficiency increases from 4 to 8 bps/Hz, despite the system being sensing-dominated.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">11168825</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Huy T. and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Journal on Selected Areas in Communications}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-1}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Integrated sensing and communication;Radar;Vectors;Resource management;Energy efficiency;Array signal processing;Interference;Downlink;Transmitters;Signal to noise ratio;Energy efficiency;integrated sensing and communication;massive multiple-input multiple-output;zero-forcing;orthogonal frequency-division multiplexing}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JIOT.2024.3425854}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -218,6 +237,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://ieeexplore.ieee.org/document/11129868" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
             <a href="https://github.com/icclabo/SC-GIR" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
@@ -227,7 +248,24 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/TMC.2025.3600434" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Goal-oriented semantic communication (SC) aims to revolutionize communication systems by transmitting only task-essential information. However, current approaches face challenges such as joint training at transceivers, leading to redundant data exchange and reliance on labeled datasets, which limits their task-agnostic utility. To address these challenges, we propose a novel framework called Goal-oriented Invariant Representation-based SC (SC-GIR) for image transmission. Our framework leverages self-supervised learning to extract an invariant representation that encapsulates crucial information from the source data, independent of the specific downstream task. This compressed representation facilitates efficient communication while retaining key features for successful downstream task execution. Focusing on machine-to-machine tasks, we utilize covariance-based contrastive learning techniques to obtain a latent representation that is both meaningful and semantically dense. To evaluate the effectiveness of the proposed scheme on downstream tasks, we apply it to various image datasets for lossy compression. The compressed representations are then used in a goal-oriented AI task. Extensive experiments on several datasets demonstrate that SC-GIR outperforms baseline schemes by nearly 10%, and achieves over 85% classification accuracy for compressed data under different SNR conditions. These results underscore the effectiveness of the proposed framework in learning compact and informative latent representations.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">11129868</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wanasekara, Senura Hansaja and Nguyen, Van-Dinh and Wong, Kok-Seng and Nguyen, M.-Duong and Chatzinotas, Symeon and Dobre, Octavia A.}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Mobile Computing}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{SC-GIR: Goal-oriented Semantic Communication via Invariant Representation Learning for Image Transmission}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-15}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Image reconstruction;Feature extraction;Wireless communication;Image coding;Artificial intelligence;Semantic communication;Training;Receivers;Mobile computing;Decoding;Communication efficiency;data compression;deep learning;goal-oriented semantic communication;redundancy reduction}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TMC.2025.3600434}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -258,6 +296,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -265,7 +305,24 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/TCOMM.2025.3592584" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Goal-oriented semantic communication (SC) aims to revolutionize communication systems by transmitting only task-essential information. However, current approaches face challenges such as joint training at transceivers, leading to redundant data exchange and reliance on labeled datasets, which limits their task-agnostic utility. To address these challenges, we propose a novel framework called Goal-oriented Invariant Representation-based SC (SC-GIR) for image transmission. Our framework leverages self-supervised learning to extract an invariant representation that encapsulates crucial information from the source data, independent of the specific downstream task. This compressed representation facilitates efficient communication while retaining key features for successful downstream task execution. Focusing on machine-to-machine tasks, we utilize covariance-based contrastive learning techniques to obtain a latent representation that is both meaningful and semantically dense. To evaluate the effectiveness of the proposed scheme on downstream tasks, we apply it to various image datasets for lossy compression. The compressed representations are then used in a goal-oriented AI task. Extensive experiments on several datasets demonstrate that SC-GIR outperforms baseline schemes by nearly 10%, and achieves over 85% classification accuracy for compressed data under different SNR conditions. These results underscore the effectiveness of the proposed framework in learning compact and informative latent representations.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">11095741</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kavehmadavani, Fatemeh and Vu, Thang X. and Nguyen, Van-Dinh and Chatzinotas, Symeon}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Communications}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Intelligent User Association and Scheduling in Open RAN: A Hierarchical Optimization Framework}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-1}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Handover;Open RAN;Computer architecture;Ultra reliable low latency communication;Optimization;Resource management;Dynamic scheduling;Microprocessors;Heuristic algorithms;Load management;Distributed deep reinforcement learning;open radio access network;user association;functional splits;network slicing}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TCOMM.2025.3592584}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -296,6 +353,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -303,7 +362,24 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/TVT.2025.3577530" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In this paper, we study a novel latency minimization problem in wireless federated learning (FL) across multi-hop networks. The system comprises multiple routes, each integrating leaf and relay nodes for FL model training. We explore a personalized learning and adaptive aggregation-aware FL (PAFL) framework that effectively addresses data heterogeneity across participating nodes by harmonizing individual and collective learning objectives. We formulate an optimization problem aimed at minimizing system latency through the joint optimization of leaf and relay nodes, as well as relay routing indicator. We also incorporate an additional energy harvesting scheme for the relay nodes to help with their relay tasks. This formulation presents a computationally demanding challenge, and thus we develop a simple yet efficient algorithm based on block coordinate descent and successive convex approximation (SCA) techniques. Simulation results illustrate the efficacy of our proposed joint optimization approach for leaf and relay nodes with relay routing indicator. We observe significant latency savings in the wireless multi-hop PAFL system, with reductions of up to 69.37% compared to schemes optimizing only one node type, traditional greedy algorithm, and scheme without relay routing indicator.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">11029176</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Shaon, Shaba and Nguyen, Van-Dinh and Nguyen, Dinh C.}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Vehicular Technology}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Latency Optimization for Wireless Federated Learning in Multihop Networks}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-6}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Relays;Computational modeling;Adaptation models;Spread spectrum communication;Routing;Training;Servers;Energy consumption;Minimization;Rayleigh channels;Federated learning;wireless;latency}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TVT.2025.3577530}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -347,6 +423,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -354,7 +432,24 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/TSP.2025.3554012" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Integrated sensing and communications (ISAC) is envisioned as a key feature in future wireless communications networks. Its integration with massive multiple-input-multiple-output (MIMO) techniques promises to leverage substantial spatial beamforming gains for both functionalities. In this work, we consider a massive MIMO-ISAC system employing a uniform planar array with zero-forcing and maximum-ratio downlink transmission schemes combined with monostatic radar-type sensing. Our focus lies on deriving closed form expressions for the achievable communications rate and the Cramér–Rao lower bound (CRLB), which serve as performance metrics for communications and sensing operations, respectively. The expressions enable us to investigate important operational characteristics of massive MIMO-ISAC, including the mutual effects of communications and sensing as well as the advantages stemming from using a very large antenna array for each functionality. Furthermore, we devise a power allocation strategy based on successive convex approximation to maximize the communications rate while guaranteeing the CRLB constraints and transmit power budget. Extensive numerical results are presented to validate our theoretical analyses and demonstrate the efficiency of the proposed power allocation approach.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">10938928</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Nhan Thanh and Nguyen, Van-Dinh and Nguyen, Hieu V. and Ngo, Hien Quoc and Swindlehurst, A. Lee and Juntti, Markku}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Signal Processing}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Performance Analysis and Power Allocation for Massive {MIMO ISAC} Systems}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{73}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1691 - 1707}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Sensors;Radar;Massive MIMO;Interference;Signal to noise ratio;Resource management;Radar antennas;Measurement;Array signal processing;Closed-form solutions;Integrated sensing and communications (ISAC);massive MIMO;maximum-ratio transmission;zero-forcing}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TSP.2025.3554012}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -385,6 +480,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -392,7 +489,24 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/LCOMM.2025.3556714" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The integration of unmanned aerial vehicles (UAVs) into wireless communication systems has emerged as a transformative approach, promising cost-efficient connectivity. This letter addresses the optimization of the dynamic time-splitting ratio and flight trajectory for a communication system linking a ground base station to the UAV equipped with backscatter devices (referred to as UB), and from UB to an end user. Given the inherent non-convexity of the problem, we develop two meta-heuristic-based approaches inspired by genetic algorithm and particle swarm optimization to enhance the total achievable rate while reducing computational complexity. Numerical results demonstrate the effectiveness of these meta-heuristic solutions, showcasing significant improvements in the achievable rate and computation time compared to existing benchmarks.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">10947208</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Chien, Trinh Van and Quan, Nguyen Minh and Shin, Oh-Soon and Nguyen, Van-Dinh}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Communications Letters}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Metaheuristic Optimization of Trajectory and Dynamic Time Splitting for {UAV} Communication Systems}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{29}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{6}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1200 - 1204}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Backscatter;Autonomous aerial vehicles;Trajectory;Genetic algorithms;Fading channels;Protocols;Energy consumption;Training;Particle swarm optimization;Energy harvesting;Backscatter;particle swarm optimization;genetic algorithm;unmanned aerial vehicle}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/LCOMM.2025.3556714}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -436,6 +550,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -443,7 +559,23 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2025.3536702" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Wireless communications are particularly vulnerable to eavesdropping attacks due to their broadcast nature. To effectively deal with eavesdroppers, existing security techniques usually require accurate channel state information (CSI), e.g., for friendly jamming (FJ), and/or additional computing resources at transceivers, e.g., cryptography-based solutions, which unfortunately may not be feasible in practice. This challenge is even more acute in low-end IoT devices. We thus introduce a novel deep learning-based FJ framework that can effectively defeat eavesdropping attacks with imperfect CSI and even without CSI of legitimate channels. In particular, we first develop an autoencoder-based communication architecture with FJ, namely, AEFJ, to jointly maximize the secrecy rate and minimize the block error rate (BLER) at the receiver without requiring perfect CSI of the legitimate channels. In addition, to deal with the case without CSI, we leverage the mutual information neural estimation (MINE) concept and design a MINE-based FJ scheme that can achieve comparable security performance to the conventional FJ methods that require perfect CSI. Extensive simulations in a multiple-input-multiple-output (MIMO) system demonstrate that our proposed solution can effectively deal with eavesdropping attacks in various settings. Moreover, the proposed framework can seamlessly integrate MIMO security and detection tasks into a unified end-to-end learning process. This integrated approach can significantly maximize the throughput and minimize the BLER, offering a good solution for enhancing communication security in wireless communication systems.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">TuanIoT25</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Tuan, Bui Minh and Nguyen, Diep N. and Trung, Nguyen Linh and Nguyen, Van-Dinh and Huynh, Nguyen Van and Hoang, Dinh Thai and Krunz, Marwan and Dutkiewicz, Eryk}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Internet of Things Journal}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Securing {MIMO} Wiretap Channel With Learning Based Friendly Jamming under Imperfect {CSI}}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{16009 - 16022}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JIOT.2025.3536702}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -487,6 +619,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -494,7 +628,22 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2025.3535156" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>WiFi sensing-based human pose estimation (HPE) has gained significant attention in the academic community due to its advantages over vision- and sensor-based methods, including nonintrusiveness, convenience, and enhanced privacy protection. However, most existing WiFi-based pose Estimators suffer from poor performance and lack robustness in the presence of random noise. To address these challenges, this article presents a novel HPE architecture comprising two key modules: 1) a Denoiser and 2) an Estimator. The Denoiser is based on an autoencoder structure, while the Estimator is based on a new convolutional neural network (CNN) called SDy-CNN, which is designed to dynamically focus on high-information subcarriers of orthogonal frequency division multiplexing signals. Additionally, Bayesian optimization is employed to fine-tune the architecture’s parameters for optimal performance flexibly. Experiments conducted on a comprehensive dataset, MM-Fi, demonstrate that the proposed architecture significantly outperforms existing state-of-the-art Estimators, achieving up to an 8.38% improvement in HPE accuracy in clean data scenarios and up to a 14% improvement in noisy data scenarios. It has also been proven to gain computational efficiency when being much faster than other methods.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">HoangIoT25</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Xuan Hoang and Nguyen, Van-Dinh and Luu, Quang-Trung and Gian, Toan Dinh and Shin, Oh-Soon}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Internet of Things Journal}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{17066 - 17079}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JIOT.2025.3535156}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -525,6 +674,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -532,7 +683,24 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/LCOMM.2025.3529729" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Low harvested energy poses a significant challenge to sustaining continuous communication in energy harvesting (EH)-powered wireless sensor networks. This is mainly due to intermittent and limited power availability from radio frequency signals. In this letter, we introduce a novel energy-aware resource allocation problem aimed at enabling the asynchronous accumulate-then-transmit protocol, offering an alternative to the extensively studied harvest-then-transmit approach. Specifically, we jointly optimize power allocation and time fraction dedicated to EH to maximize the average long-term system throughput, accounting for both data and energy queue lengths. By leveraging inner approximation and network utility maximization techniques, we develop a simple yet efficient iterative algorithm that guarantees at least a local optimum and achieves long-term utility improvement. Numerical results highlight the proposed approach’s effectiveness in terms of both queue length and sustained system throughput.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">10841387</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Ngo, Ngoc M. and Nguyen, Trung T. and Nguyen, Phuc H. and Nguyen, Van-Dinh}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Communications Letters}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{29}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{542-546}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Wireless sensor networks;Throughput;Resource management;Wireless communication;Protocols;Energy harvesting;Signal to noise ratio;Optimization;Internet of Things;Energy exchange;Inner approximation;Internet of Things;resource allocation;wireless energy transfer}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/LCOMM.2025.3529729}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -580,6 +748,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -587,7 +757,24 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/TWC.2024.3470108" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This article proposes a novel framework that utilizes an over-the-air Brain-Computer Interface (BCI) to learn Metaverse users’ expectations. By interpreting users’ brain activities, our framework can optimize physical resources and enhance Quality-of-Experience (QoE) for users. To achieve this, we leverage a Wireless Edge Server (WES) to process electroencephalography (EEG) signals via uplink wireless channels, thus eliminating the computational burden for Metaverse users’ devices. As a result, the WES can learn human behaviors, adapt system configurations, and allocate radio resources to tailor personalized user settings. Despite the potential of BCI, the inherent noisy wireless channels and uncertainty of the EEG signals make the related resource allocation and learning problems especially challenging. We formulate the joint learning and resource allocation problem as a mixed integer programming problem. Our solution involves two algorithms: a hybrid learning algorithm and a meta-learning algorithm. The hybrid learning algorithm can effectively find the solution for the formulated problem. Specifically, the meta-learning algorithm can further exploit the neurodiversity of the EEG signals across multiple users, leading to higher classification accuracy. Extensive simulation results with real-world BCI datasets show the effectiveness of our framework with low latency and high EEG signal classification accuracy.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">HieuTWC2024</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hieu, Nguyen Quang and Hoang, Dinh Thai and Nguyen, Diep N. and Nguyen, Van-Dinh and Xiao, Yong and Dutkiewicz, Eryk}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Wireless Communications}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Enhancing Immersion and Presence in the Metaverse with Over-the-Air Brain-Computer Interface}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{23}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{18532 - 18548}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Metaverse;Sensors;Electroencephalography;Wireless sensor networks;Brain;Delays;Sensor systems;Resource management;Prediction algorithms;Heart rate;Metaverse;brain-computer interface;EEG;edge computing;deep reinforcement learning;meta-learning}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TWC.2024.3470108}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -631,6 +818,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           
           <div class="badges">
@@ -638,64 +827,22 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2024.3464646" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">J51-TWC</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="KavehmadavaniTWC2024" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Empowering Traffic Steering in 6G Open  RAN  with Deep Reinforcement Learning</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        F. Kavehmadavani, V.-D. Nguyen, T. X. Vu, and S. Chatzinotas</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>IEEE Transactions on Wireless Communications</em>, May 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://ieeexplore.ieee.org/document/10528242" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="/assets/pdf/FatemehTWC082024.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/TWC.2024.3396273"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/TWC.2024.3396273" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>The sixth-generation (6G) wireless network landscape is evolving toward enhanced programmability, virtualization, and intelligence to support heterogeneous use cases. The O-RAN Alliance is pivotal in this transition, introducing a disaggregated architecture and open interfaces within the 6G network. Our paper explores an intelligent traffic steering (TS) scheme within the Open radio access network (RAN) architecture, aimed at improving overall system performance. Our novel TS algorithm efficiently manages diverse services, improving shared infrastructure performance amid unpredictable demand fluctuations. To address challenges like varying channel conditions, dynamic traffic demands, we propose a multi-layer optimization framework tailored to different timescales. Techniques such as long-short-term memory (LSTM), heuristics, and multi-agent deep reinforcement learning (MADRL) are employed within the non-real-time (non-RT) RAN intelligent controller (RIC). These techniques collaborate to make decisions on a larger timescale, defining custom control applications such as the intelligent TS-xAPP deployed at the near-real-time (near-RT) RIC. Meanwhile, optimization on a smaller timescale occurs at the RAN layer after receiving inferences/policies from RICs to address dynamic environments. The simulation results confirm the system’s effectiveness in intelligently steering traffic through a slice-aware scheme, improving eMBB throughput by an average of 99.42% over slice isolation.</p>
+            <p>In this work, we consider the integration of energy harvesting (EH) and semantic communication strategies in resource-constrained Internet of Things (IoT) systems. The system empowers IoT devices to harvest energy from a base station, utilizing this harvested energy for the extraction and transmission of semantic information (e.g., scene graphs). To maximize the total transmission of image data or scene graphs to the central station, we formulate a comprehensive problem that jointly optimizes the EH duration, original image selection, transmit power, and channel allocation to IoT devices. The challenges arising from the dynamic environments and uncertain system parameters are effectively tackled by policy-based deep reinforcement learning algorithms, i.e., advantage actor-critic (A2C) and proximal policy optimization (PPO). Simulation results are implemented on the real data set clearly showing the superior performance achieved by our proposed algorithms compared to the baseline schemes. Notably, our approach enables IoT devices to transmit a greater number of original images and scene graphs with increased triplets to the central station, as highlighted in the simulation outcomes. This phenomenon showcases the potential of our strategy to enhance the capabilities of IoT systems in dynamic environments.</p>
           </div>
 <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">KavehmadavaniTWC2024</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kavehmadavani, F. and Nguyen, V.-D. and Vu, T. X. and Chatzinotas, S.}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Wireless Communications}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Empowering Traffic Steering in 6G Open  RAN  with Deep Reinforcement Learning}</span><span class="p">,</span>
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">SangIoT2024</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sang, Nguyen Huu and Hai, Nguyen Duc and Anh, Nguyen Duc Duy and Luong, Nguyen Cong and Nguyen, Van-Dinh and Gong, Shimin and Niyato, Dusit and Kim, Dong In}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Internet of Things Journal}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Wireless Power Transfer Meets Semantic Communication For Resource-Constrained IoT Networks: A Joint Transmission Mode Selection and Resource Management Approach}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">may</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TWC.2024.3396273}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{556 - 568}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Internet of Things;Semantics;Energy harvesting;Optimization;Base stations;Resource management;Channel allocation;Semantic communication;channel allocation;deep reinforcement learning;energy harvesting;power control}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JIOT.2024.3464646}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -707,7 +854,7 @@
         <div class="col-sm-2 abbr"><abbr class="badge">J50-IoT</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="HungNguyenIoT24" class="col-sm-8">
+        <div id="KavehmadavaniTWC2024" class="col-sm-8">
         <!-- Title -->
         <div class="title">Deadline-Aware Joint Task Scheduling and Offloading in Mobile Edge Computing
 Systems</div>
@@ -742,8 +889,10 @@ Systems</div>
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="" class="btn btn-sm z-depth-0" role="button">HTML</a>
+            <a href="/assets/pdf/FatemehTWC082024.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/icclabo/Distributing_computing_MEC" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
@@ -752,18 +901,22 @@ Systems</div>
               <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2024.3425854" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          <!-- Hidden bibtex block -->
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The demand for stringent interactive Quality of Service has intensified in both mobile-edge computing (MEC) and cloud systems, driven by the imperative to improve user experiences. As a result, the processing of computation-intensive tasks in these systems necessitates adherence to specific deadlines or achieving extremely low latency. To optimize task scheduling performance, existing research has mainly focused on reducing the number of late jobs whose deadlines are not met. However, the primary challenge with these methods lies in the total search time and scheduling efficiency. In this article, we present the optimal job scheduling algorithm designed to determine the optimal task order for a given set of tasks. In addition, users are enabled to make informed decisions for offloading tasks based on the information provided by servers. The details of performance analysis are provided to show its optimality and low complexity with the linearithmic time O(nlogn) , where n is the number of tasks. To tackle the uncertainty of the randomly arriving tasks, we further develop an online approach with fast outage detection that achieves rapid acceptance times with time complexity of O(n) . Extensive numerical results are provided to demonstrate the effectiveness of the proposed algorithm in terms of the service ratio and scheduling cost.</p>
+          </div>
+<!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">HungNguyenIoT24</span><span class="p">,</span>
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">KavehmadavaniTWC2024</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Ngoc Hung and Nguyen, Van-Dinh and Nguyen, Anh Tuan and Thieu, Nguyen Van and Nguyen, Hoang Nam and Chatzinotas, Symeon}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Internet of Things Journal}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Deadline-Aware Joint Task Scheduling and Offloading in Mobile Edge Computing
   Systems}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{10}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{33282 - 33295}</span><span class="p">,</span>
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JIOT.2024.3425854}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
@@ -810,6 +963,7 @@ Systems</div>
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="" class="btn btn-sm z-depth-0" role="button">HTML</a>
           </div>
@@ -819,7 +973,11 @@ Systems</div>
               <span class="__dimensions_badge_embed__" data-doi="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          <!-- Hidden bibtex block -->
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Diffuse waste data and associated privacy concerns present significant challenges for effective waste classification in the Internet of Things (IoT) realm. This research introduces a novel approach that leverages differential privacy (DP) and federated transfer learning (FTL) to address the issues, enabling waste classification while preserving privacy within the IoT ecosystem. By integrating federated learning (FL), transfer learning (TL), and DP, our proposed method facilitates collaborative training while ensuring data privacy. In this methodology, a pretrained model, initially trained on the ImageNet data set, is disseminated to IoT devices. Subsequently, these devices perform local training using the TrashNet and Garbage Classification data sets. This process allows devices to capture waste characteristics unique to their individual environments. Through the fusion of general knowledge pertaining to the trained model and local insights, the proposed approach achieves efficient waste classification. The study critically examines the implications for privacy, biases resulting from limited local data, and tradeoffs between privacy and model performance. The experimental evaluation demonstrates the effectiveness of the approach and underscores the importance of ensuring privacy-sensitive waste classification. This research contributes to the discourse on FTL and encourages further research into privacy-preserving waste classification within the IoT.</p>
+          </div>
+<!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">IoTMinh2024</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Quan, Minh K. and Nguyen, Dinh C. and Nguyen, Van-Dinh and Wijayasundara, Mayuri and Setunge, Sujeeva and Pathirana, Pubudu N.}</span><span class="p">,</span>
@@ -827,9 +985,9 @@ Systems</div>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Towards privacy-preserving waste classification in the Internet of Things}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{22}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{14}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{24814 - 24830}</span><span class="p">,</span>
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
