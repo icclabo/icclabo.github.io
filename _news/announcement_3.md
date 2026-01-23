@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
-related_posts: false
+title: ICCLab lauched newly designed website!
+date: 2023-04-15
+inline: false
+related_posts: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+
+We would like to thank our collaborator, Dr Luu Trung, for initializing this website
