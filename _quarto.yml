@@ -6,7 +6,7 @@ execute:
     freeze: auto
 
 website:
-  title: "AffCom Lab"
+  title: "ICC Lab"
   navbar:
     background: primary
     right:
@@ -24,10 +24,10 @@ website:
         text: Opportunities
       - href: contact.qmd
         text: Contact
-  page-footer: "Copyright 2026 &copy; Jeffrey Girard"
+  page-footer: "Copyright 2026 © Dinh Nguyen"
   google-analytics: "G-K5TXS64QLN"
-  site-url: https://affcom.ku.edu
-  repo-url: https://github.com/jmgirard/affcomlab
+  site-url: https://icclabo.github.io/icc
+  repo-url: https://github.com/icclabo/icc
 
 format:
   html:
