@@ -26,7 +26,7 @@ website:
         text: Contact
   page-footer: "Copyright 2026 © Dinh Nguyen"
   google-analytics: "G-K5TXS64QLN"
-  site-url: https://icclabo.github.io/icc
+  site-url: https://icclabo.github.io
   repo-url: https://github.com/icclabo/icc
 
 format:
