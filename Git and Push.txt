@@ -17,3 +17,11 @@ git status
 git add .
 git commit -m "update homepage"
 git push
+
+
+
+quarto render index.qmd
+git add .
+git commit -m "update site"
+git pull --rebase origin main
+git push origin main
