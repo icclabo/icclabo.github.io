@@ -7,3 +7,13 @@ git status
 git add .
 git commit -m "Update website content"
 git push
+
+
+
+
+cd icc
+quarto render  (https://quarto.org/docs/download/)
+git status
+git add .
+git commit -m "update homepage"
+git push
