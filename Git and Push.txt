@@ -1,0 +1,9 @@
+Git and Push
+
+git clone https://github.com/icclabo/icc.git
+cd icc
+quarto render
+git status
+git add .
+git commit -m "Update website content"
+git push
