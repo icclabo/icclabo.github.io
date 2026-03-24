@@ -1,0 +1,46 @@
+---
+title: "Daiil Jun"
+sortby: "Jun, Daiil"
+subtitle: "PhD Student"
+image: jun_daiil.webp
+toc: false
+resources: 
+  - "jun_cv.pdf"
+started: "Spring 2024"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: file-earmark-text
+      text: vitae
+      href: ./people/staff/jun_cv.pdf
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Graduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Daiil Jun's research interests include the heterogeneity of psychopathology, particularly the intersection between addictive behaviors and serious mental illness. He is especially interested in understanding transdiagnostic mechanisms of reward dysfunction that connect maladaptive eating, substance use, and serious mental illness. He is also an enthusiastic learner of advanced statistical methods and computational approaches.
+
+He completed his Bachelor of Arts degree at Handong Global University in May 2020 and is currently a doctoral student in the Clinical Psychological Science program in the Department of Psychology at the University of Kansas. He serves as a graduate research assistant (GRA) for the Kansas Data Science Consortium. He is also a member of the Affective Communication and Computing Lab under Dr. Girard's mentorship and works jointly with the Health Behavior and Technology Lab under Dr. Fazzino's mentorship.
+
+## Education
+
+- [University of Kansas]{.fw-bold} | Lawrence, KS, USA<br />
+  PhD Student in Psychology (Clinical) | Current<br />
+  MS in Psychology (Clinical) | 2023
+
+- [Handong Global University]{.fw-bold} | Pohang, South Korea<br />
+  BA in Counseling Psychology | 2020
