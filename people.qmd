@@ -2,8 +2,8 @@
 pagetitle: "People"
 toc: false
 listing:
-  - id: research-staff
-    contents: "people/staff/*.qmd"
+  - id: faculty
+    contents: "people/faculty/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
@@ -12,8 +12,8 @@ listing:
     sort: sortby
     field-display-names: 
       started: "Started"
-  - id: cps-students
-    contents: "people/cps/*.qmd"
+  - id: graduate-students
+    contents: "people/grad/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
@@ -22,8 +22,8 @@ listing:
     sort: sortby
     field-display-names: 
       started: "Started"
-  - id: bbq-students
-    contents: "people/bbq/*.qmd"
+  - id: under-students
+    contents: "people/under/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
@@ -44,19 +44,19 @@ listing:
 ```
 
 
-## Research Staff
+## Faculty
 
-:::{#research-staff}
+:::{#faculty}
 :::
 
-## Clinical Psychological Science Students
+## Graduate Students
 
-:::{#cps-students}
+:::{#grad-students}
 :::
 
-## Brain, Behavior, and Quantitative Science Students
+## Undergraduate Students
 
-:::{#bbq-students}
+:::{#under-students}
 :::
 
 ## Research Assistants
@@ -71,4 +71,4 @@ reactable(assistants)
 
 ## Alumni
 
-Click to view a list of [former research staff and assistants](people/alumni.qmd).
+The full list of former research staff and assistants can be found [Here](people/alumni.qmd).
