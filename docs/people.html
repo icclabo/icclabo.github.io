@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research-staff .list');
+    const listingTargetEl = window.document.querySelector('#listing-faculty .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research-staff'] = new List('listing-research-staff', options);
+    window['quarto-listings']['listing-faculty'] = new List('listing-faculty', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-cps-students .list');
+    const listingTargetEl = window.document.querySelector('#listing-graduate-students .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-cps-students'] = new List('listing-cps-students', options);
+    window['quarto-listings']['listing-graduate-students'] = new List('listing-graduate-students', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-bbq-students .list');
+    const listingTargetEl = window.document.querySelector('#listing-under-students .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-bbq-students'] = new List('listing-bbq-students', options);
+    window['quarto-listings']['listing-under-students'] = new List('listing-under-students', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -285,15 +285,15 @@ window.Quarto = {
     <li class="breadcrumb-item active" aria-current="page">People</li>
   </ol>
 </nav>
-<section id="research-staff" class="level2">
-<h2 class="anchored" data-anchor-id="research-staff">Research Staff</h2>
-<div id="listing-research-staff" class="quarto-listing quarto-listing-container-grid">
+<section id="faculty" class="level2">
+<h2 class="anchored" data-anchor-id="faculty">Faculty</h2>
+<div id="listing-faculty" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774189235824" data-listing-reading-time-sort="3" data-listing-word-count-sort="486">
-<a href="./people/staff/girard_jeffrey.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774385840915" data-listing-reading-time-sort="3" data-listing-word-count-sort="486">
+<a href="./people/faculty/girard_jeffrey.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/staff/girard_jeffrey.jpg" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/faculty/girard_jeffrey.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -309,15 +309,21 @@ Lab Director
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="clinical-psychological-science-students" class="level2">
-<h2 class="anchored" data-anchor-id="clinical-psychological-science-students">Clinical Psychological Science Students</h2>
-<div id="listing-cps-students" class="quarto-listing quarto-listing-container-grid">
+<section id="graduate-students" class="level2">
+<h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
+<div id="grad-students">
+
+</div>
+</section>
+<section id="undergraduate-students" class="level2">
+<h2 class="anchored" data-anchor-id="undergraduate-students">Undergraduate Students</h2>
+<div id="listing-under-students" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774189235816" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
-<a href="./people/cps/gray_kassandra.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774385840925" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
+<a href="./people/under/gray_kassandra.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/cps/gray_kassandra.jpg" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/under/gray_kassandra.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -329,11 +335,11 @@ PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1774189235817" data-listing-reading-time-sort="2" data-listing-word-count-sort="207">
-<a href="./people/cps/jun_daiil.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1774385840925" data-listing-reading-time-sort="2" data-listing-word-count-sort="207">
+<a href="./people/under/jun_daiil.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/cps/jun_daiil.webp" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/under/jun_daiil.webp" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -345,11 +351,11 @@ PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1774189235820" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
-<a href="./people/cps/yang_yuanyuan.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1774385840925" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
+<a href="./people/under/yang_yuanyuan.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/cps/yang_yuanyuan.webp" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/under/yang_yuanyuan.webp" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -365,15 +371,30 @@ PhD Student
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="brain-behavior-and-quantitative-science-students" class="level2">
-<h2 class="anchored" data-anchor-id="brain-behavior-and-quantitative-science-students">Brain, Behavior, and Quantitative Science Students</h2>
-<div id="listing-bbq-students" class="quarto-listing quarto-listing-container-grid">
+<section id="research-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="reactable html-widget html-fill-item" id="htmlwidget-fe34781e0c6e4e61195b" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-fe34781e0c6e4e61195b">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Name":["Sharman, Sasha","Yoo, Jimin"],"Role":["Research Assistant","Honors Research Assistant"],"Started":["2025c (Fall)","2023c (Fall)"]},"columns":[{"id":"Name","name":"Name","type":"character"},{"id":"Role","name":"Role","type":"character"},{"id":"Started","name":"Started","type":"character"}],"dataKey":"1fe9f86a08a93cff4c90d34d384f6960"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<p>The full list of former research staff and assistants can be found <a href="./people/alumni.html">Here</a>.</p>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-graduate-students">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774189235808" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
-<a href="./people/bbq/simmons_aaron.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774385840915" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
+<a href="./people/grad/simmons_aaron.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/bbq/simmons_aaron.webp" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/grad/simmons_aaron.webp" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -385,11 +406,11 @@ PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1774189235809" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
-<a href="./people/bbq/wood_rebecca.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1774385840921" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
+<a href="./people/grad/wood_rebecca.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/bbq/wood_rebecca.webp" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/grad/wood_rebecca.webp" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -401,11 +422,11 @@ PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1774189235814" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
-<a href="./people/bbq/yermol_dasha.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1774385840921" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
+<a href="./people/grad/yermol_dasha.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/bbq/yermol_dasha.png" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/grad/yermol_dasha.png" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -419,26 +440,7 @@ PhD Student
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="research-assistants" class="level2">
-<h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="reactable html-widget html-fill-item" id="htmlwidget-fe6c76dd62b5772f02de" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-fe6c76dd62b5772f02de">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Name":["Sharman, Sasha","Yoo, Jimin"],"Role":["Research Assistant","Honors Research Assistant"],"Started":["2025c (Fall)","2023c (Fall)"]},"columns":[{"id":"Name","name":"Name","type":"character"},{"id":"Role","name":"Role","type":"character"},{"id":"Started","name":"Started","type":"character"}],"dataKey":"1fe9f86a08a93cff4c90d34d384f6960"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="alumni" class="level2">
-<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<p>Click to view a list of <a href="./people/alumni.html">former research staff and assistants</a>.</p>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
