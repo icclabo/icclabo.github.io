@@ -1,6 +1,6 @@
 ---
 pagetitle: "ICC Lab"
-title: "Intelligence, Computing and Communication Lab"
+title: "Intelligence, Computing & Communication Lab"
 # page-layout: full
 toc: false
 ---
