@@ -1,0 +1,37 @@
+---
+title: "Hoang Le-Huu"
+sortby: "Le-Huu, DHoang"
+subtitle: "Postdoctoral Researcher"
+image: lehuu_hoang.jpg
+toc: false
+started: "Nov. 2025"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Postdoctoral Researchers</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Hoang Le-Huu received the B.S. degree from the School of Electronics and Telecommunication, Hanoi University of Science and Technology, Hanoi, Vietnam, in 2018. He is currently pursuing the Ph.D. degree in information and telecommunication engineering with Soongsil University, Seoul, South Korea. His current research interests include wireless power transfer, antenna design, and computational electromagnetics.
+
+## Education
+
+- [Soongsil University]{.fw-bold} | Seoul, South Korea<br />
+  Ph.D. in Electrical and Electronics Engineering | 2018-2024
+
+- [Hanoi University of Science and Technology (HUST)]{.fw-bold} | Hanoi, Vietnam<br />
+  B.S. in School of Electronics and Telecommunications | 2013-2018

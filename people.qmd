@@ -12,6 +12,16 @@ listing:
     sort: sortby
     field-display-names: 
       started: "Started"
+  - id: postdoctoral-researcher
+    contents: "people/post/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    fields: [image, title, subtitle]
+    grid-item-align: center
+    sort: sortby
+    field-display-names: 
+      started: "Started"
   - id: graduate-students
     contents: "people/grad/*.qmd"
     type: grid
@@ -47,6 +57,11 @@ listing:
 ## Faculty
 
 :::{#faculty}
+:::
+
+## Postdoctoral Researchers
+
+:::{#postdoctoral-researcher}
 :::
 
 ## Graduate Students

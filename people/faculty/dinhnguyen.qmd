@@ -74,10 +74,13 @@ Dr. Nguyen received the four best conference paper awards, IEEE Communications L
 - **Mobile Networks and Applications - Springer** <a href="https://link.springer.com/journal/11036" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
   Guest Editor | 2020
 
+- **Mobile Networks and Applications - Springer** <br />
+  TPC Chair/Member, Session Chair, and Reviewer for 20+ Conferences (e.g. IEEE GLOBECOM, ICC, INFOCOM, VTC, WCNC, PIMRC, etc.)
+
 
 ## Education
 
-- **Soongsil Universityh** | Seoul, South Korea<br />
+- **Soongsil University** | Seoul, South Korea<br />
   Ph.D. in ICT Convergence - Electronic Engineering | 2015–2018
 
 - **Soongsil University** | Seoul, South Korea<br />

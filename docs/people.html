@@ -103,6 +103,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-postdoctoral-researcher .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-postdoctoral-researcher'] = new List('listing-postdoctoral-researcher', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-graduate-students .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -289,7 +317,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="faculty">Faculty</h2>
 <div id="listing-faculty" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774452730708" data-listing-reading-time-sort="3" data-listing-word-count-sort="464">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774459704534" data-listing-reading-time-sort="3" data-listing-word-count-sort="491">
 <a href="./people/faculty/dinhnguyen.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -301,6 +329,46 @@ Van-Dinh Nguyen
 </h5>
 <div class="card-subtitle listing-subtitle">
 Lab PI
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="postdoctoral-researchers" class="level2">
+<h2 class="anchored" data-anchor-id="postdoctoral-researchers">Postdoctoral Researchers</h2>
+<div id="listing-postdoctoral-researcher" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774461297494" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<a href="./people/post/lehuu_hoang.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/post/lehuu_hoang.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hoang Le-Huu
+</h5>
+<div class="card-subtitle listing-subtitle">
+Postdoctoral Researcher
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1774461300441" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<a href="./people/post/nguyendang_an.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/post/nguyendang_an.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dan-An Nguyen
+</h5>
+<div class="card-subtitle listing-subtitle">
+Postdoctoral Researcher
 </div>
 </div>
 </div></a>
@@ -375,8 +443,8 @@ PhD Student
 <h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="reactable html-widget html-fill-item" id="htmlwidget-fe34781e0c6e4e61195b" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-fe34781e0c6e4e61195b">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Name":["Sharman, Sasha","Yoo, Jimin"],"Role":["Research Assistant","Honors Research Assistant"],"Started":["2025c (Fall)","2023c (Fall)"]},"columns":[{"id":"Name","name":"Name","type":"character"},{"id":"Role","name":"Role","type":"character"},{"id":"Started","name":"Started","type":"character"}],"dataKey":"1fe9f86a08a93cff4c90d34d384f6960"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item" id="htmlwidget-c3399b626b001e37282e" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-c3399b626b001e37282e">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Name":["Sharman, Sasha","Yoo, Jimin"],"Role":["Research Assistant","Honors Research Assistant"],"Started":["2025c (Fall)","2023c (Fall)"]},"columns":[{"id":"Name","name":"Name","type":"character"},{"id":"Role","name":"Role","type":"character"},{"id":"Started","name":"Started","type":"character"}],"dataKey":"1fe9f86a08a93cff4c90d34d384f6960"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>

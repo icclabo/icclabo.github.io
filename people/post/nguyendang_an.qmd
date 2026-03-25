@@ -1,0 +1,37 @@
+---
+title: "Dan-An Nguyen"
+sortby: "Nguyen, Dan-An"
+subtitle: "Postdoctoral Researcher"
+image: nguyendang_an.jpg
+toc: false
+started: "Aug. 2025"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Postdoctoral Researchers</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Dan-An Nguyen was born in Thanh Hoa, Vietnam. He received the degree from the School of Electronics and Telecommunications, Hanoi University of Science and Technology (HUST) Vietnam, and the Ph.D. degree from Soongsil University, South Korea, in August 2023. From 2025, he is with VinUniversity, Vietnam as a postdoctoral researcher, where his research topics relates to RF/microwave circuits, radar systems, power amplifiers, rectifiers, and front-end components of energy harvesting and wireless power transfer (WPT) systems
+
+## Education
+
+- [Soongsil University]{.fw-bold} | Seoul, South Korea<br />
+  Ph.D. in Electronic Engineering | 2017-2023
+
+- [Hanoi University of Science and Technology (HUST)]{.fw-bold} | Hanoi, Vietnam<br />
+  B.S. in School of Electronics and Telecommunications | 2016
