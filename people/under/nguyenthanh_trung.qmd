@@ -1,0 +1,35 @@
+---
+title: "Trung T. Nguyen"
+sortby: "Nguyen, Thanh Trung"
+subtitle: "Undergraduate Student"
+image: nguyenthanh_trung.jpg
+toc: false
+started: "Sept. 2022"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Undergraduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Trung T. Nguyen is currently pursuing the B.S. degree in Electrical and Computer Engineering at College of Engineering and Computer Science, VinUniversity.
+
+## Education
+
+- [VinUniversity]{.fw-bold} | Hanoi, Vietnam<br />
+  B.S. in Electrical and Computer Engineering | 2022-2026
+

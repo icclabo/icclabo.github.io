@@ -1,0 +1,40 @@
+---
+title: "Minh-Tuong Nguyen"
+sortby: "Nguyen, Minh-Tuong"
+subtitle: "PhD Student (VinUni)"
+image: nguyenminh_tuong.jpg
+toc: false
+started: "Mar. 2023"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Graduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Minh-Tuong Nguyen has been pursuing the Collaborative Doctoral Research Degree Program between VinUniversity and the University of Technology Sydney since 2023. His research interests include mobile edge computing, physical-layer security, secrecy outage probability, computational algebraic geometry, and resource allocation in wireless communications.
+
+## Education
+
+- [VinUniversity]{.fw-bold} | Hanoi, Vietnam<br />
+  Ph.D. in Computer Science | 2023-2027
+
+- [University of Ulsan]{.fw-bold} | South Korea<br />
+  M.S. in Electrical Engineering | 2019-2021
+
+- [Ho Chi Minh City University of Technology]{.fw-bold} | Ho Chi Minh City, Vietnam<br />
+  B.E. in Electrical and Electronics Engineering| 2012-2016

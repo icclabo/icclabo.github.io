@@ -1,0 +1,37 @@
+---
+title: "Minh-Thanh Nguyen"
+sortby: "Nguyen, Minh-Thanh"
+subtitle: "PhD Student (TCD)"
+image: nguyenminh_thanh.jpg
+toc: false
+started: "Mar. 2026"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Graduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Minh-Thanh Nguyen received the B.Eng. degree in Electronics and Telecommunications from Hanoi University of Science and Technology, Vietnam, in 2025. He is currently pursuing a Ph.D. degree in Computer Science at Trinity College Dublin, Ireland. His research interests include 5G network slicing, cloud and edge computing, optimization techniques, and machine learning for networked systems.
+
+## Education
+
+- Trinity College Dublin, The University of Dublin]{.fw-bold} | Dublin, Ireland<br />
+  Ph.D. in Computer Science | 2026-2030
+
+- [Hanoi University of Science and Technology (HUST)]{.fw-bold} | Hanoi, Vietnam<br />
+  B.E. in Electronics and Telecommunications | 2025

@@ -1,0 +1,40 @@
+---
+title: "Phi-Son Vo"
+sortby: "Vo, Phi-Son"
+subtitle: "PhD Student (VinUni)"
+image: vophi_son.jpg
+toc: false
+started: "Mar. 2023"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Graduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Phi-Son Vo received the B.S. degree in Communications and Electronics Engineering Technology and the M.S. degree in Telecommunications Engineering from the Vietnam Aviation Academy in 2012 and Ho Chi Minh City University of Technology in 2016, respectively. He is currently pursuing a Ph.D. degree with the College of Engineering and Computer Science, VinUniversity, Hanoi, Vietnam. His current research interests include mobile edge computing, integrated sensing and communication, convex optimization, and machine learning for wireless communications.
+
+## Education
+
+- [VinUniversity]{.fw-bold} | Hanoi, Vietnam<br />
+  Ph.D. in Computer Science | 2023-2027
+
+- [Ho Chi Minh City University of Technology]{.fw-bold} | Ho Chi Minh City, Vietnam <br />
+  M.S. in Telecommunications Engineering | 2016
+
+- [Vietnam Aviation Academy]{.fw-bold} | Ho Chi Minh City, Vietnam<br />
+  B.E. in Communications and Electronics Engineering | 2012

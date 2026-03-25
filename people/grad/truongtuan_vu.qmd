@@ -1,0 +1,40 @@
+---
+title: "Tuan-Vu Truong"
+sortby: "Truong, Tuan-Vu"
+subtitle: "PhD Student (VinUni)"
+image: truongtuan_vu.jpg
+toc: false
+started: "Mar. 2023"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Graduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Tuan-Vu Truong received the M.Sc. degree in Embedded System Engineering from the School of Computing and Engineering, University of Huddersfield, UK. He obtained an Engineer degree in Electrical and Electronics Engineering (Advanced Pro- gram) from the School of Electronics and Telecommunications, Hanoi University of Science and Tech- nology, Vietnam. He is currently a Ph.D. candi- date in the VinUniversity–University of Technology Sydney (UTS) Collaborative Doctoral Research Degree Program. His current research focuses on Open Radio Access Network (O-RAN) for 6G, including system design, performance analysis, and optimization, with the application of machine learning techniques.
+
+## Education
+
+- [VinUniversity]{.fw-bold} | Hanoi, Vietnam<br />
+  Ph.D. in Computer Science | 2023-2027
+
+- [University of Huddersfield]{.fw-bold} | U.K.<br />
+  M.S. in Computing and Engineering | 
+
+- [Hanoi University of Science and Technology (HUST)]{.fw-bold} | Hanoi, Vietnam<br />
+  B.E. in School of Electronics and Telecommunications | 

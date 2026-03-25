@@ -1,0 +1,35 @@
+---
+title: "Phuc H. Nguyen"
+sortby: "Nguyen, Hong Phuc"
+subtitle: "Undergraduate Student"
+image: nguyenhong_phuc.jpg
+toc: false
+started: "Sept. 2023"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Undergraduate Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Phuc H. Nguyen is currently pursuing the B.S. degree in Electrical and Computer Engineering at College of Engineering and Computer Science, VinUniversity.
+
+## Education
+
+- [VinUniversity]{.fw-bold} | Hanoi, Vietnam<br />
+  B.S. in Electrical and Computer Engineering | 2023-2027
+
