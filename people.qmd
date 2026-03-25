@@ -22,7 +22,7 @@ listing:
     sort: sortby
     field-display-names: 
       started: "Started"
-  - id: graduate-students
+  - id: grad-students
     contents: "people/grad/*.qmd"
     type: grid
     image-height: 225px
