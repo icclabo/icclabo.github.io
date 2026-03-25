@@ -1,0 +1,443 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "ICC Lab",
+    "section": "",
+    "text": "Home\n    Resources"
+  },
+  {
+    "objectID": "resources.html#datasets",
+    "href": "resources.html#datasets",
+    "title": "ICC Lab",
+    "section": "Datasets",
+    "text": "Datasets\n\nSeamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset A large-scale collection of over 4,000 hours of face-to-face interaction footage from over participants (n = 4000) in diverse contexts for social AI research. Primary Article/Citation: Agrawal et al. (2025) Website: https://ai.meta.com/research/seamless-interaction/ Open Access: https://github.com/facebookresearch/seamless_interaction\nDynAMoS: Dynamic Affective Movie Clip Database for Subjectivity Analysis A curated collection of affective movie clips (n = 22), metadata about those clips, and ratings of the emotional content of those movie clips from research participants (n = 83) Primary Article/Citation: Girard, Tie, & Liebenthal (2023) Website/Request Access: https://dynamos.mgb.org\nGFT: Group Formation Task Spontaneous Facial Expression Database A 2D video database of spontaneous behavior during unscripted social interactions Complete with frame-level FACS annotations of facial behavior (n = 96) Primary Article/Citation: Girard et al. (2017) Website/Request Access: http://osf.io/7wcyz\nMMSE/BP4D+: Multimodal Spontaneous Emotion Database An extension of BP4D that includes thermal and physiological data Complete with frame-level FACS annotations of facial behavior (n = 140) Primary Article/Citation: Zhang et al. (2016) Website/Request Access: http://bit.ly/2yg39Cn\nBP4D: Binghamton-Pittsburgh 4D Spontaneous Emotion Database A 3D video database of spontaneous behavior during emotion elicitation Complete with frame-level FACS annotations of facial behavior (n = 41) Primary Article/Citation: Zhang et al. (2014) Website/Request Access: http://bit.ly/2yg39Cn"
+  },
+  {
+    "objectID": "resources.html#software",
+    "href": "resources.html#software",
+    "title": "ICC Lab",
+    "section": "Software",
+    "text": "Software\n\nStatistics Software:\n\ncircumplex - A stable R package for analyzing and visualizing circular data.\nmReliability - A stable (but approaching end-of-life) set of MATLAB functions for estimating inter-rater reliability.\nwcc - An experimental R package for conducting windowed cross-correlation analyses.\nvarde - An experimental R package for decomposing the variance in mixed effects models.\nagreement - An experimental R package for estimating inter-rater reliability.\n\n\n\nResearch Software:\n\nCARMA - A stable (but approaching end-of-life) software for collecting continuous media annotations.\nDARMA - A stable (but approaching end-of-life) software for collecting continuous two-dimensional media annotations.\ntidymedia - An experimental R package for working with audio, video, and image files.\nopenac - An experimental R package for automating common affective computing (and social signal processing) tasks.\nfacs - An experimental R package for working with Facial Action Coding System (FACS) data.\nhitop - An experimental R package for working with Hierarchical Taxonomy of Psychopathology (HiTOP) data.\n\n\n\nQuarto Extensions\n\nlordicon - A stable Quarto extension for embedding animated Lordicon icons in HTML.\nhoneypot - An experimental Quarto extension for detecting LLM cheating on HTML assignments.\ndetails - A stable Quarto extension for embedding interactive details blocks in HTML documents.\nembedpdf - A stable (but questioning) Quarto extension for embedding PDF files in HTML.\n\n\n\nDocker Images:\n\nrstudio2u - A multiarchitecture (amd64/arm64) image combining rstudio and r2u\nrocker-bayes - A multiarchitecture (amd64/arm64) image for Bayesian analysis in R\nwsl-whisper - A WSL (amd64) image for AI transcription from R with CUDA-support"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "ICC Lab",
+    "section": "",
+    "text": "Home\n    Publications\n  \n\nIEEE Copyright Notice: Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.\nThe most up-to-date publication can be found on my Google Scholar profile.\n\n\n\n\n\n\n\n\n2026\n\n\n\nA Parasitic-Tolerated Design of Compact Inverse Class-F GaN HEMT Power Amplifier With Integrated Matching Network\n\n\nNguyen, Vuong, Do & Nguyen\n\nIEEE Access\n\n\nAbstract\nCitation\nBibTeX\n\n\nCopy\nCopied!\n—\n\n\n\nA novel load structure is proposed for designing an inverse class-F (class F−1) power amplifier (PA) with compact size and high power added efficiency (PAE). The proposed load network is implemented entirely with six transmission lines (TLs) and integrates all of main functions: class F−1 harmonic control, biasing, and fundamental output matching in one which typically operate in separate networks in the conventional topologies. The TL parameters of constituent elements are extracted based on derived analytical equations aided by load-pull measurements which tolerate the parasitic effects of a packaged transistor, and then neither extra parasitic compensator nor time-inefficient tuning mechanism is required while both optimal harmonic and fundamental conditions are met. As a result, compact and low insertion loss class F−1 PAis realized.With this design methodology, the implemented PAcan exhibits a state-of-the-art performance at 920 MHz with a measured peak PAE of 85.6%, corresponding to gain of 14.7 dB, and output power of 39.7 dBm, and a miniature size of 0.21λ×0.20λ.\n@article{11450062,\n  author = {Dang-An Nguyen and Dat Vuong and Danh Cuong Do and Van-Dinh Nguyen},\n  journal = {IEEE Access},\n  title = {A Parasitic-Tolerated Design of Compact Inverse Class-F GaN HEMT Power Amplifier With Integrated Matching Network},\n  year = {2026},\n  pages = {1-1},\n  doi = {10.1109/ACCESS.2026.3676131}\n}\n\n\n\n\n\n2017\n\n\n\nSpectral Efficiency of Full-Duplex Multi-user System: Beamforming Design, User Grouping, and Time Allocation\n\n\nNguyen, Nguyen, Nguyen & Shin\n\nIEEE Access\n\n\nAbstract\nCitation\nBibTeX\n\n\nCopy\nCopied!\n—\n\n\n\nFull-duplex (FD) systems have emerged as an essential enabling technology to further increase the data rate of wireless communication systems. The key idea of FD is to serve multiple users over the same bandwidth with a base station (BS) that can simultaneously transmit and receive the signals. The most challenging issue in designing an FD system is to address both the harmful effects of residual self-interference caused by the transmit-to-receive antennas at the BS as well as the co-channel interference from an uplink user (ULU) to a downlink user (DLU). An efficient solution to these problems is to assign the ULUs/DLUs in different groups/slots, with each user served in multiple groups. Hence, this paper studies the joint design of transmit beamformers, ULUs/DLUs group assignment, and time allocation for each group. The specific aim is to maximize the sum rate under the ULU/DLU minimum throughput constraints. The utility function of interest is a difficult nonconcave problem, and the involved constraints are also nonconvex, and so this is a computationally troublesome problem. To solve this optimization problem, we propose a new path-following algorithm for computational solutions to arrive at least the local optima. Each iteration involves only a simple convex quadratic program. We prove that the proposed algorithm iteratively improves the objective while guaranteeing convergence. Simulation results confirm the fast convergence of the proposed algorithm with substantial performance improvements over existing approaches.\n@article{7866857,\n  author = {Van-Dinh Nguyen and Hieu V. Nguyen and Chuyen T. Nguyen and Oh-Soon Shin},\n  journal = {IEEE Access},\n  title = {Spectral Efficiency of Full-Duplex Multi-user System: Beamforming Design, User Grouping, and Time Allocation},\n  year = {2017},\n  volume = {5},\n  pages = {5785-5797},\n  doi = {10.1109/ACCESS.2017.2668384}\n}\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\nAbreha, H. G., Chougrani, H., Maity, I., Nguyen, V.-D., Chatzinotas, S., & Politis, C. (2023). Fairness-aware dynamic VNF mapping and scheduling in SDN/NFV-enabled satellite edge networks. ICC 2023 - IEEE International Conference on Communications, 4892–4898. https://doi.org/10.1109/ICC45041.2023.10279545\n\n\nBui, V.-P., Nguyen, P. X., Nguyen, H. V., Nguyen, V.-D., & Shin, O.-S. (2019). Optimal user pairing for achieving rate fairness in downlink NOMA networks. 2019 International Conference on Artificial Intelligence in Information and Communication (ICAIIC), 575–578. https://doi.org/10.1109/ICAIIC.2019.8669061\n\n\nBui, V.-P., Nguyen, V.-D., Nguyen, H. V., Dobre, O. A., & Shin, O.-S. (2020). Optimization of rate fairness in multi-pair wireless-powered relaying systems. IEEE Communications Letters, 24(3), 603–607. https://doi.org/10.1109/LCOMM.2019.2960350\n\n\nDo, T.-N., Nguyen, V.-D., Shin, O.-S., & An, B. (2019). Simultaneous uplink and downlink transmissions for wireless powered communication networks. IEEE Communications Letters, 23(2), 374–377. https://doi.org/10.1109/LCOMM.2018.2885303\n\n\nGian, T. D., Nguyen, T.-H., Nguyen, N. T., & Nguyen, V.-D. (2024). WiLHPE: WiFi-enabled lightweight channel frequency dynamic convolution for HPE tasks. 2024 Tenth International Conference on Communications and Electronics (ICCE), 516–521. https://doi.org/10.1109/ICCE62051.2024.10634628\n\n\nGian, T. D., Tran, D. T., Pham, Q.-V., Tran, L.-N., & Nguyen, V.-D. (2025). Multi-modal human pose estimation: A wi-fi-driven approach with adaptive kernel selection. IEEE Transactions on Artificial Intelligence, 1–14. https://doi.org/10.1109/TAI.2025.3631005\n\n\nHieu, N. Q., Hoang, D. T., Nguyen, D. N., Nguyen, V.-D., Xiao, Y., & Dutkiewicz, E. (2024). Enhancing immersion and presence in the metaverse with over-the-air brain-computer interface. IEEE Transactions on Wireless Communications, 23(12), 18532–18548. https://doi.org/10.1109/TWC.2024.3470108\n\n\nHoang, L.-H., Pham, M.-H., Luu, Q.-T., & Nguyen, V.-D. (2025). Secure multiuser communications with stacked intelligent metasurfaces using quantum reinforcement learning. 2025 International Conference on Advanced Technologies for Communications (ATC), 1–6. https://doi.org/10.1109/ATC67618.2025.11268562\n\n\nHoang Nguyen, X., Nguyen, V.-D., Luu, Q.-T., Dinh Gian, T., & Shin, O.-S. (2025). Robust WiFi sensing-based human pose estimation using denoising autoencoder and CNN with dynamic subcarrier attention. IEEE Internet of Things Journal, 12(11), 17066–17079. https://doi.org/10.1109/JIOT.2025.3535156\n\n\nHossen, M. A., Vu, T. X., Nguyen, V.-D., Chatzinotas, S., & Ottersten, B. (2023). Joint resource allocation and link adaptation for ultra-reliable and low-latency services. 2023 IEEE 20th Consumer Communications & Networking Conference (CCNC), 757–762. https://doi.org/10.1109/CCNC51644.2023.10060392\n\n\nKavehmadavani, F., Nguyen, V.-D., Vu, T. X., & Chatzinotas, S. (2022). Traffic steering for eMBB and uRLLC coexistence in open radio access networks. 2022 IEEE International Conference on Communications Workshops (ICC Workshops), 242–247. https://doi.org/10.1109/ICCWorkshops53468.2022.9814611\n\n\nKavehmadavani, F., Nguyen, V.-D., Vu, T. X., & Chatzinotas, S. (2023). Intelligent traffic steering in beyond 5G open RAN based on LSTM traffic prediction. IEEE Transactions on Wireless Communications, 22(11), 7727–7742. https://doi.org/10.1109/TWC.2023.3254903\n\n\nKavehmadavani, F., Nguyen, V.-D., Vu, T. X., & Chatzinotas, S. (2024). Empowering traffic steering in 6G open RAN with deep reinforcement learning. IEEE Transactions on Wireless Communications, 23(10), 12782–12798. https://doi.org/10.1109/TWC.2024.3396273\n\n\nKavehmadavani, F., Vu, T. X., Nguyen, V.-D., & Chatzinotas, S. (2025). Intelligent user association and scheduling in open RAN: A hierarchical optimization framework. IEEE Transactions on Communications, 73(11), 11574–11589. https://doi.org/10.1109/TCOMM.2025.3592584\n\n\nKim, H. M., Nguyen, V.-D., Kang, G., & Shin, O.-S. (2018). Achieving rate fairness in multipair full-duplex relaying systems. 2018 International Conference on Information and Communication Technology Convergence (ICTC), 1185–1185. https://doi.org/10.1109/ICTC.2018.8539347\n\n\nLe, Q. N., Nguyen, V.-D., Dobre, O. A., Nguyen, N.-P., Zhao, R., & Chatzinotas, S. (2021). Learning-assisted user clustering in cell-free massive MIMO-NOMA networks. IEEE Transactions on Vehicular Technology, 70(12), 12872–12887. https://doi.org/10.1109/TVT.2021.3121217\n\n\nLe, Q. N., Nguyen, V.-D., Dobre, O. A., & Zhao, R. (2021). Energy efficiency maximization in RIS-aided cell-free network with limited backhaul. IEEE Communications Letters, 25(6), 1974–1978. https://doi.org/10.1109/LCOMM.2021.3062275\n\n\nLuong, N. C., Chau, L. K., Anh, N. D. D., Sang, N. H., Feng, S., Nguyen, V.-D., Niyato, D., & In Kim, D. (2024). Optimal auction for effective energy management in UAV-assisted vehicular metaverse synchronization systems. IEEE Transactions on Vehicular Technology, 73(1), 1207–1222. https://doi.org/10.1109/TVT.2023.3302411\n\n\nLuong, N. C., Chau, L. K., Duy Anh, N. D., Sang, N. H., Feng, S., Nguyen, V.-D., Niyato, D., & Kim, D. I. (2023). Optimal auction for effective energy management for UAV-assisted metaverse synchronization system. 2023 IEEE 20th Consumer Communications & Networking Conference (CCNC), 392–397. https://doi.org/10.1109/CCNC51644.2023.10059864\n\n\nLuong, N. C., Huynh-The, T., Nguyen, V.-D., Ng, D. W. K., Chatzinotas, S., Niyato, D., & Pham, Q.-V. (2024). Incentive mechanism and semantic communication for edge computing-assisted metaverse. IEEE Network, 38(3), 277–284. https://doi.org/10.1109/MNET.2023.3334285\n\n\nLuu, Q.-T., Tran, D.-M., Nguyen, M.-T., Kieffer, M., Hoang, D. T., Nguyen, T.-H., Nguyen, H.-T., & Nguyen, V.-D. (2026). Network slice embedding with flexible configurations in 5G networks and beyond. IEEE Networking Letters, 1–1. https://doi.org/10.1109/LNET.2026.3653831\n\n\nMinh Tuan, B., Nguyen, D. N., Linh Trung, N., Nguyen, V.-D., Van Huynh, N., Thai Hoang, D., Krunz, M., & Dutkiewicz, E. (2025). Securing MIMO wiretap channel with learning-based friendly jamming under imperfect CSI. IEEE Internet of Things Journal, 12(11), 16009–16022. https://doi.org/10.1109/JIOT.2025.3536702\n\n\nMostaani, A., Vu, T. X., Sharma, S. K., Nguyen, V.-D., Liao, Q., & Chatzinotas, S. (2022). Task-oriented communication design in cyber-physical systems: A survey on theory and applications. IEEE Access, 10, 133842–133868. https://doi.org/10.1109/ACCESS.2022.3231039\n\n\nNgo, N. M., Nguyen, T. T., Nguyen, P. H., & Nguyen, V.-D. (2025). Energy-aware resource allocation for energy harvesting powered wireless sensor nodes. IEEE Communications Letters, 29(3), 542–546. https://doi.org/10.1109/LCOMM.2025.3529729\n\n\nNguyen, C. T., Nguyen, V.-D., & Pham, A. T. (2019). Tag cardinality estimation using expectation-maximization in ALOHA-based RFID systems with capture effect and detection error. IEEE Wireless Communications Letters, 8(2), 636–639. https://doi.org/10.1109/LWC.2018.2890650\n\n\nNguyen, C.-H., Saputra, Y. M., Hoang, D. T., Nguyen, D. N., Nguyen, V.-D., Xiao, Y., & Dutkiewicz, E. (2024). Encrypted data caching and learning framework for robust federated learning-based mobile edge computing. IEEE/ACM Transactions on Networking, 32(3), 2705–2720. https://doi.org/10.1109/TNET.2024.3365815\n\n\nNguyen, D. C., Nguyen, V.-D., Ding, M., Chatzinotas, S., Pathirana, P. N., Seneviratne, A., Dobre, O., & Zomaya, A. Y. (2022). Intelligent blockchain-based edge computing via deep reinforcement learning: Solutions and challenges. IEEE Network, 36(6), 12–19. https://doi.org/10.1109/MNET.002.2100188\n\n\nNguyen, D.-A., Vuong, D., Do, D. C., & Nguyen, V.-D. (2026). A parasitic-tolerated design of compact inverse class-f GaN HEMT power amplifier with integrated matching network. IEEE Access, 1–1. https://doi.org/10.1109/ACCESS.2026.3676131\n\n\nNguyen, D.-A., Vuong, D., & Nguyen, V.-D. (2026). Design of high-efficiency octave-bandwidth single-diode rectifier using synthesized elliptic low-pass matching network. IEEE Microwave and Wireless Technology Letters, 1–4. https://doi.org/10.1109/LMWT.2025.3650115\n\n\nNguyen, H. T., Nguyen, V.-D., Nguyen, N. T., Luong, N. C., Bao, V.-N. Q., Ngo, H. Q., Niyato, D., & Chatzinotas, S. (2026). Energy efficiency for massive MIMO integrated sensing and communication systems. IEEE Journal on Selected Areas in Communications, 44, 165–180. https://doi.org/10.1109/JSAC.2025.3610821\n\n\nNguyen, H. V., Nguyen, V.-D., Dobre, O. A., Nguyen, D. N., Dutkiewicz, E., & Shin, O.-S. (2019a). A novel spectral-efficient resource allocation approach for NOMA-based full-duplex systems. 2019 IEEE Global Communications Conference (GLOBECOM), 1–6. https://doi.org/10.1109/GLOBECOM38437.2019.9013457\n\n\nNguyen, H. V., Nguyen, V.-D., Dobre, O. A., Nguyen, D. N., Dutkiewicz, E., & Shin, O.-S. (2019b). Joint power control and user association for NOMA-based full-duplex systems. IEEE Transactions on Communications, 67(11), 8037–8055. https://doi.org/10.1109/TCOMM.2019.2933217\n\n\nNguyen, H. V., Nguyen, V.-D., Dobre, O. A., Sharma, S. K., Chatzinotas, S., Ottersten, B., & Shin, O.-S. (2020a). A novel heap-based pilot assignment for full duplex cell-free massive MIMO with zero-forcing. ICC 2020 - 2020 IEEE International Conference on Communications (ICC), 1–6. https://doi.org/10.1109/ICC40277.2020.9149439\n\n\nNguyen, H. V., Nguyen, V.-D., Dobre, O. A., Sharma, S. K., Chatzinotas, S., Ottersten, B., & Shin, O.-S. (2020b). On the spectral and energy efficiencies of full-duplex cell-free massive MIMO. IEEE Journal on Selected Areas in Communications, 38(8), 1698–1718. https://doi.org/10.1109/JSAC.2020.3000810\n\n\nNguyen, H. V., Nguyen, V.-D., Dobre, O. A., & Shin, O.-S. (2017). Sum rate maximization based on sub-array antenna selection in a full-duplex system. GLOBECOM 2017 - 2017 IEEE Global Communications Conference, 1–6. https://doi.org/10.1109/GLOCOM.2017.8254806\n\n\nNguyen, H. V., Nguyen, V.-D., Dobre, O. A., Wu, Y., & Shin, O.-S. (2019). Joint antenna array mode selection and user assignment for full-duplex MU-MISO systems. IEEE Transactions on Wireless Communications, 18(6), 2946–2963. https://doi.org/10.1109/TWC.2019.2907489\n\n\nNguyen, H. V., Nguyen, V.-D., & Shin, O.-S. (2017a). Joint NOMA beamforming and user scheduling for sum rate maximization in a full-duplex system. 2017 International Conference on Information and Communication Technology Convergence (ICTC), 731–733. https://doi.org/10.1109/ICTC.2017.8190766\n\n\nNguyen, H. V., Nguyen, V.-D., & Shin, O.-S. (2017b). Low-complexity precoding for sum rate maximization in downlink massive MIMO systems. IEEE Wireless Communications Letters, 6(2), 186–189. https://doi.org/10.1109/LWC.2017.2651069\n\n\nNguyen, H. V., Nguyen, V.-D., & Shinï, O.-S. (2018). Uplink training for pilot decontamination in a multiceli massive MIMO system. 2018 2nd International Conference on Recent Advances in Signal Processing, Telecommunications & Computing (SigTelCom), 97–101. https://doi.org/10.1109/SIGTELCOM.2018.8325813\n\n\nNguyen, M.-T., Luu, Q.-T., Son, V. P., Tran, L.-N., & Nguyen, V.-D. (2026). Deadline-aware task offloading with concurrency in serverless edge computing. IEEE Internet of Things Journal, 1–1. https://doi.org/10.1109/JIOT.2026.3665108\n\n\nNguyen, N. H., Nguyen, V.-D., Nguyen, A. T., Thieu, N. V., Nguyen, H. N., & Chatzinotas, S. (2024). Deadline-aware joint task scheduling and offloading in mobile-edge computing systems. IEEE Internet of Things Journal, 11(20), 33282–33295. https://doi.org/10.1109/JIOT.2024.3425854\n\n\nNguyen, N. H., Van Thieu, N., Luu, Q.-T., Son, V.-P., & Nguyen, V.-D. (2025). A metaheuristic approach for mission assignment and task offloading in open RAN-enabled intelligent transport systems. GLOBECOM 2025 - 2025 IEEE Global Communications Conference, 811–816. https://doi.org/10.1109/GLOBECOM59602.2025.11431892\n\n\nNguyen, N. H., Van Thieu, N., Pham, M.-H., & Nguyen, V.-D. (2025). Adaptive task scheduling under hard deadlines in edge environments using deep reinforcement learning. 2025 International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC), 1–5. https://doi.org/10.1109/ITC-CSCC66376.2025.11137627\n\n\nNguyen, N. T., Nguyen, V.-D., Nguyen, H. V., Ngo, H. Q., Chatzinotas, S., & Juntti, M. (2022). Downlink throughput of cell-free massive MIMO systems assisted by hybrid relay-reflecting intelligent surfaces. ICC 2022 - IEEE International Conference on Communications, 1475–1480. https://doi.org/10.1109/ICC45855.2022.9838672\n\n\nNguyen, N. T., Nguyen, V.-D., Nguyen, H. V., Ngo, H. Q., Chatzinotas, S., & Juntti, M. (2023). Spectral efficiency analysis of hybrid relay-reflecting intelligent surface-assisted cell-free massive MIMO systems. IEEE Transactions on Wireless Communications, 22(5), 3397–3416. https://doi.org/10.1109/TWC.2022.3217828\n\n\nNguyen, N. T., Nguyen, V.-D., Nguyen, H. V., Ngo, H. Q., Swindlehurst, A. L., & Juntti, M. (2025). Performance analysis and power allocation for massive MIMO ISAC systems. IEEE Transactions on Signal Processing, 73, 1691–1707. https://doi.org/10.1109/TSP.2025.3554012\n\n\nNguyen, N. T., Nguyen, V.-D., Van Nguyen, H., Wu, Q., Tölli, A., Chatzinotas, S., & Juntti, M. (2024). Fairness enhancement of UAV systems with hybrid active-passive RIS. IEEE Transactions on Wireless Communications, 23(5), 4379–4396. https://doi.org/10.1109/TWC.2023.3317934\n\n\nNguyen, N. T., Nguyen, V.-D., Wu, Q., Tölli, A., Chatzinotas, S., & Juntti, M. (2022a). Hybrid active-passive reconfigurable intelligent surface-assisted multi-user MISO systems. 2022 IEEE 23rd International Workshop on Signal Processing Advances in Wireless Communication (SPAWC), 1–5. https://doi.org/10.1109/SPAWC51304.2022.9833956\n\n\nNguyen, N. T., Nguyen, V.-D., Wu, Q., Tölli, A., Chatzinotas, S., & Juntti, M. (2022b). Hybrid active-passive reconfigurable intelligent surface-assisted UAV communications. GLOBECOM 2022 - 2022 IEEE Global Communications Conference, 3126–3131. https://doi.org/10.1109/GLOBECOM48099.2022.10001719\n\n\nNguyen, N. T., Shlezinger, N., Ngo, K.-H., Nguyen, V.-D., & Juntti, M. (2023). Joint communications and sensing design for multi-carrier MIMO systems. 2023 IEEE Statistical Signal Processing Workshop (SSP), 110–114. https://doi.org/10.1109/SSP53291.2023.10207952\n\n\nNguyen, N.-P., Kundu, C., Nguyen, V.-D., Duong, T. Q., & Fan, L. (2016). Secure full-duplex cognitive relay networks with optimal relay selection scheme. 2016 IEEE Global Communications Conference (GLOBECOM), 1–6. https://doi.org/10.1109/GLOCOM.2016.7842251\n\n\nNguyen, P. X., Nguyen, H. V., Nguyen, V.-D., & Shin, O.-S. (2019). UAV-enabled jamming noise for achieving secure communications in cognitive radio networks. 2019 16th IEEE Annual Consumer Communications & Networking Conference (CCNC), 1–6. https://doi.org/10.1109/CCNC.2019.8651678\n\n\nNguyen, P. X., Nguyen, V.-D., Nguyen, H. V., & Shin, O.-S. (2021). UAV-assisted secure communications in terrestrial cognitive radio networks: Joint power control and 3D trajectory optimization. IEEE Transactions on Vehicular Technology, 70(4), 3298–3313. https://doi.org/10.1109/TVT.2021.3062283\n\n\nNguyen, T.-T., Nguyen, V.-D., Lee, J.-H., & Kim, Y.-H. (2019). Sum rate maximization for multi-user wireless powered IoT network with non-linear energy harvester: Time and power allocation. IEEE Access, 7, 149698–149710. https://doi.org/10.1109/ACCESS.2019.2947321\n\n\nNguyen, T.-T., Nguyen, V.-D., Pham, Q.-V., Lee, J.-H., & Kim, Y.-H. (2021). Resource allocation for AF relaying wireless-powered networks with nonlinear energy harvester. IEEE Communications Letters, 25(1), 229–233. https://doi.org/10.1109/LCOMM.2020.3023937\n\n\nNguyen, T.-T., Pham, Q.-V., Nguyen, V.-D., Lee, J.-H., & Kim, Y.-H. (2020). Resource allocation for energy efficiency in OFDMA-enabled WPCN. IEEE Wireless Communications Letters, 9(12), 2049–2053. https://doi.org/10.1109/LWC.2020.3012206\n\n\nNguyen, T.-V., Huynh-The, T., Nguyen, V.-D., Da Costa, D. B., Qingyang Hu, R., & An, B. (2022). An efficient deep CNN design for EH short-packet communications in multihop cognitive IoT networks. ICC 2022 - IEEE International Conference on Communications, 2102–2107. https://doi.org/10.1109/ICC45855.2022.9839014\n\n\nNguyen, T.-V., Nguyen, V.-D., Costa, D. B. da, & An, B. (2020). Hybrid user pairing for spectral and energy efficiencies in multiuser MISO-NOMA networks with SWIPT. IEEE Transactions on Communications, 68(8), 4874–4890. https://doi.org/10.1109/TCOMM.2020.2994204\n\n\nNguyen, T.-V., Nguyen, V.-D., Costa, D. B. da, & An, B. (2021). Short-packet communications in multi-hop WPINs: Performance analysis and deep learning design. 2021 IEEE Global Communications Conference (GLOBECOM), 1–6. https://doi.org/10.1109/GLOBECOM46510.2021.9685765\n\n\nNguyen, T.-V., Nguyen, V.-D., Costa, D. B. da, Huynh-The, T., Hu, R. Q., & An, B. (2023). Short-packet communications in multihop networks with WET: Performance analysis and deep learning-aided optimization. IEEE Transactions on Wireless Communications, 22(1), 439–456. https://doi.org/10.1109/TWC.2022.3195234\n\n\nNguyen, T.-V., Nguyen, V.-D., Do, T.-N., Costa, D. B. da, & An, B. (2019). Spectral efficiency maximization for multiuser MISO-NOMA downlink systems with SWIPT. 2019 IEEE Global Communications Conference (GLOBECOM), 1–6. https://doi.org/10.1109/GLOBECOM38437.2019.9014339\n\n\nNguyen, V.-D., Chatzinotas, S., Ottersten, B., & Duong, T. Q. (2022). FedFog: Network-aware optimization of federated learning over wireless fog-cloud systems. IEEE Transactions on Wireless Communications, 21(10), 8581–8599. https://doi.org/10.1109/TWC.2022.3167263\n\n\nNguyen, V.-D., Dinh-Van, S., & Shin, O.-S. (2015). Opportunistic relaying with wireless energy harvesting in a cognitive radio system. 2015 IEEE Wireless Communications and Networking Conference (WCNC), 87–92. https://doi.org/10.1109/WCNC.2015.7127450\n\n\nNguyen, V.-D., Dinh-Van, S., Shin, Y., Lee, W. C., & Shin, O.-S. (2014). The problem of pilot contamination reduction in massive MIMO for physical channel models. 2014 Sixth International Conference on Ubiquitous and Future Networks (ICUFN), 378–382. https://doi.org/10.1109/ICUFN.2014.6876817\n\n\nNguyen, V.-D., Duong, T. Q., Dobre, O. A., & Shin, O.-S. (2016a). Joint information and jamming beamforming for secrecy rate maximization in cognitive radio networks. IEEE Transactions on Information Forensics and Security, 11(11), 2609–2623. https://doi.org/10.1109/TIFS.2016.2594131\n\n\nNguyen, V.-D., Duong, T. Q., Dobre, O. A., & Shin, O.-S. (2016b). Secrecy rate maximization in a cognitive radio network with artificial noise aided for MISO multi-eves. 2016 IEEE International Conference on Communications (ICC), 1–6. https://doi.org/10.1109/ICC.2016.7511333\n\n\nNguyen, V.-D., Duong, T. Q., & Shin, O.-S. (2015). Physical layer security for primary system: A symbiotic approach in cooperative cognitive radio networks. 2015 IEEE Global Communications Conference (GLOBECOM), 1–6. https://doi.org/10.1109/GLOCOM.2015.7417101\n\n\nNguyen, V.-D., Duong, T. Q., Shin, O.-S., Nallanathan, A., & Karagiannidis, G. K. (2017a). Enhancing PHY security of cooperative cognitive radio multicast communications. IEEE Transactions on Cognitive Communications and Networking, 3(4), 599–613. https://doi.org/10.1109/TCCN.2017.2748132\n\n\nNguyen, V.-D., Duong, T. Q., Shin, O.-S., Nallanathan, A., & Karagiannidis, G. K. (2017b). Robust beamforming for secrecy rate in cooperative cognitive radio multicast communications. 2017 IEEE International Conference on Communications (ICC), 1–6. https://doi.org/10.1109/ICC.2017.7996605\n\n\nNguyen, V.-D., Duong, T. Q., Tuan, H. D., Shin, O.-S., & Poor, H. V. (2017). Spectral and energy efficiencies in full-duplex wireless information and power transfer. IEEE Transactions on Communications, 65(5), 2220–2233. https://doi.org/10.1109/TCOMM.2017.2665488\n\n\nNguyen, V.-D., Hoang, T. M., & Shin, O.-S. (2015). Secrecy capacity of the primary system in a cognitive radio network. IEEE Transactions on Vehicular Technology, 64(8), 3834–3843. https://doi.org/10.1109/TVT.2014.2359246\n\n\nNguyen, V.-D., Nguyen, C. T., Nguyen, H. V., & Shin, O.-S. (2017a). Joint beamforming and antenna selection for sum rate maximization in cognitive radio networks. IEEE Communications Letters, 21(6), 1369–1372. https://doi.org/10.1109/LCOMM.2017.2679186\n\n\nNguyen, V.-D., Nguyen, H. V., Dobre, O. A., & Shin, O.-S. (2018a). A new design paradigm for secure full-duplex multiuser systems. IEEE Journal on Selected Areas in Communications, 36(7), 1480–1498. https://doi.org/10.1109/JSAC.2018.2824379\n\n\nNguyen, V.-D., Nguyen, H. V., Dobre, O. A., & Shin, O.-S. (2018b). On the design of secure full-duplex multiuser systems under user grouping method. 2018 IEEE International Conference on Communications (ICC), 1–6. https://doi.org/10.1109/ICC.2018.8422451\n\n\nNguyen, V.-D., Nguyen, H. V., Kang, G.-M., Kim, H. M., & Shin, O.-S. (2016). Sum rate maximization for full duplex wireless-powered communication networks. 2016 24th European Signal Processing Conference (EUSIPCO), 798–802. https://doi.org/10.1109/EUSIPCO.2016.7760358\n\n\nNguyen, V.-D., Nguyen, H. V., Nguyen, C. T., & Shin, O.-S. (2017b). Spectral efficiency of full-duplex multi-user system: Beamforming design, user grouping, and time allocation. IEEE Access, 5, 5785–5797. https://doi.org/10.1109/ACCESS.2017.2668384\n\n\nNguyen, V.-D., Nguyen, H. V., & Shin, O.-S. (2015). Channel estimation based on time-shifted pilots in multicell massive MIMO systems. 2015 International Conference on Communications, Management and Telecommunications (ComManTel), 83–87. https://doi.org/10.1109/ComManTel.2015.7394265\n\n\nNguyen, V.-D., Nguyen, H. V., & Shin, O.-S. (2016). An efficient zero-forcing precoding design for cognitive MIMO broadcast channels. IEEE Communications Letters, 20(8), 1575–1578. https://doi.org/10.1109/LCOMM.2016.2576445\n\n\nNguyen, V.-D., Sharma, S. K., Vu, T. X., Chatzinotas, S., & Ottersten, B. (2021). Efficient federated learning algorithm for resource allocation in wireless IoT networks. IEEE Internet of Things Journal, 8(5), 3394–3409. https://doi.org/10.1109/JIOT.2020.3022534\n\n\nNguyen, V.-D., & Shin, O.-S. (2015). Energy harvesting for cooperative wireless sensor networks with a nonlinear power consumption model. 2015 International Conference on Information and Communication Technology Convergence (ICTC), 197–199. https://doi.org/10.1109/ICTC.2015.7354527\n\n\nNguyen, V.-D., & Shin, O.-S. (2018). Cooperative prediction-and-sensing-based spectrum sharing in cognitive radio networks. IEEE Transactions on Cognitive Communications and Networking, 4(1), 108–120. https://doi.org/10.1109/TCCN.2017.2776138\n\n\nNguyen, V.-D., & Shin, O.-S. (2019). An efficient design for NOMA-assisted MISO-SWIPT systems with AC computing. IEEE Access, 7, 97094–97105. https://doi.org/10.1109/ACCESS.2019.2928877\n\n\nNguyen, V.-D., Tran, L.-N., Duong, T. Q., Shin, O.-S., & Farrell, R. (2017). An efficient precoder design for multiuser MIMO cognitive radio networks with interference constraints. IEEE Transactions on Vehicular Technology, 66(5), 3991–4004. https://doi.org/10.1109/TVT.2016.2602844\n\n\nNguyen, V.-D., Tuan, H. D., Duong, T. Q., Poor, H. V., & Shin, O.-S. (2017a). Convex quadratic programming for maximizing sum throughput in MIMO-NOMA multicell networks. GLOBECOM 2017 - 2017 IEEE Global Communications Conference, 1–6. https://doi.org/10.1109/GLOCOM.2017.8254177\n\n\nNguyen, V.-D., Tuan, H. D., Duong, T. Q., Poor, H. V., & Shin, O.-S. (2017b). Precoder design for signal superposition in MIMO-NOMA multicell networks. IEEE Journal on Selected Areas in Communications, 35(12), 2681–2695. https://doi.org/10.1109/JSAC.2017.2726007\n\n\nNguyen, V.-D., Tuan, H. D., Duong, T. Q., Shin, O.-S., & Poor, H. V. (2017). Joint fractional time allocation and beamforming for downlink multiuser MISO systems. IEEE Communications Letters, 21(12), 2650–2653. https://doi.org/10.1109/LCOMM.2017.2747544\n\n\nNguyen, V.-D., Vu, T. X., Nguyen, N. T., Nguyen, D. C., Juntti, M., Luong, N. C., Hoang, D. T., Nguyen, D. N., & Chatzinotas, S. (2023). Enabling intelligent traffic steering in a hierarchical open radio access network. GLOBECOM 2023 - 2023 IEEE Global Communications Conference, 5232–5237. https://doi.org/10.1109/GLOBECOM54140.2023.10437249\n\n\nNguyen, V.-D., Vu, T. X., Nguyen, N. T., Nguyen, D. C., Juntti, M., Luong, N. C., Hoang, D. T., Nguyen, D. N., & Chatzinotas, S. (2024). Network-aided intelligent traffic steering in 6G o-RAN: A multi-layer optimization framework. IEEE Journal on Selected Areas in Communications, 42(2), 389–405. https://doi.org/10.1109/JSAC.2023.3336183\n\n\nNhat Le, Q., Nguyen, V.-D., Dobre, O. A., & Shin, H. (2023). RIS-assisted full-duplex integrated sensing and communication. IEEE Wireless Communications Letters, 12(10), 1677–1681. https://doi.org/10.1109/LWC.2023.3285391\n\n\nPapazafeiropoulos, A., Pan, C., Elbir, A. M., Nguyen, V.-D., Kourtessis, P., & Chatzinotas, S. (2023). Asymptotic analysis of max-min weighted SINR for IRS-assisted MISO systems with hardware impairments. IEEE Wireless Communications Letters, 12(2), 192–196. https://doi.org/10.1109/LWC.2021.3095678\n\n\nQuan, M. K., Nguyen, D. C., Nguyen, V.-D., Wijayasundara, M., Setunge, S., & Pathirana, P. N. (2024). Toward privacy-preserving waste classification in the internet of things. IEEE Internet of Things Journal, 11(14), 24814–24830. https://doi.org/10.1109/JIOT.2024.3386727\n\n\nSang, N. H., Hai, N. D., Anh, N. D. D., Cong Luong, N., Nguyen, V.-D., Gong, S., Niyato, D., & In Kim, D. (2025). Wireless power transfer meets semantic communication for resource-constrained IoT networks: A joint transmission mode selection and resource management approach. IEEE Internet of Things Journal, 12(1), 556–568. https://doi.org/10.1109/JIOT.2024.3464646\n\n\nShaon, S., Nguyen, V.-D., & Nguyen, D. C. (2025). Latency optimization for wireless federated learning in multihop networks. IEEE Transactions on Vehicular Technology, 74(11), 18318–18323. https://doi.org/10.1109/TVT.2025.3577530\n\n\nTan, H. N. L., Nguyen, V.-D., Huynh-The, T., Nguyen, T.-V., & Vo, P. L. (2024). Security improvement for deep learning-based semantic communication systems. 2024 International Conference on Advanced Technologies for Communications (ATC), 717–721. https://doi.org/10.1109/ATC63255.2024.10908341\n\n\nThanh Van, N. T., Luong, N. C., Feng, S., Nguyen, V.-D., & Kim, D. I. (2023). Evolutionary games for dynamic network resource selection in RSMA-enabled 6G networks. IEEE Journal on Selected Areas in Communications, 41(5), 1320–1335. https://doi.org/10.1109/JSAC.2023.3240779\n\n\nTran, D.-H., Nguyen, V.-D., Chatzinotas, S., Vu, T. X., & Ottersten, B. (2022). UAV relay-assisted emergency communications in IoT networks: Resource allocation and trajectory optimization. IEEE Transactions on Wireless Communications, 21(3), 1621–1637. https://doi.org/10.1109/TWC.2021.3105821\n\n\nTran, D.-H., Nguyen, V.-D., Gautam, S., Chatzinotas, S., Vu, T. X., & Ottersten, B. (2020). Resource allocation for UAV relay-assisted IoT communication networks. 2020 IEEE Globecom Workshops (GC Wkshps, 1–7. https://doi.org/10.1109/GCWkshps50303.2020.9367522\n\n\nTruong, T.-V., Luu, Q.-T., & Nguyen, V.-D. (2024). Efficient resource allocation framework for network slicing-enabled open RAN. 2024 Tenth International Conference on Communications and Electronics (ICCE), 747–752. https://doi.org/10.1109/ICCE62051.2024.10634735\n\n\nTruong, T.-V., Nguyen, V.-D., Luu, Q.-T., Vo, P.-S., Nguyen, X.-P., Kavehmadavani, F., & Chatzinotas, S. (2026). Accelerating resource allocation in open RAN slicing via deep reinforcement learning. IEEE Transactions on Network and Service Management, 23, 3055–3070. https://doi.org/10.1109/TNSM.2026.3665553\n\n\nTuan, B. M., Nguyen, V.-D., Nguyen, D. N., Trung, N. L., Huynh, N. V., Hoang, D. T., Krunz, M., & Dutkiewicz, E. (2026). Deep learning-driven friendly jamming for secure multicarrier ISAC under channel uncertainty. IEEE Transactions on Communications, 1–1. https://doi.org/10.1109/TCOMM.2026.3675471\n\n\nVan Chien, T., Minh Quan, N., Shin, O.-S., & Nguyen, V.-D. (2025). Metaheuristic optimization of trajectory and dynamic time splitting for UAV communication systems. IEEE Communications Letters, 29(6), 1200–1204. https://doi.org/10.1109/LCOMM.2025.3556714\n\n\nVan Huynh, D., Nguyen, V.-D., Chatzinotas, S., Khosravirad, S. R., Poor, H. V., & Duong, T. Q. (2023). Joint communication and computation offloading for ultra-reliable and low-latency with multi-tier computing. IEEE Journal on Selected Areas in Communications, 41(2), 521–537. https://doi.org/10.1109/JSAC.2022.3227088\n\n\nVan Huynh, D., Nguyen, V.-D., Dobre, O. A., Khosravirad, S. R., & Duong, T. Q. (2023). Adaptive service placement, task offloading and bandwidth allocation in task-oriented URLLC edge networks. ICC 2023 - IEEE International Conference on Communications, 5755–5760. https://doi.org/10.1109/ICC45041.2023.10279120\n\n\nVan Huynh, D., Nguyen, V.-D., Khosravirad, S. R., & Duong, T. Q. (2022a). Fairness-aware latency minimisation in digital twin-aided edge computing with ultra-reliable and low-latency communications: A distributed optimisation approach (invited paper). 2022 56th Asilomar Conference on Signals, Systems, and Computers, 1045–1049. https://doi.org/10.1109/IEEECONF56349.2022.10051857\n\n\nVan Huynh, D., Nguyen, V.-D., Khosravirad, S. R., & Duong, T. Q. (2022b). Minimising offloading latency for edge-cloud systems with ultra-reliable and low-latency communications. ICC 2022 - IEEE International Conference on Communications, 5122–5127. https://doi.org/10.1109/ICC45855.2022.9839148\n\n\nVan Huynh, D., Nguyen, V.-D., Khosravirad, S. R., Karagiannidis, G. K., & Duong, T. Q. (2023). Distributed communication and computation resource management for digital twin-aided edge computing with short-packet communications. IEEE Journal on Selected Areas in Communications, 41(10), 3008–3021. https://doi.org/10.1109/JSAC.2023.3310087\n\n\nVan Huynh, D., Nguyen, V.-D., Khosravirad, S. R., Sharma, V., Dobre, O. A., Shin, H., & Duong, T. Q. (2022). URLLC edge networks with joint optimal user association, task offloading and resource allocation: A digital twin approach. IEEE Transactions on Communications, 70(11), 7669–7682. https://doi.org/10.1109/TCOMM.2022.3205692\n\n\nVan Huynh, D., Nguyen, V.-D., Sharma, V., Dobre, O. A., & Duong, T. Q. (2022). Digital twin empowered ultra-reliable and low-latency communications-based edge networks in industrial IoT environment. ICC 2022 - IEEE International Conference on Communications, 5651–5656. https://doi.org/10.1109/ICC45855.2022.9838860\n\n\nVu, B.-M., Dang, N. T., Moon, S., Shin, O.-S., & Nguyen, V.-D. (2026). Optimizing mixed FSO-RF downlink systems with active RIS and SLIPT-enabled UAV-BSs. IEEE Transactions on Communications, 74, 3600–3616. https://doi.org/10.1109/TCOMM.2026.3655761\n\n\nVu, T. X., Chatzinotas, S., Nguyen, V.-D., Hoang, D. T., Nguyen, D. N., Renzo, M. D., & Ottersten, B. (2021). Machine learning-enabled joint antenna selection and precoding design: From offline complexity to online performance. IEEE Transactions on Wireless Communications, 20(6), 3710–3722. https://doi.org/10.1109/TWC.2021.3052973\n\n\nWanasekara, S. H., Dung, H. H., Nguyen, N. H., & Nguyen, V.-D. (2024). Lossy compression of multi-channel EEG and PPG signals based on golomb-rice coding with parameter estimation. 2024 International Conference on Advanced Technologies for Communications (ATC), 756–761. https://doi.org/10.1109/ATC63255.2024.10908307\n\n\nWanasekara, S. H., Nguyen, V.-D., Wong, K.-S., Nguyen, M.-D., Chatzinotas, S., & Dobre, O. A. (2026). SC-GIR: Goal-oriented semantic communication via invariant representation learning for image transmission. IEEE Transactions on Mobile Computing, 25(2), 1483–1498. https://doi.org/10.1109/TMC.2025.3600434\n\n\nZivuku, P., Kisseleff, S., Nguyen, V.-D., Martins, W. A., Ntontin, K., Chatzinotas, S., & Ottersten, B. (2024). Joint RIS-aided precoding and multislot scheduling for maximum user admission in smart cities. IEEE Transactions on Communications, 72(1), 418–433. https://doi.org/10.1109/TCOMM.2023.3321731\n\n\nZivuku, P., Kisseleff, S., Nguyen, V.-D., Ntontin, K., Martins, W. A., Chatzinotas, S., & Ottersten, B. (2022). Maximizing the number of served users in a smart city using reconfigurable intelligent surfaces. 2022 IEEE Wireless Communications and Networking Conference (WCNC), 494–499. https://doi.org/10.1109/WCNC51071.2022.9771746\n\n\nZivuku, P., Nguyen, V.-D., Nguyen, N. T., Ntontin, K., Chatzinotas, S., & Ottersten, B. (2026). Resource allocation for RIS-enhanced OFDM-MIMO ISAC systems. IEEE Transactions on Communications, 74, 1777–1792. https://doi.org/10.1109/TCOMM.2025.3637097"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "ICC Lab",
+    "section": "",
+    "text": "Home\n    People"
+  },
+  {
+    "objectID": "people.html#faculty",
+    "href": "people.html#faculty",
+    "title": "ICC Lab",
+    "section": "Faculty",
+    "text": "Faculty\n\n\n\n\n\n\n\n\n\n\nVan-Dinh Nguyen\n\n\nLab PI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#postdoctoral-researchers",
+    "href": "people.html#postdoctoral-researchers",
+    "title": "ICC Lab",
+    "section": "Postdoctoral Researchers",
+    "text": "Postdoctoral Researchers\n\n\n\n\n\n\n\n\n\n\nHoang Le-Huu\n\n\nPostdoctoral Researcher\n\n\n\n\n\n\n\n\n\n\n\n\nDan-An Nguyen\n\n\nPostdoctoral Researcher\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#graduate-students",
+    "href": "people.html#graduate-students",
+    "title": "ICC Lab",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\n\n\n\n\n\n\n\n\n\nMinh-Thanh Nguyen\n\n\nPhD Student (TCD)\n\n\n\n\n\n\n\n\n\n\n\n\nMinh-Tuong Nguyen\n\n\nPhD Student (VinUni)\n\n\n\n\n\n\n\n\n\n\n\n\nTuan-Vu Truong\n\n\nPhD Student (VinUni)\n\n\n\n\n\n\n\n\n\n\n\n\nPhi-Son Vo\n\n\nPhD Student (VinUni)\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#undergraduate-students",
+    "href": "people.html#undergraduate-students",
+    "title": "ICC Lab",
+    "section": "Undergraduate Students",
+    "text": "Undergraduate Students\n\n\n\n\n\n\n\n\n\n\nNgoc M. Ngo\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\nPhuc H. Nguyen\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\nTrung T. Nguyen\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\nKhoi T. Phan\n\n\nUndergraduate Student\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#research-assistants",
+    "href": "people.html#research-assistants",
+    "title": "ICC Lab",
+    "section": "Research Assistants",
+    "text": "Research Assistants"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "ICC Lab",
+    "section": "Alumni",
+    "text": "Alumni\nThe full list of former research staff and assistants can be found Here."
+  },
+  {
+    "objectID": "people/under/nguyenthanh_trung.html",
+    "href": "people/under/nguyenthanh_trung.html",
+    "title": "Trung T. Nguyen",
+    "section": "",
+    "text": "Home\n    People\n    Undergraduate Students\n    Trung T. Nguyen"
+  },
+  {
+    "objectID": "people/under/nguyenthanh_trung.html#biography",
+    "href": "people/under/nguyenthanh_trung.html#biography",
+    "title": "Trung T. Nguyen",
+    "section": "Biography",
+    "text": "Biography\nTrung T. Nguyen is currently pursuing the B.S. degree in Electrical and Computer Engineering at College of Engineering and Computer Science, VinUniversity."
+  },
+  {
+    "objectID": "people/under/nguyenthanh_trung.html#education",
+    "href": "people/under/nguyenthanh_trung.html#education",
+    "title": "Trung T. Nguyen",
+    "section": "Education",
+    "text": "Education\n\nVinUniversity | Hanoi, Vietnam B.S. in Electrical and Computer Engineering | 2022-2026"
+  },
+  {
+    "objectID": "people/under/ngominh_ngoc.html",
+    "href": "people/under/ngominh_ngoc.html",
+    "title": "Ngoc M. Ngo",
+    "section": "",
+    "text": "Home\n    People\n    Undergraduate Students\n    Ngoc M. Ngo"
+  },
+  {
+    "objectID": "people/under/ngominh_ngoc.html#biography",
+    "href": "people/under/ngominh_ngoc.html#biography",
+    "title": "Ngoc M. Ngo",
+    "section": "Biography",
+    "text": "Biography\nNgoc M. Ngo is currently pursuing the B.S. degree in Electrical and Computer Engineering at College of Engineering and Computer Science, VinUniversity."
+  },
+  {
+    "objectID": "people/under/ngominh_ngoc.html#education",
+    "href": "people/under/ngominh_ngoc.html#education",
+    "title": "Ngoc M. Ngo",
+    "section": "Education",
+    "text": "Education\n\nVinUniversity | Hanoi, Vietnam B.S. in Electrical and Computer Engineering | 2022-2026"
+  },
+  {
+    "objectID": "people/post/lehuu_hoang.html",
+    "href": "people/post/lehuu_hoang.html",
+    "title": "Hoang Le-Huu",
+    "section": "",
+    "text": "Home\n    People\n    Postdoctoral Researchers\n    Hoang Le-Huu"
+  },
+  {
+    "objectID": "people/post/lehuu_hoang.html#biography",
+    "href": "people/post/lehuu_hoang.html#biography",
+    "title": "Hoang Le-Huu",
+    "section": "Biography",
+    "text": "Biography\nHoang Le-Huu received the B.S. degree from the School of Electronics and Telecommunication, Hanoi University of Science and Technology, Hanoi, Vietnam, in 2018. He is currently pursuing the Ph.D. degree in information and telecommunication engineering with Soongsil University, Seoul, South Korea. His current research interests include wireless power transfer, antenna design, and computational electromagnetics."
+  },
+  {
+    "objectID": "people/post/lehuu_hoang.html#education",
+    "href": "people/post/lehuu_hoang.html#education",
+    "title": "Hoang Le-Huu",
+    "section": "Education",
+    "text": "Education\n\nSoongsil University | Seoul, South Korea Ph.D. in Electrical and Electronics Engineering | 2018-2024\nHanoi University of Science and Technology (HUST) | Hanoi, Vietnam B.S. in School of Electronics and Telecommunications | 2013-2018"
+  },
+  {
+    "objectID": "people/grad/truongtuan_vu.html",
+    "href": "people/grad/truongtuan_vu.html",
+    "title": "Tuan-Vu Truong",
+    "section": "",
+    "text": "Home\n    People\n    Graduate Students\n    Tuan-Vu Truong"
+  },
+  {
+    "objectID": "people/grad/truongtuan_vu.html#biography",
+    "href": "people/grad/truongtuan_vu.html#biography",
+    "title": "Tuan-Vu Truong",
+    "section": "Biography",
+    "text": "Biography\nTuan-Vu Truong received the M.Sc. degree in Embedded System Engineering from the School of Computing and Engineering, University of Huddersfield, UK. He obtained an Engineer degree in Electrical and Electronics Engineering (Advanced Pro- gram) from the School of Electronics and Telecommunications, Hanoi University of Science and Tech- nology, Vietnam. He is currently a Ph.D. candi- date in the VinUniversity–University of Technology Sydney (UTS) Collaborative Doctoral Research Degree Program. His current research focuses on Open Radio Access Network (O-RAN) for 6G, including system design, performance analysis, and optimization, with the application of machine learning techniques."
+  },
+  {
+    "objectID": "people/grad/truongtuan_vu.html#education",
+    "href": "people/grad/truongtuan_vu.html#education",
+    "title": "Tuan-Vu Truong",
+    "section": "Education",
+    "text": "Education\n\nVinUniversity | Hanoi, Vietnam Ph.D. in Computer Science | 2023-2027\nUniversity of Huddersfield | U.K. M.S. in Computing and Engineering |\nHanoi University of Science and Technology (HUST) | Hanoi, Vietnam B.E. in School of Electronics and Telecommunications |"
+  },
+  {
+    "objectID": "people/grad/nguyenminh_thanh.html",
+    "href": "people/grad/nguyenminh_thanh.html",
+    "title": "Minh-Thanh Nguyen",
+    "section": "",
+    "text": "Home\n    People\n    Graduate Students\n    Minh-Thanh Nguyen"
+  },
+  {
+    "objectID": "people/grad/nguyenminh_thanh.html#biography",
+    "href": "people/grad/nguyenminh_thanh.html#biography",
+    "title": "Minh-Thanh Nguyen",
+    "section": "Biography",
+    "text": "Biography\nMinh-Thanh Nguyen received the B.Eng. degree in Electronics and Telecommunications from Hanoi University of Science and Technology, Vietnam, in 2025. He is currently pursuing a Ph.D. degree in Computer Science at Trinity College Dublin, Ireland. His research interests include 5G network slicing, cloud and edge computing, optimization techniques, and machine learning for networked systems."
+  },
+  {
+    "objectID": "people/grad/nguyenminh_thanh.html#education",
+    "href": "people/grad/nguyenminh_thanh.html#education",
+    "title": "Minh-Thanh Nguyen",
+    "section": "Education",
+    "text": "Education\n\nTrinity College Dublin, The University of Dublin]{.fw-bold} | Dublin, Ireland Ph.D. in Computer Science | 2026-2030\nHanoi University of Science and Technology (HUST) | Hanoi, Vietnam B.E. in Electronics and Telecommunications | 2025"
+  },
+  {
+    "objectID": "people/alumni.html",
+    "href": "people/alumni.html",
+    "title": "ICC Lab",
+    "section": "",
+    "text": "Home\n    People\n    Alumni"
+  },
+  {
+    "objectID": "people/alumni.html#alumni",
+    "href": "people/alumni.html#alumni",
+    "title": "ICC Lab",
+    "section": "Alumni",
+    "text": "Alumni"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "ICC Lab",
+    "section": "",
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Dinh Nguyen joined VinUni\n\n\n\npresentation\n\n\n\nStarting a new journey with VinUni as an Assistant Professor\n\n\n\n\n\nSep 5, 2022\n\n\nDinh Nguyen\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Intelligence, Computing & Communication Lab",
+    "section": "",
+    "text": "We are a research group led by Dr. Dinh Nguyen at the School of Computer Science and Statistics, Trinity College Dublin, Ireland. Our research focuses on networks, distributed systems, wireless communications, and intelligent computing, with an emphasis on designing scalable, reliable, and secure communication infrastructures for next-generation digital systems.\nWe develop novel methodologies in areas such as resource allocation, network optimization, distributed learning, and system intelligence, aiming to improve performance, efficiency, and robustness in complex and dynamic environments. Our work bridges theoretical foundations and practical implementations, with applications spanning modern communication networks and emerging computing paradigms.\nIn addition to core research in communication and computing systems, we actively pursue interdisciplinary collaborations across domains, including smart cities, smart aquaculture, agriculture, and smart ocean systems. In these areas, we leverage data-driven, AI-enabled, and distributed solutions to address real-world challenges such as sustainability, environmental monitoring, resource management, and intelligent infrastructure development."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "ICC Lab",
+    "section": "",
+    "text": "Home\n    Contact"
+  },
+  {
+    "objectID": "contact.html#visit-us",
+    "href": "contact.html#visit-us",
+    "title": "ICC Lab",
+    "section": "Visit Us",
+    "text": "Visit Us\nThe AffCom Lab is located in Fraser Hall Room #455 at the University of Kansas.\n\nStreet Address: 1415 Jayhawk Blvd, Lawrence, KS 66044\nVisitor Parking: 1218 Mississippi St, Lawrence, KS 66045"
+  },
+  {
+    "objectID": "contact.html#email-us",
+    "href": "contact.html#email-us",
+    "title": "ICC Lab",
+    "section": "Email Us",
+    "text": "Email Us"
+  },
+  {
+    "objectID": "girard/index.html",
+    "href": "girard/index.html",
+    "title": "Girard Redirect",
+    "section": "",
+    "text": "Please follow this link."
+  },
+  {
+    "objectID": "mvac/index.html",
+    "href": "mvac/index.html",
+    "title": "MVAC Redirect",
+    "section": "",
+    "text": "Please follow this link."
+  },
+  {
+    "objectID": "opportunities.html",
+    "href": "opportunities.html",
+    "title": "ICC Lab",
+    "section": "",
+    "text": "Home\n    Opportunities"
+  },
+  {
+    "objectID": "opportunities.html#for-undergraduate-students",
+    "href": "opportunities.html#for-undergraduate-students",
+    "title": "ICC Lab",
+    "section": "For Undergraduate Students",
+    "text": "For Undergraduate Students\nThe lab is frequently home to undergraduate students from the Psychology and Behavioral Neuroscience departments (and occasionally others).\nUndergraduate students work as research assistants, learning about the scientific method and assisting in the collection and processing of research data. Many enroll in PSYC 480 and receive credit hours for this work. Research assistants attend weekly lab meetings and can expect a letter of recommendation from Dr. Girard describing their work in and contributions to the lab (please give one month of advanced notice). Opportunities to earn co-authorship on research products (e.g., conference presentations) are also occasionally offered to advanced research assistants.\nHonors students will also occasionally design and complete an independent research project (i.e., honors thesis) under the supervision of Dr. Girard over the course of their senior year. These students typically apply for (and have often won) research awards from the Center for Undergraduate Research and make oral or poster presentations about their work at the Undergraduate Research Symposium.\nApply to be a Research Assistant"
+  },
+  {
+    "objectID": "opportunities.html#for-prospective-graduate-students",
+    "href": "opportunities.html#for-prospective-graduate-students",
+    "title": "ICC Lab",
+    "section": "For Prospective Graduate Students",
+    "text": "For Prospective Graduate Students\nThe KU Psychology Department grants doctoral degrees (i.e., PhDs) in three concentrations: Brain, Behavior, and Quantitative Science (BBQ); Clinical Psychological Science (CPS); and Social Psychology; note that the department does not offer a terminal Masters degree and that the CPS concentration is focused on adult psychopathology rather than child psychopathology.\nDr. Girard advises graduate students in the BBQ and CPS concentration and is a particularly good match for students with interests that span both areas (e.g., CPS students interested in advanced methods or BBQ students interested in medical applications).\nGraduate students will complete coursework in the department and conduct research in the lab. They will receive a world-class education in the scientific method and have many opportunities to contribute to ongoing research projects. More information about each admissions cycle can be found on the News page.\nLearn About Graduate Admissions"
+  },
+  {
+    "objectID": "opportunities.html#for-prospective-postdocs-and-staff",
+    "href": "opportunities.html#for-prospective-postdocs-and-staff",
+    "title": "ICC Lab",
+    "section": "For Prospective Postdocs and Staff",
+    "text": "For Prospective Postdocs and Staff\nPostdoctoral fellowships and other staff positions in the lab will be made available as funding permits. Please check the News page for more information."
+  },
+  {
+    "objectID": "people/faculty/dinhnguyen.html",
+    "href": "people/faculty/dinhnguyen.html",
+    "title": "Van-Dinh Nguyen",
+    "section": "",
+    "text": "Home\n    People\n    Faculty\n    Van-Dinh Nguyen"
+  },
+  {
+    "objectID": "people/faculty/dinhnguyen.html#biography",
+    "href": "people/faculty/dinhnguyen.html#biography",
+    "title": "Van-Dinh Nguyen",
+    "section": "Biography",
+    "text": "Biography\nDr. Dinh Nguyen is currently an Assistant Professor in Networks and Distributed Systems with the School of Computer Science and Statistics, Trinity College Dublin, Ireland. Prior to this position, he was an Assistant Professor at the College of Engineering and Computer Science, VinUniversity (2022-2025), a Research Associate with the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg (2019-2022), a Postdoc Researcher and a Lecturer with Soongsil University (2018-2019), a Postdoctoral Visiting Scholar with the University of Technology Sydney, AUS (July-August 2018) and a Ph.D. Visiting Scholar with Queen’s University Belfast, U.K. (June-July 2015 and August 2016).\nDr. Nguyen received the four best conference paper awards, IEEE Communications Letters Exemplary Editor Awards 2019 and 2021, IEEE Open Journal of the Communications Society Exemplary Editor Award 2021 and 2023, IEEE Transactions on Communications Exemplary Reviewer Award 2018 and IEEE GLOBECOM Student Travel Grant Award 2017. He has authored or co-authored some 90 papers published in international journals and conference proceedings. He has served as a reviewer for many top-tier international journals on wireless communications, and has also been a Technical Programme Committee Member for several flagship international conferences in the related fields. He is currently a Senior Editor of IEEE COMMUNICATIONS LETTERS, and was an Associate Editor of the IEEE OPEN JOURNAL OF THE COMMUNICATIONS SOCIETY and IEEE SYSTEMS JOURNAL."
+  },
+  {
+    "objectID": "people/faculty/dinhnguyen.html#experience",
+    "href": "people/faculty/dinhnguyen.html#experience",
+    "title": "Van-Dinh Nguyen",
+    "section": "Experience",
+    "text": "Experience\n\nTrinity College Dublin | College Green, Dublin 2, Ireland Assistant Professor, Computer Science | 2025–Current&lt;br /\nVinUniversity | Hanoi, Vietnam Assistant Professor, Electrical and Computer Engineering | 2022–2025\nSnT - University of Luxembourg | Luxembourg  Research Associate, SIGCOM - SnT | 2019–2022\nSoongsil University | Seoul, South Korea  Lecturer, School of Electronic Engineering | 2018–2019"
+  },
+  {
+    "objectID": "people/faculty/dinhnguyen.html#professional-activities",
+    "href": "people/faculty/dinhnguyen.html#professional-activities",
+    "title": "Van-Dinh Nguyen",
+    "section": "Professional Activities",
+    "text": "Professional Activities\n\nIEEE Communications Letters (COMML)  Senior Editor | 2024–Current Associate Editor | 2019–2023\nIEEE Open Journal of the Communications Society (OJ-COMS)  Associate Editor | 2020–2025\nIEEE Systems Journal  Associate Editor | 2022–2024\nMobile Networks and Applications - Springer  Guest Editor | 2020\nMobile Networks and Applications - Springer  TPC Chair/Member, Session Chair, and Reviewer for 20+ Conferences (e.g. IEEE GLOBECOM, ICC, INFOCOM, VTC, WCNC, PIMRC, etc.)"
+  },
+  {
+    "objectID": "people/faculty/dinhnguyen.html#education",
+    "href": "people/faculty/dinhnguyen.html#education",
+    "title": "Van-Dinh Nguyen",
+    "section": "Education",
+    "text": "Education\n\nSoongsil University | Seoul, South Korea Ph.D. in ICT Convergence - Electronic Engineering | 2015–2018\nSoongsil University | Seoul, South Korea M.E. in Electronic Engineering | 2013–2015\nHo Chi Minh City University of Technology (BKU) - Vietnam National University | Ho Chi Minh City, Vietnam B.E. in Electrical Engineering | 2007–2012"
+  },
+  {
+    "objectID": "people/grad/nguyenminh_tuong.html",
+    "href": "people/grad/nguyenminh_tuong.html",
+    "title": "Minh-Tuong Nguyen",
+    "section": "",
+    "text": "Home\n    People\n    Graduate Students\n    Minh-Tuong Nguyen"
+  },
+  {
+    "objectID": "people/grad/nguyenminh_tuong.html#biography",
+    "href": "people/grad/nguyenminh_tuong.html#biography",
+    "title": "Minh-Tuong Nguyen",
+    "section": "Biography",
+    "text": "Biography\nMinh-Tuong Nguyen has been pursuing the Collaborative Doctoral Research Degree Program between VinUniversity and the University of Technology Sydney since 2023. His research interests include mobile edge computing, physical-layer security, secrecy outage probability, computational algebraic geometry, and resource allocation in wireless communications."
+  },
+  {
+    "objectID": "people/grad/nguyenminh_tuong.html#education",
+    "href": "people/grad/nguyenminh_tuong.html#education",
+    "title": "Minh-Tuong Nguyen",
+    "section": "Education",
+    "text": "Education\n\nVinUniversity | Hanoi, Vietnam Ph.D. in Computer Science | 2023-2027\nUniversity of Ulsan | South Korea M.S. in Electrical Engineering | 2019-2021\nHo Chi Minh City University of Technology | Ho Chi Minh City, Vietnam B.E. in Electrical and Electronics Engineering| 2012-2016"
+  },
+  {
+    "objectID": "people/grad/vophi_son.html",
+    "href": "people/grad/vophi_son.html",
+    "title": "Phi-Son Vo",
+    "section": "",
+    "text": "Home\n    People\n    Graduate Students\n    Phi-Son Vo"
+  },
+  {
+    "objectID": "people/grad/vophi_son.html#biography",
+    "href": "people/grad/vophi_son.html#biography",
+    "title": "Phi-Son Vo",
+    "section": "Biography",
+    "text": "Biography\nPhi-Son Vo received the B.S. degree in Communications and Electronics Engineering Technology and the M.S. degree in Telecommunications Engineering from the Vietnam Aviation Academy in 2012 and Ho Chi Minh City University of Technology in 2016, respectively. He is currently pursuing a Ph.D. degree with the College of Engineering and Computer Science, VinUniversity, Hanoi, Vietnam. His current research interests include mobile edge computing, integrated sensing and communication, convex optimization, and machine learning for wireless communications."
+  },
+  {
+    "objectID": "people/grad/vophi_son.html#education",
+    "href": "people/grad/vophi_son.html#education",
+    "title": "Phi-Son Vo",
+    "section": "Education",
+    "text": "Education\n\nVinUniversity | Hanoi, Vietnam Ph.D. in Computer Science | 2023-2027\nHo Chi Minh City University of Technology | Ho Chi Minh City, Vietnam  M.S. in Telecommunications Engineering | 2016\nVietnam Aviation Academy | Ho Chi Minh City, Vietnam B.E. in Communications and Electronics Engineering | 2012"
+  },
+  {
+    "objectID": "people/post/nguyendang_an.html",
+    "href": "people/post/nguyendang_an.html",
+    "title": "Dan-An Nguyen",
+    "section": "",
+    "text": "Home\n    People\n    Postdoctoral Researchers\n    Dan-An Nguyen"
+  },
+  {
+    "objectID": "people/post/nguyendang_an.html#biography",
+    "href": "people/post/nguyendang_an.html#biography",
+    "title": "Dan-An Nguyen",
+    "section": "Biography",
+    "text": "Biography\nDan-An Nguyen was born in Thanh Hoa, Vietnam. He received the degree from the School of Electronics and Telecommunications, Hanoi University of Science and Technology (HUST) Vietnam, and the Ph.D. degree from Soongsil University, South Korea, in August 2023. From 2025, he is with VinUniversity, Vietnam as a postdoctoral researcher, where his research topics relates to RF/microwave circuits, radar systems, power amplifiers, rectifiers, and front-end components of energy harvesting and wireless power transfer (WPT) systems"
+  },
+  {
+    "objectID": "people/post/nguyendang_an.html#education",
+    "href": "people/post/nguyendang_an.html#education",
+    "title": "Dan-An Nguyen",
+    "section": "Education",
+    "text": "Education\n\nSoongsil University | Seoul, South Korea Ph.D. in Electronic Engineering | 2017-2023\nHanoi University of Science and Technology (HUST) | Hanoi, Vietnam B.S. in School of Electronics and Telecommunications | 2016"
+  },
+  {
+    "objectID": "people/under/nguyenhong_phuc.html",
+    "href": "people/under/nguyenhong_phuc.html",
+    "title": "Phuc H. Nguyen",
+    "section": "",
+    "text": "Home\n    People\n    Undergraduate Students\n    Phuc H. Nguyen"
+  },
+  {
+    "objectID": "people/under/nguyenhong_phuc.html#biography",
+    "href": "people/under/nguyenhong_phuc.html#biography",
+    "title": "Phuc H. Nguyen",
+    "section": "Biography",
+    "text": "Biography\nPhuc H. Nguyen is currently pursuing the B.S. degree in Electrical and Computer Engineering at College of Engineering and Computer Science, VinUniversity."
+  },
+  {
+    "objectID": "people/under/nguyenhong_phuc.html#education",
+    "href": "people/under/nguyenhong_phuc.html#education",
+    "title": "Phuc H. Nguyen",
+    "section": "Education",
+    "text": "Education\n\nVinUniversity | Hanoi, Vietnam B.S. in Electrical and Computer Engineering | 2023-2027"
+  },
+  {
+    "objectID": "people/under/phantuan_khoi.html",
+    "href": "people/under/phantuan_khoi.html",
+    "title": "Khoi T. Phan",
+    "section": "",
+    "text": "Home\n    People\n    Undergraduate Students\n    Khoi T. Phan"
+  },
+  {
+    "objectID": "people/under/phantuan_khoi.html#biography",
+    "href": "people/under/phantuan_khoi.html#biography",
+    "title": "Khoi T. Phan",
+    "section": "Biography",
+    "text": "Biography\nTrung T. Nguyen received the B.S. degree in Electrical and Computer Engineering at College of Engineering and Computer Science, VinUniversity."
+  },
+  {
+    "objectID": "people/under/phantuan_khoi.html#education",
+    "href": "people/under/phantuan_khoi.html#education",
+    "title": "Khoi T. Phan",
+    "section": "Education",
+    "text": "Education\n\nVinUniversity | Hanoi, Vietnam B.S. in Electrical and Computer Engineering | 2021-2025"
+  },
+  {
+    "objectID": "posts/joinvinuni2022/index.html",
+    "href": "posts/joinvinuni2022/index.html",
+    "title": "Dr. Dinh Nguyen joined VinUni",
+    "section": "",
+    "text": "In celebration of my promotion in August, I was invited to give a “tenure talk” to the department of psychology, reflecting on the last five years of my work as an assistant professor at the University of Kansas. In the slides below, I walk through my accomplishments, how my research framework has evolved over time, and provide two examples of my interdisciplinary work: one psychological project that was enhanced by my computational and quantitative background and one computational project that was enhanced by my psychological background."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "ICC Lab",
+    "section": "",
+    "text": "Home\n    Research"
+  },
+  {
+    "objectID": "research.html#research-funding",
+    "href": "research.html#research-funding",
+    "title": "ICC Lab",
+    "section": "Research Funding",
+    "text": "Research Funding\n\nCurrent Funding\n\n“Assessment of Eating Disorder and Comorbidity Risk and Resilience in Recent Military Enlistees”\n\nDepartment of Defense (DoD)\nForbush (PI), Co-I: Girard\n04/2025 – 03/2027\n\n“Building Healthy Eating and Self-Esteem Together for University Students (BEST-U): A Pilot Randomized Controlled Trial of an mHealth Intervention for Binge-Spectrum Disorders”\n\nR34, National Institutes of Health (NIMH)\nForbush, Christensen-Pacella (PIs), Co-I: Girard\n01/2025 – 12/2027\n\n“COBRE Computational Assessment of Communicative Behaviors in Posttraumatic Stress”\n\nP20, National Institutes of Health (COBRE)\nGirard (PI)\n01/2025 – 12/2026\n\n\n\n\nCompleted Funding\n\n“Context-Adaptive Multimodal Informatics for Psychiatric Discharge Planning”\n\nR01, National Institutes of Health (NIMH)\nBaker (PI), Co-Is: Girard, Morency\n04/2021 – 02/2025\n\n“Kansas Data Science Training Pathways | An Integrated Model”\n\nNational Science Foundation (EPSCoR REI)\nGirard (PI)\n01/2024 – 12/2024\n\n“Novel Scalable Mental Health Screening Procedures on Ubiquitous Sensing Devices”\n\nGoogler-Initiated Grant, Google LLC\nGirard (PI)\n11/2022\n\n“Multimodal Dynamics of Parent-Child Interactions and Suicide Risk”\n\nR21, National Institutes of Health (NIMH)\nBurke (PI), Co-Is: Girard, Li, Morency\n09/2022 – 07/2023\n\n“Towards Automated Multimodal Behavioral Screening for Depression”\n\nPittsburgh Health Data Alliance (CMLH)\nMorency (PI), Co-I: Girard\n03/2019 – 02/2021\n\n“Dyadic Behavior Informatics for Psychotherapy Process and Outcome”\n\nNational Science Foundation (IIS, SCH)\nCohn, Morency, Swartz (PIs), Co-Is: Bylsma, Fournier, Girard\n09/2020 – 08/2022"
+  },
+  {
+    "objectID": "research.html#research-framework",
+    "href": "research.html#research-framework",
+    "title": "ICC Lab",
+    "section": "Research Framework",
+    "text": "Research Framework\n\n\nSubstantive Pillars\nThe substantive focus of our work is on how humans communicate important affective and interpersonal information to one another. The four pillars of this work are on structure, context, dynamics, and functionality. In studying structure, we investigate the production and perception of visual behaviors (e.g., facial expressions, gestures, and body motion), vocal behaviors (e.g., pitch, loudness, and timbre), and verbal behaviors (e.g., syntax, semantics, and discourse). In studying context, we investigate the influence of cultural, relational, and situational factors. In studying dynamics, we investigate change over time, regulation, and how processes and individuals influence one another. Finally, in studying functionality, we investigate how communication interfaces with health, clinical assessment, and treatment.\n\n\nMethodological Foundation\nSupporting these pillars is a wide foundation of interdisciplinary methodology. The three main aspects of this foundation are statistics, computing, and open science. The statistical aspects largely focus on Bayesian estimation, multilevel (mixed-effects) modeling, and measurement validation. The computational aspects largely focus on data science (data wrangling and visualization), behavior sensing (computer vision, signal processing, and natural language processing), and artificial intelligence (machine learning and large language models). Finally, the open science aspects largely focus on research software, research databases, and educational resources."
+  }
+]

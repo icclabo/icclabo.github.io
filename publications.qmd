@@ -382,10 +382,10 @@ build_card <- function(
     if (isTRUE(primary)) tags$span(
       class = "lab-star",
       role  = "img",
-      title = "This project was led by the AffCom lab",
-      `aria-label` = "This project was led by the AffCom lab",
+      title = "This project was led by the ICC lab",
+      `aria-label` = "This project was led by the ICC lab",
       "★",
-      tags$span(class = "sr-only", " This project was led by the AffCom lab")
+      tags$span(class = "sr-only", " This project was led by the ICC lab")
     ),
     # Action links
     tags$a("Abstract", href = "#", `data-action`="abstract", role="button"),
