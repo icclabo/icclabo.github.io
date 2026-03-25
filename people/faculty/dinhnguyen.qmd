@@ -6,26 +6,26 @@ image: dinhnguyen.jpg
 started: "Fall 2022"
 toc: false
 resources: 
-  - "girard_cv.pdf"
+  - "dinhnguyen_cv.pdf"
 about:
   id: person-profile
   template: jolla
   links:
     - icon: link
       text: website
-      href: https://www.jmgirard.com
+      href: https://www.tcd.ie/scss/people/academic-staff/nguyenva/
     - icon: file-earmark-text
       text: vitae
-      href: ./people/staff/girard_cv.pdf
+      href: ./people/faculty/dinhnguyen_cv.pdf
     - icon: mortarboard
       text: scholar
-      href: https://scholar.google.com/citations?user=N2UcZ84AAAAJ
+      href: https://scholar.google.com/citations?hl=en&user=wgsX_zIAAAAJ
     - icon: github
       text: github
-      href: https://www.github.com/jmgirard
-    - icon: twitter
-      text: twitter
-      href: https://www.twitter.com/jeffreymgirard
+      href: https://github.com/icclabo
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/van-dinh-nguyen-19800642/?skipRedirect=true
 ---
 
 ```{=html}
@@ -33,7 +33,7 @@ about:
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
     <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active">Faculty</li>
     <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
   </ol>
 </nav>
@@ -43,49 +43,45 @@ about:
 :::
 
 ## Biography
-Dr. Jeffrey Girard studies how emotions are expressed through verbal and nonverbal behavior, as well as how interpersonal communication is influenced by individual differences (e.g., personality and mental health) and social factors (e.g., culture and context). This work is deeply interdisciplinary and draws insights and tools from various areas of social science, computer science, statistics, and medicine.
+Dr. Dinh Nguyen is currently an Assistant Professor in Networks and Distributed Systems with the School of Computer Science and Statistics, Trinity College Dublin, Ireland. Prior to this position, he was an Assistant Professor at the College of Engineering and Computer Science, VinUniversity (2022-2025), a Research Associate with the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg (2019-2022), a Postdoc Researcher and a Lecturer with Soongsil University (2018-2019), a Postdoctoral Visiting Scholar with the University of Technology Sydney, AUS (July-August 2018) and a Ph.D. Visiting Scholar with Queen's University Belfast, U.K. (June-July 2015 and August 2016).
 
-He completed his doctoral training under the mentorship of Dr. Jeffrey Cohn (nonverbal behavior, machine learning, depression) and Dr. Aidan Wright (interpersonal functioning, statistics, personality). He then completed his predoctoral clinical internship at the University of Mississippi Medical Center (inpatient psychiatry, trauma treatment, neuropsychology) and a two-year postdoctoral research fellowship at Carnegie Mellon University under the mentorship of Dr. Louis-Philippe Morency (verbal behavior, machine learning, computer science). 
+Dr. Nguyen received the four best conference paper awards, IEEE Communications Letters Exemplary Editor Awards 2019 and 2021, IEEE Open Journal of the Communications Society Exemplary Editor Award 2021 and 2023, IEEE Transactions on Communications Exemplary Reviewer Award 2018 and IEEE GLOBECOM Student Travel Grant Award 2017. He has authored or co-authored some 90 papers published in international journals and conference proceedings. He has served as a reviewer for many top-tier international journals on wireless communications, and has also been a Technical Programme Committee Member for several flagship international conferences in the related fields. He is currently a Senior Editor of IEEE COMMUNICATIONS LETTERS, and was an Associate Editor of the IEEE OPEN JOURNAL OF THE COMMUNICATIONS SOCIETY and IEEE SYSTEMS JOURNAL.
 
-He is now an Associate Professor in the department of Psychology at the University of Kansas, where he directs the Affective Communication and Computing lab and the Brain, Behavior, and Quantitative Science (BBQ) program. He teaches undergraduate and graduate courses on psychological assessment, data science, and statistics within the department and is a co-founder of [SMaRT Workshops](https://www.smart-workshops.com), which offers numerous methodological training workshops to faculty and students. He is also the developer and maintainer of numerous open-source research software packages (see [Resources](../../resources.qmd)).
 
 ## Experience
 
-- **University of Kansas** | Lawrence, KS, USA<br />
-  Associate Professor of Psychology | 2025–Current<br />
-  Assistant Professor of Psychology | 2020–2025<br />
-  Wright Faculty Scholar | 2020–2025<br />
-  Director of the [BBQ Doctoral Program](https://psychology.ku.edu/bbq) | 2022–Current <br />
-  Co-Director of the [Kansas Data Science Consortium](https://data.ku.edu) | 2023-Current
+- **Trinity College Dublin** | College Green, Dublin 2, Ireland<br />
+  Assistant Professor, Computer Science | 2025–Current<br /
 
-- **Carnegie Mellon University** | Pittsburgh, PA, USA<br />
-  Postdoctoral Researcher, School of Computer Science | 2018–2020
+- **VinUniversity** | Hanoi, Vietnam<br />
+  Assistant Professor, Electrical and Computer Engineering | 2022–2025
 
-- **University of Mississippi Medical Center** | Jackson, MS, USA<br />
-  Clinical Intern, Department of Psychiatry | 2017–2018
+- **SnT - University of Luxembourg** | Luxembourg <br />
+  Research Associate, SIGCOM - SnT | 2019–2022
 
-## Journal Editing
+- **Soongsil University** | Seoul, South Korea <br />
+  Lecturer, School of Electronic Engineering | 2018–2019
 
-- **NPP Digital Psychiatry and Neuroscience** <a href="https://www.nature.com/dpn/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
-  Consulting Editor | 2023–Current
-- **Journal of Psychopathology and Clinical Science** <a href="https://www.apa.org/pubs/journals/abn" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
-  Consulting Editor | 2023–Current
-- **IEEE Transactions on Affective Computing** <a href="https://www.computer.org/csdl/journal/ta" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
-  Associate Editor | 2022–2025
-- **Collabra Psychology** <a href="https://online.ucpress.edu/collabra" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
-  Associate Editor | 2021–Current
-- **Clinical Psychological Science** <a href="https://journals.sagepub.com/home/cpx" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
-  Consulting Editor | 2021–Current
-- **Psychological Assessment** <a href="https://www.apa.org/pubs/journals/pas" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
-  Consulting Editor | 2020–2022
+## Professional Activities
+
+- **IEEE Communications Letters (COMML)** <a href="https://www.comsoc.org/publications/journals/ieee-comml/ieee-communications-letters-editorial-board" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
+  Senior Editor | 2024–Current />
+  Associate Editor | 2019–2023
+- **IEEE Open Journal of the Communications Society (OJ-COMS)** <a href="https://www.comsoc.org/publications/journals/ieee-ojcoms" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
+  Associate Editor | 2020–2025
+- **IEEE Systems Journal** <a href="https://ieeesystemscouncil.org/publication/ieee-systems-journal" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
+  Associate Editor | 2022–2024
+- **Mobile Networks and Applications - Springer** <a href="https://link.springer.com/journal/11036" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
+  Guest Editor | 2020
+
 
 ## Education
 
-- **University of Pittsburgh** | Pittsburgh, PA, USA<br />
-  PhD in Psychology (Clinical) | 2013–2018
+- **Soongsil Universityh** | Seoul, South Korea<br />
+  Ph.D. in ICT Convergence - Electronic Engineering | 2015–2018
 
-- **University of Pittsburgh** | Pittsburgh, PA, USA<br />
-  MS in Psychology (Clinical) | 2010–2013
+- Soongsil University** | Seoul, South Korea<br />
+  M.E. in Electronic Engineering | 2013–2015
 
-- **University of Washington** | Seattle, WA, USA<br />
-  BA in Psychology & Philosophy (Honors) | 2005–2008 
+- **Ho Chi Minh City University of Technology (BKU) - Vietnam National University** | Ho Chi Minh City, Vietnam, USA<br />
+  B.E. in Electrical Engineering | 2007–2012 
