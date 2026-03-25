@@ -2,7 +2,7 @@
 title: "Van-Dinh Nguyen"
 sortby: "1"
 subtitle: "Lab PI"
-image: dinhnguyen.jpg
+image: dinhnguyen.jpeg
 started: "Fall 2022"
 toc: false
 resources: 
@@ -65,7 +65,7 @@ Dr. Nguyen received the four best conference paper awards, IEEE Communications L
 ## Professional Activities
 
 - **IEEE Communications Letters (COMML)** <a href="https://www.comsoc.org/publications/journals/ieee-comml/ieee-communications-letters-editorial-board" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
-  Senior Editor | 2024–Current />
+  Senior Editor | 2024–Current<br />
   Associate Editor | 2019–2023
 - **IEEE Open Journal of the Communications Society (OJ-COMS)** <a href="https://www.comsoc.org/publications/journals/ieee-ojcoms" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right ms-1"></i></a><br />
   Associate Editor | 2020–2025
@@ -80,8 +80,8 @@ Dr. Nguyen received the four best conference paper awards, IEEE Communications L
 - **Soongsil Universityh** | Seoul, South Korea<br />
   Ph.D. in ICT Convergence - Electronic Engineering | 2015–2018
 
-- Soongsil University** | Seoul, South Korea<br />
+- **Soongsil University** | Seoul, South Korea<br />
   M.E. in Electronic Engineering | 2013–2015
 
-- **Ho Chi Minh City University of Technology (BKU) - Vietnam National University** | Ho Chi Minh City, Vietnam, USA<br />
+- **Ho Chi Minh City University of Technology (BKU) - Vietnam National University** | Ho Chi Minh City, Vietnam<br />
   B.E. in Electrical Engineering | 2007–2012 
