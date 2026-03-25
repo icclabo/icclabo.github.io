@@ -1,9 +1,9 @@
 ---
 title: "Dr. Dinh Nguyen joined VinUni"
-description: "Starting a new journey with VinUni"
+description: "Starting a new journey with VinUni as an Assistant Professor"
 author: "Dinh Nguyen"
 date: "2022-09-05"
-image: vinuni2022.jpeg
+image: vinuni2022.jpg
 draft: false
 categories:
   - presentation

@@ -20,7 +20,10 @@ execute:
 </nav>
 ```
 
-This page lists all papers published by Dr. Girard, organized by year of publication. Click a paper’s *title* to visit the publisher page and access the official version. Use *Abstract* to reveal the summary, *Citation* for the APA 7th-edition reference, and *BibTeX* to view the BibTeX entry. Clicking the link a second time will close the display again. *Preprint* links to a free author version (not the final typeset copy), and *Materials* leads to an open repository with data, code, and other open-science resources. <span style="font-size:0.9rem; opacity:0.8; margin-bottom:0.5rem;">★ = Work led or co-led by our lab (established in 2020)</span>
+**IEEE Copyright Notice**: Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.
+
+The most up-to-date publication can be found on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=wgsX_zIAAAAJ){.text-primary .text-decoration-none .fw-bolder}  profile.
+
 
 
 ```{r setup}
