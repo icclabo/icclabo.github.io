@@ -17,7 +17,7 @@ execute:
 </nav>
 ```
 
-**IEEE Copyright Notice**: Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.
+**IEEE Copyright Notice**: Personal use of this material is permitted. For any other use, including reprinting, republishing, redistribution, or incorporation into other works, prior permission must be obtained from IEEE.
 
 The most up-to-date publication can be found on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=wgsX_zIAAAAJ){.text-primary .text-decoration-none .fw-bolder}  profile.
 
@@ -29,7 +29,7 @@ library(RefManageR)
 `%||%` <- function(a, b) if (is.null(a) || length(a) == 0) b else a
 
 has_text <- function(x) {
-  !is.null(x) && length(x) > 0 && !is.na(x) && nzchar(trimws(as.character(x)[1]))
+  !is.null(x) && length(x) > 0 && !is.na(x[1]) && nzchar(trimws(as.character(x)[1]))
 }
 
 clean_text <- function(x) {
@@ -47,7 +47,6 @@ make_link <- function(label, href) {
 doi_url <- function(entry) {
   doi <- clean_text(entry$doi)
   url <- clean_text(entry$url)
-
   if (!is.na(doi)) return(paste0("https://doi.org/", doi))
   if (!is.na(url)) return(url)
   NA_character_
@@ -91,10 +90,8 @@ format_entry_text <- function(entry) {
   trimws(txt)
 }
 
-render_section <- function(entries, title) {
-  cat(paste0("## ", title, "\n\n"))
+render_section <- function(entries) {
   cat("<ol>\n")
-
   for (entry in entries) {
     txt <- format_entry_text(entry)
 
@@ -112,29 +109,24 @@ render_section <- function(entries, title) {
     }
     cat("</li>\n")
   }
-
-  cat("</ol>\n\n")
+  cat("</ol>\n")
 }
 
+bib <- ReadBib("publications.bib", check = FALSE)
+types <- tolower(as.character(bib$bibtype))
+yrs <- suppressWarnings(as.numeric(vapply(bib, entry_year, character(1))))
+
+journals <- bib[types %in% c("article")]
+if (length(journals) > 0) {
+  journals <- journals[order(yrs[types %in% c("article")], decreasing = TRUE, na.last = TRUE)]
+  render_section(journals)
+}
 
 **Conferences**
 
-bib <- ReadBib("publications.bib", check = FALSE)
-
-types <- tolower(as.character(bib$bibtype))
-yrs   <- suppressWarnings(as.numeric(vapply(bib, entry_year, character(1))))
-
-journals <- bib[types %in% c("article")]
-confs    <- bib[types %in% c("inproceedings", "proceedings", "conference")]
-
-if (length(journals) > 0) {
-  journals <- journals[order(yrs[types %in% c("article")], decreasing = TRUE, na.last = TRUE)]
-  render_section(journals, "Journals")
-}
-
+confs <- bib[types %in% c("inproceedings", "proceedings", "conference")]
 if (length(confs) > 0) {
   confs <- confs[order(yrs[types %in% c("inproceedings", "proceedings", "conference")], decreasing = TRUE, na.last = TRUE)]
-  render_section(confs, "Conferences")
+  render_section(confs)
 }
-
 

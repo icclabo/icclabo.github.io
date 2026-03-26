@@ -182,17 +182,16 @@ window.Quarto = {
     <li class="breadcrumb-item active" aria-current="page">Publications</li>
   </ol>
 </nav>
-<p><strong>IEEE Copyright Notice</strong>: Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.</p>
+<p><strong>IEEE Copyright Notice</strong>: Personal use of this material is permitted. For any other use, including reprinting, republishing, redistribution, or incorporation into other works, prior permission must be obtained from IEEE.</p>
 <p>The most up-to-date publication can be found on my <a href="https://scholar.google.com/citations?hl=en&amp;user=wgsX_zIAAAAJ" class="text-primary text-decoration-none fw-bolder">Google Scholar</a> profile.</p>
 <p><strong>Journals</strong></p>
 <p>library(RefManageR)</p>
 <p><code>%||%</code> &lt;- function(a, b) if (is.null(a) || length(a) == 0) b else a</p>
-<p>has_text &lt;- function(x) { !is.null(x) &amp;&amp; length(x) &gt; 0 &amp;&amp; !is.na(x) &amp;&amp; nzchar(trimws(as.character(x)[1])) }</p>
+<p>has_text &lt;- function(x) { !is.null(x) &amp;&amp; length(x) &gt; 0 &amp;&amp; !is.na(x[1]) &amp;&amp; nzchar(trimws(as.character(x)[1])) }</p>
 <p>clean_text &lt;- function(x) { if (!has_text(x)) return(NA_character_) y &lt;- as.character(x)[1] y &lt;- gsub(“[{}]”, ““, y) trimws(y) }</p>
 <p>make_link &lt;- function(label, href) { if (!has_text(href)) return(NULL) paste0(‘<a href="', href, '" target="_blank" rel="noopener">[’, label, ’]</a>’) }</p>
 <p>doi_url &lt;- function(entry) { doi &lt;- clean_text(entry<span class="math inline">\(doi)
-  url &lt;- clean_text(entry\)</span>url)</p>
-<p>if (!is.na(doi)) return(paste0(“https://doi.org/”, doi)) if (!is.na(url)) return(url) NA_character_ }</p>
+  url &lt;- clean_text(entry\)</span>url) if (!is.na(doi)) return(paste0(“https://doi.org/”, doi)) if (!is.na(url)) return(url) NA_character_ }</p>
 <p>code_url &lt;- function(entry) { code &lt;- clean_text(entry<span class="math inline">\(code %||% entry\)</span>Code %||% entry$materials) if (!is.na(code)) return(code) NA_character_ }</p>
 <p>pdf_url &lt;- function(entry) { pdf &lt;- clean_text(entry$pdf) if (!is.na(pdf)) return(pdf) NA_character_ }</p>
 <p>preprint_url &lt;- function(entry) { pre &lt;- clean_text(entry$preprint) if (!is.na(pre)) return(pre) NA_character_ }</p>
@@ -200,10 +199,9 @@ window.Quarto = {
 <p>d &lt;- clean_text(entry$date) if (!is.na(d)) { m &lt;- regmatches(d, regexpr(“[0-9]{4}”, d)) if (length(m) &gt; 0 &amp;&amp; nzchar(m)) return(m) }</p>
 <p>“” }</p>
 <p>format_entry_text &lt;- function(entry) { txt &lt;- format(entry, style = “text”) txt &lt;- paste(txt, collapse = ” “) txt &lt;- gsub(”\s+“,” “, txt) trimws(txt) }</p>
-render_section &lt;- function(entries, title) { cat(paste0(“##”, title, “”)) cat(“
+render_section &lt;- function(entries) { cat(“
 <ol>
-<p>“)</p>
-<p>for (entry in entries) { txt &lt;- format_entry_text(entry)</p>
+<p>“) for (entry in entries) { txt &lt;- format_entry_text(entry)</p>
 <pre><code>links &lt;- c(
   make_link("DOI", doi_url(entry)),
   make_link("PDF", pdf_url(entry)),
@@ -217,16 +215,13 @@ if (length(links) &gt; 0) {
   cat(" ", paste(links, collapse = " "))
 }
 cat("&lt;/li&gt;\n")</code></pre>
-<p>}</p>
-cat(“
+} cat(“
 </ol>
 <p>“) }</p>
+<p>bib &lt;- ReadBib(“publications.bib”, check = FALSE) types &lt;- tolower(as.character(bib$bibtype)) yrs &lt;- suppressWarnings(as.numeric(vapply(bib, entry_year, character(1))))</p>
+<p>journals &lt;- bib[types %in% c(“article”)] if (length(journals) &gt; 0) { journals &lt;- journals[order(yrs[types %in% c(“article”)], decreasing = TRUE, na.last = TRUE)] render_section(journals) }</p>
 <p><strong>Conferences</strong></p>
-<p>bib &lt;- ReadBib(“publications.bib”, check = FALSE)</p>
-<p>types &lt;- tolower(as.character(bib$bibtype)) yrs &lt;- suppressWarnings(as.numeric(vapply(bib, entry_year, character(1))))</p>
-<p>journals &lt;- bib[types %in% c(“article”)] confs &lt;- bib[types %in% c(“inproceedings”, “proceedings”, “conference”)]</p>
-<p>if (length(journals) &gt; 0) { journals &lt;- journals[order(yrs[types %in% c(“article”)], decreasing = TRUE, na.last = TRUE)] render_section(journals, “Journals”) }</p>
-<p>if (length(confs) &gt; 0) { confs &lt;- confs[order(yrs[types %in% c(“inproceedings”, “proceedings”, “conference”)], decreasing = TRUE, na.last = TRUE)] render_section(confs, “Conferences”) }</p>
+<p>confs &lt;- bib[types %in% c(“inproceedings”, “proceedings”, “conference”)] if (length(confs) &gt; 0) { confs &lt;- confs[order(yrs[types %in% c(“inproceedings”, “proceedings”, “conference”)], decreasing = TRUE, na.last = TRUE)] render_section(confs) }</p>
 
 
 
