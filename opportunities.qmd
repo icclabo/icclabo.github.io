@@ -14,16 +14,16 @@ toc: true
 
 ## For Undergraduate Students
 
-The lab regularly involves undergraduate students, particularly those majoring in Psychology or Behavioral Neuroscience, though students from other fields may also participate.
+The lab regularly involves undergraduate students, particularly those majoring in Computer Science, Electrical and Computer Engineering, though students from other fields may also participate.
 
-Undergraduates can join the lab as **research assistants**, where they gain hands-on experience with research methods and help with data collection and analysis. Many students register for PSYC 480 to receive academic credit for their work.
+Undergraduates can join the lab as **research assistants**, where they gain hands-on experience with research methods and help with data collection and analysis. Many students register for  Independent Study and UROP to receive academic credit for their work.
 
-Research assistants are expected to attend weekly meetings and actively contribute to lab projects. Strong performance may lead to a **letter of recommendation** (with at least one month’s notice). In some cases, advanced students may also:
+Research assistants are expected to attend weekly meetings and actively contribute to lab projects. Strong performance may lead to a **letter of recommendation** (with at least one week's notice). In some cases, advanced students may also:
 
 - *Contribute to conference presentations*
 - *Earn co-authorship on research papers*
 
-Students in the honors program may complete a **senior thesis** under Dr. Girard’s mentorship. These students often:
+Senior students may complete a **Capstone/FYP** project under Dr. Nguyen's mentorship. These students often:
 
 - *Apply for undergraduate research funding*
 - *Present their findings at the Undergraduate Research Symposium*
@@ -34,12 +34,7 @@ Students in the honors program may complete a **senior thesis** under Dr. Girard
 ```
 
 ## For Prospective Graduate Students
-The [KU Psychology Department](https://psychology.ku.edu/psychology-graduate-program) grants doctoral degrees (i.e., **PhD**s) in three concentrations: Brain, Behavior, and Quantitative Science (BBQ); Clinical Psychological Science (CPS); and Social Psychology; note that the department does not offer a terminal Masters degree and that the CPS concentration is focused on adult psychopathology rather than child psychopathology.
-
-Dr. Girard advises graduate students in the **BBQ** and **CPS** concentration and is a particularly good match for students with interests that span both areas (e.g., CPS students interested in advanced methods or BBQ students interested in medical applications).
-
-Graduate students will complete coursework in the department and conduct research in the lab. They will receive a world-class education in the scientific method and have many opportunities to contribute to ongoing research projects. More information about each admissions cycle can be found on the [News](news.qmd) page.
-
+I am always happy to hear from motivated applicants interested in joining the PhD or MS programs, with or without prior funding. Students who are passionate about research and eager to develop their skills are especially encouraged to reach out. I am open to discussing potential funding options as well as opportunities for externally funded students.
 ```{=html}
 <a href="mailto:dinh.nguyen@tcd.ie" class="btn btn-primary rounded-pill">Apply to be a Graduate Student</a>
 ```
