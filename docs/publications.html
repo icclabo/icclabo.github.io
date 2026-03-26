@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -80,40 +100,11 @@ gtag('js', new Date());
 gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -166,12 +157,12 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -182,50 +173,619 @@ window.Quarto = {
     <li class="breadcrumb-item active" aria-current="page">Publications</li>
   </ol>
 </nav>
-<p><strong>IEEE Copyright Notice</strong>: Personal use of this material is permitted. For any other use, including reprinting, republishing, redistribution, or incorporation into other works, prior permission must be obtained from IEEE.</p>
+<p><strong>IEEE Copyright Notice</strong>: Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.</p>
 <p>The most up-to-date publication can be found on my <a href="https://scholar.google.com/citations?hl=en&amp;user=wgsX_zIAAAAJ" class="text-primary text-decoration-none fw-bolder">Google Scholar</a> profile.</p>
-<p><strong>Journals</strong></p>
-<p>library(RefManageR)</p>
-<p><code>%||%</code> &lt;- function(a, b) if (is.null(a) || length(a) == 0) b else a</p>
-<p>has_text &lt;- function(x) { !is.null(x) &amp;&amp; length(x) &gt; 0 &amp;&amp; !is.na(x[1]) &amp;&amp; nzchar(trimws(as.character(x)[1])) }</p>
-<p>clean_text &lt;- function(x) { if (!has_text(x)) return(NA_character_) y &lt;- as.character(x)[1] y &lt;- gsub(“[{}]”, ““, y) trimws(y) }</p>
-<p>make_link &lt;- function(label, href) { if (!has_text(href)) return(NULL) paste0(‘<a href="', href, '" target="_blank" rel="noopener">[’, label, ’]</a>’) }</p>
-<p>doi_url &lt;- function(entry) { doi &lt;- clean_text(entry<span class="math inline">\(doi)
-  url &lt;- clean_text(entry\)</span>url) if (!is.na(doi)) return(paste0(“https://doi.org/”, doi)) if (!is.na(url)) return(url) NA_character_ }</p>
-<p>code_url &lt;- function(entry) { code &lt;- clean_text(entry<span class="math inline">\(code %||% entry\)</span>Code %||% entry$materials) if (!is.na(code)) return(code) NA_character_ }</p>
-<p>pdf_url &lt;- function(entry) { pdf &lt;- clean_text(entry$pdf) if (!is.na(pdf)) return(pdf) NA_character_ }</p>
-<p>preprint_url &lt;- function(entry) { pre &lt;- clean_text(entry$preprint) if (!is.na(pre)) return(pre) NA_character_ }</p>
-<p>entry_year &lt;- function(entry) { y &lt;- clean_text(entry$year) if (!is.na(y)) return(y)</p>
-<p>d &lt;- clean_text(entry$date) if (!is.na(d)) { m &lt;- regmatches(d, regexpr(“[0-9]{4}”, d)) if (length(m) &gt; 0 &amp;&amp; nzchar(m)) return(m) }</p>
-<p>“” }</p>
-<p>format_entry_text &lt;- function(entry) { txt &lt;- format(entry, style = “text”) txt &lt;- paste(txt, collapse = ” “) txt &lt;- gsub(”\s+“,” “, txt) trimws(txt) }</p>
-render_section &lt;- function(entries) { cat(“
-<ol>
-<p>“) for (entry in entries) { txt &lt;- format_entry_text(entry)</p>
-<pre><code>links &lt;- c(
-  make_link("DOI", doi_url(entry)),
-  make_link("PDF", pdf_url(entry)),
-  make_link("Preprint", preprint_url(entry)),
-  make_link("Python Code", code_url(entry))
-)
-links &lt;- links[!vapply(links, is.null, logical(1))]
+<div class="cell">
+<style type="text/css">
+/* Group header */
+.year-group { margin: 28px 0 8px; }
+.year-title { margin: 0; font-size: 1.35rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 2px; }
 
-cat("&lt;li&gt;", txt)
-if (length(links) &gt; 0) {
-  cat(" ", paste(links, collapse = " "))
+/* Card + layout */
+.pub-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px 16px 10px 16px;
+  margin: 14px 0;
+  background: #fff;
 }
-cat("&lt;/li&gt;\n")</code></pre>
-} cat(“
-</ol>
-<p>“) }</p>
-<p>bib &lt;- ReadBib(“publications.bib”, check = FALSE) types &lt;- tolower(as.character(bib$bibtype)) yrs &lt;- suppressWarnings(as.numeric(vapply(bib, entry_year, character(1))))</p>
-<p>journals &lt;- bib[types %in% c(“article”)] if (length(journals) &gt; 0) { journals &lt;- journals[order(yrs[types %in% c(“article”)], decreasing = TRUE, na.last = TRUE)] render_section(journals) }</p>
-<p><strong>Conferences</strong></p>
-<p>confs &lt;- bib[types %in% c(“inproceedings”, “proceedings”, “conference”)] if (length(confs) &gt; 0) { confs &lt;- confs[order(yrs[types %in% c(“inproceedings”, “proceedings”, “conference”)], decreasing = TRUE, na.last = TRUE)] render_section(confs) }</p>
+.pub-title { font-weight: 600; font-size: 1.05rem; margin-bottom: 4px; }
+.pub-title a { text-decoration: none; }
+.pub-meta  { color: #555; font-size: 0.95rem; margin-bottom: 8px; }
+
+/* Actions row */
+.pub-actions {
+  display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center;
+  margin-top: 8px; margin-bottom: 8px;
+}
+.pub-actions a {
+  text-decoration: none; font-size: 0.92rem;
+  border-bottom: 1px dotted #999; color: #0b66c3; cursor: pointer;
+}
+.pub-actions a.external { border-bottom-style: solid; }
+
+/* Toggle area */
+.toggle-area {
+  display: none; position: relative;
+  border: 1px solid #000; border-radius: 10px;
+  padding: 12px 44px 12px 12px; background: #fafafa;
+  margin-top: 10px; overflow: auto;
+}
+.toggle-area .panel-label {
+  font-size: 0.82rem; color: #333; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.03em;
+  opacity: 0.85; margin-bottom: 6px;
+}
+.toggle-area pre { white-space: pre-wrap; word-wrap: break-word; margin: 0; }
+.toggle-area .content p { margin: 0 0 0.6em 0; }
+
+/* Copy button */
+.copy-btn {
+  position: absolute; top: 6px; right: 6px;
+  border: 1px solid #ddd; background: #fff; font-size: 0.85rem;
+  padding: 4px 8px; border-radius: 6px; cursor: pointer;
+}
+.copy-btn:active { transform: translateY(1px); }
+.copy-toast {
+  position: absolute; top: 6px; right: 70px; font-size: 0.8rem;
+  background: #333; color: #fff; padding: 3px 7px; border-radius: 6px; display: none;
+}
+
+/* Lab-led star on Abstract link */
+.pub-actions .lab-star {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #ffb300;
+  user-select: none;
+}
+.pub-actions .lab-star[role="img"] {
+  cursor: default;
+}
+.pub-actions .lab-star .sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+</style>
+</div>
+<script>
+(function() {
+  function getCard(el) {
+    while (el && !el.classList?.contains('pub-card')) el = el.parentNode;
+    return el;
+  }
+  function showPanel(card, label, html, mode) {
+    const area = card.querySelector('.toggle-area');
+    const labelEl = area.querySelector('.panel-label');
+    const contentEl = area.querySelector('.content');
+
+    // Toggle: if clicking same action while open, collapse
+    const current = area.getAttribute('data-current');
+    if (current === mode && area.style.display === 'block') {
+      area.style.display = 'none';
+      area.setAttribute('data-current', '');
+      return;
+    }
+
+    labelEl.textContent = label;
+    if (mode === 'bib') {
+      contentEl.innerHTML = '';
+      const pre = document.createElement('pre');
+      pre.textContent = html;
+      contentEl.appendChild(pre);
+    } else if (mode === 'abstract') {
+      contentEl.textContent = html;
+    } else {
+      contentEl.innerHTML = html; // citation HTML
+    }
+    area.style.display = 'block';
+    area.setAttribute('data-current', mode);
+  }
+
+  // Resource link handler (toggle)
+  document.addEventListener('click', function(evt) {
+    const a = evt.target.closest('a[data-action]');
+    if (!a) return;
+    const action = a.getAttribute('data-action');
+    const card   = getCard(a);
+    if (!card) return;
+    evt.preventDefault();
+
+    if (action === 'abstract' || action === 'citation' || action === 'bib') {
+      const key = card.getAttribute('data-key');  // <-- Pandoc ref id suffix
+
+      // Build label + payload
+      let label = action === 'citation' ? 'Citation' : (action === 'bib' ? 'BibTeX' : 'Abstract');
+      let html  = '';
+
+      if (action === 'abstract') {
+        const payloadEl = card.querySelector('.payload-abstract');
+        const text = (payloadEl?.textContent || 'No abstract available.').trim();
+        showPanel(card, label, text, 'abstract');
+        return;
+      }
+
+      if (action === 'citation') {
+        // Pull APA-formatted HTML from hidden #refs list: <div id="ref-KEY">
+        const ref = document.querySelector('#ref-' + key);
+        html = (ref ? ref.innerHTML : 'Citation unavailable.').trim();
+        showPanel(card, label, html, 'citation');
+        return;
+      }
+
+      if (action === 'bib') {
+        const payloadEl = card.querySelector('.payload-bibtex');
+        const text = (payloadEl?.textContent || 'No BibTeX available.').trim();
+        showPanel(card, label, text, 'bib');
+        return;
+      }
+    }
+  }, false);
+
+  // Copy button
+  document.addEventListener('click', function(evt) {
+    const btn = evt.target.closest('.copy-btn');
+    if (!btn) return;
+    const card = getCard(btn);
+    const area = card.querySelector('.toggle-area');
+    const contentEl = area.querySelector('.content');
+
+    let textToCopy = '';
+    const pre = contentEl.querySelector('pre');
+    if (pre) textToCopy = pre.textContent;
+    else textToCopy = contentEl.innerText;
+
+    navigator.clipboard.writeText(textToCopy).then(() => {
+      const toast = area.querySelector('.copy-toast');
+      toast.style.display = 'inline-block';
+      setTimeout(() => { toast.style.display = 'none'; }, 1200);
+    }).catch(() => {
+      const ta = document.createElement('textarea');
+      ta.value = textToCopy;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+    });
+  }, false);
+})();
+</script>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div class="year-group">
+<h2 class="year-title anchored" id="y-2026">2026</h2>
+<div>
+<div class="pub-card" data-key="11450062">
+<div class="pub-title">
+<a href="https://doi.org/10.1109/ACCESS.2026.3676131" target="_blank" rel="noopener">A Parasitic-Tolerated Design of Compact Inverse Class-F GaN HEMT Power Amplifier With Integrated Matching Network</a>
+</div>
+<div class="pub-meta">
+Nguyen, Vuong, Do &amp; Nguyen
+<br>
+<em>IEEE Access</em>
+</div>
+<div class="pub-actions">
+<a href="#" data-action="abstract" role="button">Abstract</a>
+<a href="#" data-action="citation" role="button">Citation</a>
+<a href="#" data-action="bib" role="button">BibTeX</a>
+</div>
+<div class="toggle-area" data-current="">
+<button class="copy-btn">Copy</button>
+<span class="copy-toast">Copied!</span>
+<div class="panel-label">—</div>
+<div class="content"></div>
+</div>
+<div style="display:none;">
+<div class="payload-abstract">A novel load structure is proposed for designing an inverse class-F (class F−1) power amplifier (PA) with compact size and high power added efficiency (PAE). The proposed load network is implemented entirely with six transmission lines (TLs) and integrates all of main functions: class F−1 harmonic control, biasing, and fundamental output matching in one which typically operate in separate networks in the conventional topologies. The TL parameters of constituent elements are extracted based on derived analytical equations aided by load-pull measurements which tolerate the parasitic effects of a packaged transistor, and then neither extra parasitic compensator nor time-inefficient tuning mechanism is required while both optimal harmonic and fundamental conditions are met. As a result, compact and low insertion loss class F−1 PAis realized.With this design methodology, the implemented PAcan exhibits a state-of-the-art performance at 920 MHz with a measured peak PAE of 85.6%, corresponding to gain of 14.7 dB, and output power of 39.7 dBm, and a miniature size of 0.21λ×0.20λ.</div>
+<div class="payload-bibtex">@article{11450062,
+  author = {Dang-An Nguyen and Dat Vuong and Danh Cuong Do and Van-Dinh Nguyen},
+  journal = {IEEE Access},
+  title = {A Parasitic-Tolerated Design of Compact Inverse Class-F GaN HEMT Power Amplifier With Integrated Matching Network},
+  year = {2026},
+  pages = {1-1},
+  doi = {10.1109/ACCESS.2026.3676131}
+}</div>
+</div>
+</div>
+</div>
+</div>
+<div class="year-group">
+<h2 class="year-title anchored" id="y-2017">2017</h2>
+<div>
+<div class="pub-card" data-key="7866857">
+<div class="pub-title">
+<a href="https://doi.org/10.1109/ACCESS.2017.2668384" target="_blank" rel="noopener">Spectral Efficiency of Full-Duplex Multi-user System: Beamforming Design, User Grouping, and Time Allocation</a>
+</div>
+<div class="pub-meta">
+Nguyen, Nguyen, Nguyen &amp; Shin
+<br>
+<em>IEEE Access</em>
+</div>
+<div class="pub-actions">
+<a href="#" data-action="abstract" role="button">Abstract</a>
+<a href="#" data-action="citation" role="button">Citation</a>
+<a href="#" data-action="bib" role="button">BibTeX</a>
+</div>
+<div class="toggle-area" data-current="">
+<button class="copy-btn">Copy</button>
+<span class="copy-toast">Copied!</span>
+<div class="panel-label">—</div>
+<div class="content"></div>
+</div>
+<div style="display:none;">
+<div class="payload-abstract">Full-duplex (FD) systems have emerged as an essential enabling technology to further increase the data rate of wireless communication systems. The key idea of FD is to serve multiple users over the same bandwidth with a base station (BS) that can simultaneously transmit and receive the signals. The most challenging issue in designing an FD system is to address both the harmful effects of residual self-interference caused by the transmit-to-receive antennas at the BS as well as the co-channel interference from an uplink user (ULU) to a downlink user (DLU). An efficient solution to these problems is to assign the ULUs/DLUs in different groups/slots, with each user served in multiple groups. Hence, this paper studies the joint design of transmit beamformers, ULUs/DLUs group assignment, and time allocation for each group. The specific aim is to maximize the sum rate under the ULU/DLU minimum throughput constraints. The utility function of interest is a difficult nonconcave problem, and the involved constraints are also nonconvex, and so this is a computationally troublesome problem. To solve this optimization problem, we propose a new path-following algorithm for computational solutions to arrive at least the local optima. Each iteration involves only a simple convex quadratic program. We prove that the proposed algorithm iteratively improves the objective while guaranteeing convergence. Simulation results confirm the fast convergence of the proposed algorithm with substantial performance improvements over existing approaches.</div>
+<div class="payload-bibtex">@article{7866857,
+  author = {Van-Dinh Nguyen and Hieu V. Nguyen and Chuyen T. Nguyen and Oh-Soon Shin},
+  journal = {IEEE Access},
+  title = {Spectral Efficiency of Full-Duplex Multi-user System: Beamforming Design, User Grouping, and Time Allocation},
+  year = {2017},
+  volume = {5},
+  pages = {5785-5797},
+  doi = {10.1109/ACCESS.2017.2668384}
+}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-10279545" class="csl-entry" role="listitem">
+Abreha, H. G., Chougrani, H., Maity, I., Nguyen, V.-D., Chatzinotas, S., &amp; Politis, C. (2023). Fairness-aware dynamic VNF mapping and scheduling in SDN/NFV-enabled satellite edge networks. <em>ICC 2023 - IEEE International Conference on Communications</em>, 4892–4898. <a href="https://doi.org/10.1109/ICC45041.2023.10279545">https://doi.org/10.1109/ICC45041.2023.10279545</a>
+</div>
+<div id="ref-8669061" class="csl-entry" role="listitem">
+Bui, V.-P., Nguyen, P. X., Nguyen, H. V., Nguyen, V.-D., &amp; Shin, O.-S. (2019). Optimal user pairing for achieving rate fairness in downlink NOMA networks. <em>2019 International Conference on Artificial Intelligence in Information and Communication (ICAIIC)</em>, 575–578. <a href="https://doi.org/10.1109/ICAIIC.2019.8669061">https://doi.org/10.1109/ICAIIC.2019.8669061</a>
+</div>
+<div id="ref-8936852" class="csl-entry" role="listitem">
+Bui, V.-P., Nguyen, V.-D., Nguyen, H. V., Dobre, O. A., &amp; Shin, O.-S. (2020). Optimization of rate fairness in multi-pair wireless-powered relaying systems. <em>IEEE Communications Letters</em>, <em>24</em>(3), 603–607. <a href="https://doi.org/10.1109/LCOMM.2019.2960350">https://doi.org/10.1109/LCOMM.2019.2960350</a>
+</div>
+<div id="ref-8565946" class="csl-entry" role="listitem">
+Do, T.-N., Nguyen, V.-D., Shin, O.-S., &amp; An, B. (2019). Simultaneous uplink and downlink transmissions for wireless powered communication networks. <em>IEEE Communications Letters</em>, <em>23</em>(2), 374–377. <a href="https://doi.org/10.1109/LCOMM.2018.2885303">https://doi.org/10.1109/LCOMM.2018.2885303</a>
+</div>
+<div id="ref-10634628" class="csl-entry" role="listitem">
+Gian, T. D., Nguyen, T.-H., Nguyen, N. T., &amp; Nguyen, V.-D. (2024). WiLHPE: WiFi-enabled lightweight channel frequency dynamic convolution for HPE tasks. <em>2024 Tenth International Conference on Communications and Electronics (ICCE)</em>, 516–521. <a href="https://doi.org/10.1109/ICCE62051.2024.10634628">https://doi.org/10.1109/ICCE62051.2024.10634628</a>
+</div>
+<div id="ref-11242148" class="csl-entry" role="listitem">
+Gian, T. D., Tran, D. T., Pham, Q.-V., Tran, L.-N., &amp; Nguyen, V.-D. (2025). Multi-modal human pose estimation: A wi-fi-driven approach with adaptive kernel selection. <em>IEEE Transactions on Artificial Intelligence</em>, 1–14. <a href="https://doi.org/10.1109/TAI.2025.3631005">https://doi.org/10.1109/TAI.2025.3631005</a>
+</div>
+<div id="ref-10706833" class="csl-entry" role="listitem">
+Hieu, N. Q., Hoang, D. T., Nguyen, D. N., Nguyen, V.-D., Xiao, Y., &amp; Dutkiewicz, E. (2024). Enhancing immersion and presence in the metaverse with over-the-air brain-computer interface. <em>IEEE Transactions on Wireless Communications</em>, <em>23</em>(12), 18532–18548. <a href="https://doi.org/10.1109/TWC.2024.3470108">https://doi.org/10.1109/TWC.2024.3470108</a>
+</div>
+<div id="ref-11268562" class="csl-entry" role="listitem">
+Hoang, L.-H., Pham, M.-H., Luu, Q.-T., &amp; Nguyen, V.-D. (2025). Secure multiuser communications with stacked intelligent metasurfaces using quantum reinforcement learning. <em>2025 International Conference on Advanced Technologies for Communications (ATC)</em>, 1–6. <a href="https://doi.org/10.1109/ATC67618.2025.11268562">https://doi.org/10.1109/ATC67618.2025.11268562</a>
+</div>
+<div id="ref-10855560" class="csl-entry" role="listitem">
+Hoang Nguyen, X., Nguyen, V.-D., Luu, Q.-T., Dinh Gian, T., &amp; Shin, O.-S. (2025). Robust WiFi sensing-based human pose estimation using denoising autoencoder and CNN with dynamic subcarrier attention. <em>IEEE Internet of Things Journal</em>, <em>12</em>(11), 17066–17079. <a href="https://doi.org/10.1109/JIOT.2025.3535156">https://doi.org/10.1109/JIOT.2025.3535156</a>
+</div>
+<div id="ref-10060392" class="csl-entry" role="listitem">
+Hossen, M. A., Vu, T. X., Nguyen, V.-D., Chatzinotas, S., &amp; Ottersten, B. (2023). Joint resource allocation and link adaptation for ultra-reliable and low-latency services. <em>2023 IEEE 20th Consumer Communications &amp; Networking Conference (CCNC)</em>, 757–762. <a href="https://doi.org/10.1109/CCNC51644.2023.10060392">https://doi.org/10.1109/CCNC51644.2023.10060392</a>
+</div>
+<div id="ref-9814611" class="csl-entry" role="listitem">
+Kavehmadavani, F., Nguyen, V.-D., Vu, T. X., &amp; Chatzinotas, S. (2022). Traffic steering for eMBB and uRLLC coexistence in open radio access networks. <em>2022 IEEE International Conference on Communications Workshops (ICC Workshops)</em>, 242–247. <a href="https://doi.org/10.1109/ICCWorkshops53468.2022.9814611">https://doi.org/10.1109/ICCWorkshops53468.2022.9814611</a>
+</div>
+<div id="ref-10071958" class="csl-entry" role="listitem">
+Kavehmadavani, F., Nguyen, V.-D., Vu, T. X., &amp; Chatzinotas, S. (2023). Intelligent traffic steering in beyond 5G open RAN based on LSTM traffic prediction. <em>IEEE Transactions on Wireless Communications</em>, <em>22</em>(11), 7727–7742. <a href="https://doi.org/10.1109/TWC.2023.3254903">https://doi.org/10.1109/TWC.2023.3254903</a>
+</div>
+<div id="ref-10528242" class="csl-entry" role="listitem">
+Kavehmadavani, F., Nguyen, V.-D., Vu, T. X., &amp; Chatzinotas, S. (2024). Empowering traffic steering in 6G open RAN with deep reinforcement learning. <em>IEEE Transactions on Wireless Communications</em>, <em>23</em>(10), 12782–12798. <a href="https://doi.org/10.1109/TWC.2024.3396273">https://doi.org/10.1109/TWC.2024.3396273</a>
+</div>
+<div id="ref-11095741" class="csl-entry" role="listitem">
+Kavehmadavani, F., Vu, T. X., Nguyen, V.-D., &amp; Chatzinotas, S. (2025). Intelligent user association and scheduling in open RAN: A hierarchical optimization framework. <em>IEEE Transactions on Communications</em>, <em>73</em>(11), 11574–11589. <a href="https://doi.org/10.1109/TCOMM.2025.3592584">https://doi.org/10.1109/TCOMM.2025.3592584</a>
+</div>
+<div id="ref-8539347" class="csl-entry" role="listitem">
+Kim, H. M., Nguyen, V.-D., Kang, G., &amp; Shin, O.-S. (2018). Achieving rate fairness in multipair full-duplex relaying systems. <em>2018 International Conference on Information and Communication Technology Convergence (ICTC)</em>, 1185–1185. <a href="https://doi.org/10.1109/ICTC.2018.8539347">https://doi.org/10.1109/ICTC.2018.8539347</a>
+</div>
+<div id="ref-9580734" class="csl-entry" role="listitem">
+Le, Q. N., Nguyen, V.-D., Dobre, O. A., Nguyen, N.-P., Zhao, R., &amp; Chatzinotas, S. (2021). Learning-assisted user clustering in cell-free massive MIMO-NOMA networks. <em>IEEE Transactions on Vehicular Technology</em>, <em>70</em>(12), 12872–12887. <a href="https://doi.org/10.1109/TVT.2021.3121217">https://doi.org/10.1109/TVT.2021.3121217</a>
+</div>
+<div id="ref-9363171" class="csl-entry" role="listitem">
+Le, Q. N., Nguyen, V.-D., Dobre, O. A., &amp; Zhao, R. (2021). Energy efficiency maximization in RIS-aided cell-free network with limited backhaul. <em>IEEE Communications Letters</em>, <em>25</em>(6), 1974–1978. <a href="https://doi.org/10.1109/LCOMM.2021.3062275">https://doi.org/10.1109/LCOMM.2021.3062275</a>
+</div>
+<div id="ref-10225312" class="csl-entry" role="listitem">
+Luong, N. C., Chau, L. K., Anh, N. D. D., Sang, N. H., Feng, S., Nguyen, V.-D., Niyato, D., &amp; In Kim, D. (2024). Optimal auction for effective energy management in UAV-assisted vehicular metaverse synchronization systems. <em>IEEE Transactions on Vehicular Technology</em>, <em>73</em>(1), 1207–1222. <a href="https://doi.org/10.1109/TVT.2023.3302411">https://doi.org/10.1109/TVT.2023.3302411</a>
+</div>
+<div id="ref-10059864" class="csl-entry" role="listitem">
+Luong, N. C., Chau, L. K., Duy Anh, N. D., Sang, N. H., Feng, S., Nguyen, V.-D., Niyato, D., &amp; Kim, D. I. (2023). Optimal auction for effective energy management for UAV-assisted metaverse synchronization system. <em>2023 IEEE 20th Consumer Communications &amp; Networking Conference (CCNC)</em>, 392–397. <a href="https://doi.org/10.1109/CCNC51644.2023.10059864">https://doi.org/10.1109/CCNC51644.2023.10059864</a>
+</div>
+<div id="ref-10322742" class="csl-entry" role="listitem">
+Luong, N. C., Huynh-The, T., Nguyen, V.-D., Ng, D. W. K., Chatzinotas, S., Niyato, D., &amp; Pham, Q.-V. (2024). Incentive mechanism and semantic communication for edge computing-assisted metaverse. <em>IEEE Network</em>, <em>38</em>(3), 277–284. <a href="https://doi.org/10.1109/MNET.2023.3334285">https://doi.org/10.1109/MNET.2023.3334285</a>
+</div>
+<div id="ref-11347585" class="csl-entry" role="listitem">
+Luu, Q.-T., Tran, D.-M., Nguyen, M.-T., Kieffer, M., Hoang, D. T., Nguyen, T.-H., Nguyen, H.-T., &amp; Nguyen, V.-D. (2026). Network slice embedding with flexible configurations in 5G networks and beyond. <em>IEEE Networking Letters</em>, 1–1. <a href="https://doi.org/10.1109/LNET.2026.3653831">https://doi.org/10.1109/LNET.2026.3653831</a>
+</div>
+<div id="ref-10858310" class="csl-entry" role="listitem">
+Minh Tuan, B., Nguyen, D. N., Linh Trung, N., Nguyen, V.-D., Van Huynh, N., Thai Hoang, D., Krunz, M., &amp; Dutkiewicz, E. (2025). Securing MIMO wiretap channel with learning-based friendly jamming under imperfect CSI. <em>IEEE Internet of Things Journal</em>, <em>12</em>(11), 16009–16022. <a href="https://doi.org/10.1109/JIOT.2025.3536702">https://doi.org/10.1109/JIOT.2025.3536702</a>
+</div>
+<div id="ref-9994683" class="csl-entry" role="listitem">
+Mostaani, A., Vu, T. X., Sharma, S. K., Nguyen, V.-D., Liao, Q., &amp; Chatzinotas, S. (2022). Task-oriented communication design in cyber-physical systems: A survey on theory and applications. <em>IEEE Access</em>, <em>10</em>, 133842–133868. <a href="https://doi.org/10.1109/ACCESS.2022.3231039">https://doi.org/10.1109/ACCESS.2022.3231039</a>
+</div>
+<div id="ref-10841387" class="csl-entry" role="listitem">
+Ngo, N. M., Nguyen, T. T., Nguyen, P. H., &amp; Nguyen, V.-D. (2025). Energy-aware resource allocation for energy harvesting powered wireless sensor nodes. <em>IEEE Communications Letters</em>, <em>29</em>(3), 542–546. <a href="https://doi.org/10.1109/LCOMM.2025.3529729">https://doi.org/10.1109/LCOMM.2025.3529729</a>
+</div>
+<div id="ref-8599016" class="csl-entry" role="listitem">
+Nguyen, C. T., Nguyen, V.-D., &amp; Pham, A. T. (2019). Tag cardinality estimation using expectation-maximization in ALOHA-based RFID systems with capture effect and detection error. <em>IEEE Wireless Communications Letters</em>, <em>8</em>(2), 636–639. <a href="https://doi.org/10.1109/LWC.2018.2890650">https://doi.org/10.1109/LWC.2018.2890650</a>
+</div>
+<div id="ref-10438353" class="csl-entry" role="listitem">
+Nguyen, C.-H., Saputra, Y. M., Hoang, D. T., Nguyen, D. N., Nguyen, V.-D., Xiao, Y., &amp; Dutkiewicz, E. (2024). Encrypted data caching and learning framework for robust federated learning-based mobile edge computing. <em>IEEE/ACM Transactions on Networking</em>, <em>32</em>(3), 2705–2720. <a href="https://doi.org/10.1109/TNET.2024.3365815">https://doi.org/10.1109/TNET.2024.3365815</a>
+</div>
+<div id="ref-9839636" class="csl-entry" role="listitem">
+Nguyen, D. C., Nguyen, V.-D., Ding, M., Chatzinotas, S., Pathirana, P. N., Seneviratne, A., Dobre, O., &amp; Zomaya, A. Y. (2022). Intelligent blockchain-based edge computing via deep reinforcement learning: Solutions and challenges. <em>IEEE Network</em>, <em>36</em>(6), 12–19. <a href="https://doi.org/10.1109/MNET.002.2100188">https://doi.org/10.1109/MNET.002.2100188</a>
+</div>
+<div id="ref-11450062" class="csl-entry" role="listitem">
+Nguyen, D.-A., Vuong, D., Do, D. C., &amp; Nguyen, V.-D. (2026). A parasitic-tolerated design of compact inverse class-f GaN HEMT power amplifier with integrated matching network. <em>IEEE Access</em>, 1–1. <a href="https://doi.org/10.1109/ACCESS.2026.3676131">https://doi.org/10.1109/ACCESS.2026.3676131</a>
+</div>
+<div id="ref-11338813" class="csl-entry" role="listitem">
+Nguyen, D.-A., Vuong, D., &amp; Nguyen, V.-D. (2026). Design of high-efficiency octave-bandwidth single-diode rectifier using synthesized elliptic low-pass matching network. <em>IEEE Microwave and Wireless Technology Letters</em>, 1–4. <a href="https://doi.org/10.1109/LMWT.2025.3650115">https://doi.org/10.1109/LMWT.2025.3650115</a>
+</div>
+<div id="ref-11168825" class="csl-entry" role="listitem">
+Nguyen, H. T., Nguyen, V.-D., Nguyen, N. T., Luong, N. C., Bao, V.-N. Q., Ngo, H. Q., Niyato, D., &amp; Chatzinotas, S. (2026). Energy efficiency for massive MIMO integrated sensing and communication systems. <em>IEEE Journal on Selected Areas in Communications</em>, <em>44</em>, 165–180. <a href="https://doi.org/10.1109/JSAC.2025.3610821">https://doi.org/10.1109/JSAC.2025.3610821</a>
+</div>
+<div id="ref-9013457" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., Dobre, O. A., Nguyen, D. N., Dutkiewicz, E., &amp; Shin, O.-S. (2019a). A novel spectral-efficient resource allocation approach for NOMA-based full-duplex systems. <em>2019 IEEE Global Communications Conference (GLOBECOM)</em>, 1–6. <a href="https://doi.org/10.1109/GLOBECOM38437.2019.9013457">https://doi.org/10.1109/GLOBECOM38437.2019.9013457</a>
+</div>
+<div id="ref-8788625" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., Dobre, O. A., Nguyen, D. N., Dutkiewicz, E., &amp; Shin, O.-S. (2019b). Joint power control and user association for NOMA-based full-duplex systems. <em>IEEE Transactions on Communications</em>, <em>67</em>(11), 8037–8055. <a href="https://doi.org/10.1109/TCOMM.2019.2933217">https://doi.org/10.1109/TCOMM.2019.2933217</a>
+</div>
+<div id="ref-9149439" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., Dobre, O. A., Sharma, S. K., Chatzinotas, S., Ottersten, B., &amp; Shin, O.-S. (2020a). A novel heap-based pilot assignment for full duplex cell-free massive MIMO with zero-forcing. <em>ICC 2020 - 2020 IEEE International Conference on Communications (ICC)</em>, 1–6. <a href="https://doi.org/10.1109/ICC40277.2020.9149439">https://doi.org/10.1109/ICC40277.2020.9149439</a>
+</div>
+<div id="ref-9110914" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., Dobre, O. A., Sharma, S. K., Chatzinotas, S., Ottersten, B., &amp; Shin, O.-S. (2020b). On the spectral and energy efficiencies of full-duplex cell-free massive MIMO. <em>IEEE Journal on Selected Areas in Communications</em>, <em>38</em>(8), 1698–1718. <a href="https://doi.org/10.1109/JSAC.2020.3000810">https://doi.org/10.1109/JSAC.2020.3000810</a>
+</div>
+<div id="ref-8254806" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., Dobre, O. A., &amp; Shin, O.-S. (2017). Sum rate maximization based on sub-array antenna selection in a full-duplex system. <em>GLOBECOM 2017 - 2017 IEEE Global Communications Conference</em>, 1–6. <a href="https://doi.org/10.1109/GLOCOM.2017.8254806">https://doi.org/10.1109/GLOCOM.2017.8254806</a>
+</div>
+<div id="ref-8680764" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., Dobre, O. A., Wu, Y., &amp; Shin, O.-S. (2019). Joint antenna array mode selection and user assignment for full-duplex MU-MISO systems. <em>IEEE Transactions on Wireless Communications</em>, <em>18</em>(6), 2946–2963. <a href="https://doi.org/10.1109/TWC.2019.2907489">https://doi.org/10.1109/TWC.2019.2907489</a>
+</div>
+<div id="ref-8190766" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., &amp; Shin, O.-S. (2017a). Joint NOMA beamforming and user scheduling for sum rate maximization in a full-duplex system. <em>2017 International Conference on Information and Communication Technology Convergence (ICTC)</em>, 731–733. <a href="https://doi.org/10.1109/ICTC.2017.8190766">https://doi.org/10.1109/ICTC.2017.8190766</a>
+</div>
+<div id="ref-7812648" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., &amp; Shin, O.-S. (2017b). Low-complexity precoding for sum rate maximization in downlink massive MIMO systems. <em>IEEE Wireless Communications Letters</em>, <em>6</em>(2), 186–189. <a href="https://doi.org/10.1109/LWC.2017.2651069">https://doi.org/10.1109/LWC.2017.2651069</a>
+</div>
+<div id="ref-8325813" class="csl-entry" role="listitem">
+Nguyen, H. V., Nguyen, V.-D., &amp; Shinï, O.-S. (2018). Uplink training for pilot decontamination in a multiceli massive MIMO system. <em>2018 2nd International Conference on Recent Advances in Signal Processing, Telecommunications &amp; Computing (SigTelCom)</em>, 97–101. <a href="https://doi.org/10.1109/SIGTELCOM.2018.8325813">https://doi.org/10.1109/SIGTELCOM.2018.8325813</a>
+</div>
+<div id="ref-11396962" class="csl-entry" role="listitem">
+Nguyen, M.-T., Luu, Q.-T., Son, V. P., Tran, L.-N., &amp; Nguyen, V.-D. (2026). Deadline-aware task offloading with concurrency in serverless edge computing. <em>IEEE Internet of Things Journal</em>, 1–1. <a href="https://doi.org/10.1109/JIOT.2026.3665108">https://doi.org/10.1109/JIOT.2026.3665108</a>
+</div>
+<div id="ref-10592058" class="csl-entry" role="listitem">
+Nguyen, N. H., Nguyen, V.-D., Nguyen, A. T., Thieu, N. V., Nguyen, H. N., &amp; Chatzinotas, S. (2024). Deadline-aware joint task scheduling and offloading in mobile-edge computing systems. <em>IEEE Internet of Things Journal</em>, <em>11</em>(20), 33282–33295. <a href="https://doi.org/10.1109/JIOT.2024.3425854">https://doi.org/10.1109/JIOT.2024.3425854</a>
+</div>
+<div id="ref-11431892" class="csl-entry" role="listitem">
+Nguyen, N. H., Van Thieu, N., Luu, Q.-T., Son, V.-P., &amp; Nguyen, V.-D. (2025). A metaheuristic approach for mission assignment and task offloading in open RAN-enabled intelligent transport systems. <em>GLOBECOM 2025 - 2025 IEEE Global Communications Conference</em>, 811–816. <a href="https://doi.org/10.1109/GLOBECOM59602.2025.11431892">https://doi.org/10.1109/GLOBECOM59602.2025.11431892</a>
+</div>
+<div id="ref-11137627" class="csl-entry" role="listitem">
+Nguyen, N. H., Van Thieu, N., Pham, M.-H., &amp; Nguyen, V.-D. (2025). Adaptive task scheduling under hard deadlines in edge environments using deep reinforcement learning. <em>2025 International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC)</em>, 1–5. <a href="https://doi.org/10.1109/ITC-CSCC66376.2025.11137627">https://doi.org/10.1109/ITC-CSCC66376.2025.11137627</a>
+</div>
+<div id="ref-9838672" class="csl-entry" role="listitem">
+Nguyen, N. T., Nguyen, V.-D., Nguyen, H. V., Ngo, H. Q., Chatzinotas, S., &amp; Juntti, M. (2022). Downlink throughput of cell-free massive MIMO systems assisted by hybrid relay-reflecting intelligent surfaces. <em>ICC 2022 - IEEE International Conference on Communications</em>, 1475–1480. <a href="https://doi.org/10.1109/ICC45855.2022.9838672">https://doi.org/10.1109/ICC45855.2022.9838672</a>
+</div>
+<div id="ref-9940169" class="csl-entry" role="listitem">
+Nguyen, N. T., Nguyen, V.-D., Nguyen, H. V., Ngo, H. Q., Chatzinotas, S., &amp; Juntti, M. (2023). Spectral efficiency analysis of hybrid relay-reflecting intelligent surface-assisted cell-free massive MIMO systems. <em>IEEE Transactions on Wireless Communications</em>, <em>22</em>(5), 3397–3416. <a href="https://doi.org/10.1109/TWC.2022.3217828">https://doi.org/10.1109/TWC.2022.3217828</a>
+</div>
+<div id="ref-10938928" class="csl-entry" role="listitem">
+Nguyen, N. T., Nguyen, V.-D., Nguyen, H. V., Ngo, H. Q., Swindlehurst, A. L., &amp; Juntti, M. (2025). Performance analysis and power allocation for massive MIMO ISAC systems. <em>IEEE Transactions on Signal Processing</em>, <em>73</em>, 1691–1707. <a href="https://doi.org/10.1109/TSP.2025.3554012">https://doi.org/10.1109/TSP.2025.3554012</a>
+</div>
+<div id="ref-10266977" class="csl-entry" role="listitem">
+Nguyen, N. T., Nguyen, V.-D., Van Nguyen, H., Wu, Q., Tölli, A., Chatzinotas, S., &amp; Juntti, M. (2024). Fairness enhancement of UAV systems with hybrid active-passive RIS. <em>IEEE Transactions on Wireless Communications</em>, <em>23</em>(5), 4379–4396. <a href="https://doi.org/10.1109/TWC.2023.3317934">https://doi.org/10.1109/TWC.2023.3317934</a>
+</div>
+<div id="ref-9833956" class="csl-entry" role="listitem">
+Nguyen, N. T., Nguyen, V.-D., Wu, Q., Tölli, A., Chatzinotas, S., &amp; Juntti, M. (2022a). Hybrid active-passive reconfigurable intelligent surface-assisted multi-user MISO systems. <em>2022 IEEE 23rd International Workshop on Signal Processing Advances in Wireless Communication (SPAWC)</em>, 1–5. <a href="https://doi.org/10.1109/SPAWC51304.2022.9833956">https://doi.org/10.1109/SPAWC51304.2022.9833956</a>
+</div>
+<div id="ref-10001719" class="csl-entry" role="listitem">
+Nguyen, N. T., Nguyen, V.-D., Wu, Q., Tölli, A., Chatzinotas, S., &amp; Juntti, M. (2022b). Hybrid active-passive reconfigurable intelligent surface-assisted UAV communications. <em>GLOBECOM 2022 - 2022 IEEE Global Communications Conference</em>, 3126–3131. <a href="https://doi.org/10.1109/GLOBECOM48099.2022.10001719">https://doi.org/10.1109/GLOBECOM48099.2022.10001719</a>
+</div>
+<div id="ref-10207952" class="csl-entry" role="listitem">
+Nguyen, N. T., Shlezinger, N., Ngo, K.-H., Nguyen, V.-D., &amp; Juntti, M. (2023). Joint communications and sensing design for multi-carrier MIMO systems. <em>2023 IEEE Statistical Signal Processing Workshop (SSP)</em>, 110–114. <a href="https://doi.org/10.1109/SSP53291.2023.10207952">https://doi.org/10.1109/SSP53291.2023.10207952</a>
+</div>
+<div id="ref-7842251" class="csl-entry" role="listitem">
+Nguyen, N.-P., Kundu, C., Nguyen, V.-D., Duong, T. Q., &amp; Fan, L. (2016). Secure full-duplex cognitive relay networks with optimal relay selection scheme. <em>2016 IEEE Global Communications Conference (GLOBECOM)</em>, 1–6. <a href="https://doi.org/10.1109/GLOCOM.2016.7842251">https://doi.org/10.1109/GLOCOM.2016.7842251</a>
+</div>
+<div id="ref-8651678" class="csl-entry" role="listitem">
+Nguyen, P. X., Nguyen, H. V., Nguyen, V.-D., &amp; Shin, O.-S. (2019). UAV-enabled jamming noise for achieving secure communications in cognitive radio networks. <em>2019 16th IEEE Annual Consumer Communications &amp; Networking Conference (CCNC)</em>, 1–6. <a href="https://doi.org/10.1109/CCNC.2019.8651678">https://doi.org/10.1109/CCNC.2019.8651678</a>
+</div>
+<div id="ref-9364745" class="csl-entry" role="listitem">
+Nguyen, P. X., Nguyen, V.-D., Nguyen, H. V., &amp; Shin, O.-S. (2021). UAV-assisted secure communications in terrestrial cognitive radio networks: Joint power control and 3D trajectory optimization. <em>IEEE Transactions on Vehicular Technology</em>, <em>70</em>(4), 3298–3313. <a href="https://doi.org/10.1109/TVT.2021.3062283">https://doi.org/10.1109/TVT.2021.3062283</a>
+</div>
+<div id="ref-8868074" class="csl-entry" role="listitem">
+Nguyen, T.-T., Nguyen, V.-D., Lee, J.-H., &amp; Kim, Y.-H. (2019). Sum rate maximization for multi-user wireless powered IoT network with non-linear energy harvester: Time and power allocation. <em>IEEE Access</em>, <em>7</em>, 149698–149710. <a href="https://doi.org/10.1109/ACCESS.2019.2947321">https://doi.org/10.1109/ACCESS.2019.2947321</a>
+</div>
+<div id="ref-9195847" class="csl-entry" role="listitem">
+Nguyen, T.-T., Nguyen, V.-D., Pham, Q.-V., Lee, J.-H., &amp; Kim, Y.-H. (2021). Resource allocation for AF relaying wireless-powered networks with nonlinear energy harvester. <em>IEEE Communications Letters</em>, <em>25</em>(1), 229–233. <a href="https://doi.org/10.1109/LCOMM.2020.3023937">https://doi.org/10.1109/LCOMM.2020.3023937</a>
+</div>
+<div id="ref-9149891" class="csl-entry" role="listitem">
+Nguyen, T.-T., Pham, Q.-V., Nguyen, V.-D., Lee, J.-H., &amp; Kim, Y.-H. (2020). Resource allocation for energy efficiency in OFDMA-enabled WPCN. <em>IEEE Wireless Communications Letters</em>, <em>9</em>(12), 2049–2053. <a href="https://doi.org/10.1109/LWC.2020.3012206">https://doi.org/10.1109/LWC.2020.3012206</a>
+</div>
+<div id="ref-9839014" class="csl-entry" role="listitem">
+Nguyen, T.-V., Huynh-The, T., Nguyen, V.-D., Da Costa, D. B., Qingyang Hu, R., &amp; An, B. (2022). An efficient deep CNN design for EH short-packet communications in multihop cognitive IoT networks. <em>ICC 2022 - IEEE International Conference on Communications</em>, 2102–2107. <a href="https://doi.org/10.1109/ICC45855.2022.9839014">https://doi.org/10.1109/ICC45855.2022.9839014</a>
+</div>
+<div id="ref-9091839" class="csl-entry" role="listitem">
+Nguyen, T.-V., Nguyen, V.-D., Costa, D. B. da, &amp; An, B. (2020). Hybrid user pairing for spectral and energy efficiencies in multiuser MISO-NOMA networks with SWIPT. <em>IEEE Transactions on Communications</em>, <em>68</em>(8), 4874–4890. <a href="https://doi.org/10.1109/TCOMM.2020.2994204">https://doi.org/10.1109/TCOMM.2020.2994204</a>
+</div>
+<div id="ref-9685765" class="csl-entry" role="listitem">
+Nguyen, T.-V., Nguyen, V.-D., Costa, D. B. da, &amp; An, B. (2021). Short-packet communications in multi-hop WPINs: Performance analysis and deep learning design. <em>2021 IEEE Global Communications Conference (GLOBECOM)</em>, 1–6. <a href="https://doi.org/10.1109/GLOBECOM46510.2021.9685765">https://doi.org/10.1109/GLOBECOM46510.2021.9685765</a>
+</div>
+<div id="ref-9852154" class="csl-entry" role="listitem">
+Nguyen, T.-V., Nguyen, V.-D., Costa, D. B. da, Huynh-The, T., Hu, R. Q., &amp; An, B. (2023). Short-packet communications in multihop networks with WET: Performance analysis and deep learning-aided optimization. <em>IEEE Transactions on Wireless Communications</em>, <em>22</em>(1), 439–456. <a href="https://doi.org/10.1109/TWC.2022.3195234">https://doi.org/10.1109/TWC.2022.3195234</a>
+</div>
+<div id="ref-9014339" class="csl-entry" role="listitem">
+Nguyen, T.-V., Nguyen, V.-D., Do, T.-N., Costa, D. B. da, &amp; An, B. (2019). Spectral efficiency maximization for multiuser MISO-NOMA downlink systems with SWIPT. <em>2019 IEEE Global Communications Conference (GLOBECOM)</em>, 1–6. <a href="https://doi.org/10.1109/GLOBECOM38437.2019.9014339">https://doi.org/10.1109/GLOBECOM38437.2019.9014339</a>
+</div>
+<div id="ref-9760729" class="csl-entry" role="listitem">
+Nguyen, V.-D., Chatzinotas, S., Ottersten, B., &amp; Duong, T. Q. (2022). FedFog: Network-aware optimization of federated learning over wireless fog-cloud systems. <em>IEEE Transactions on Wireless Communications</em>, <em>21</em>(10), 8581–8599. <a href="https://doi.org/10.1109/TWC.2022.3167263">https://doi.org/10.1109/TWC.2022.3167263</a>
+</div>
+<div id="ref-7127450" class="csl-entry" role="listitem">
+Nguyen, V.-D., Dinh-Van, S., &amp; Shin, O.-S. (2015). Opportunistic relaying with wireless energy harvesting in a cognitive radio system. <em>2015 IEEE Wireless Communications and Networking Conference (WCNC)</em>, 87–92. <a href="https://doi.org/10.1109/WCNC.2015.7127450">https://doi.org/10.1109/WCNC.2015.7127450</a>
+</div>
+<div id="ref-6876817" class="csl-entry" role="listitem">
+Nguyen, V.-D., Dinh-Van, S., Shin, Y., Lee, W. C., &amp; Shin, O.-S. (2014). The problem of pilot contamination reduction in massive MIMO for physical channel models. <em>2014 Sixth International Conference on Ubiquitous and Future Networks (ICUFN)</em>, 378–382. <a href="https://doi.org/10.1109/ICUFN.2014.6876817">https://doi.org/10.1109/ICUFN.2014.6876817</a>
+</div>
+<div id="ref-7523442" class="csl-entry" role="listitem">
+Nguyen, V.-D., Duong, T. Q., Dobre, O. A., &amp; Shin, O.-S. (2016a). Joint information and jamming beamforming for secrecy rate maximization in cognitive radio networks. <em>IEEE Transactions on Information Forensics and Security</em>, <em>11</em>(11), 2609–2623. <a href="https://doi.org/10.1109/TIFS.2016.2594131">https://doi.org/10.1109/TIFS.2016.2594131</a>
+</div>
+<div id="ref-7511333" class="csl-entry" role="listitem">
+Nguyen, V.-D., Duong, T. Q., Dobre, O. A., &amp; Shin, O.-S. (2016b). Secrecy rate maximization in a cognitive radio network with artificial noise aided for MISO multi-eves. <em>2016 IEEE International Conference on Communications (ICC)</em>, 1–6. <a href="https://doi.org/10.1109/ICC.2016.7511333">https://doi.org/10.1109/ICC.2016.7511333</a>
+</div>
+<div id="ref-7417101" class="csl-entry" role="listitem">
+Nguyen, V.-D., Duong, T. Q., &amp; Shin, O.-S. (2015). Physical layer security for primary system: A symbiotic approach in cooperative cognitive radio networks. <em>2015 IEEE Global Communications Conference (GLOBECOM)</em>, 1–6. <a href="https://doi.org/10.1109/GLOCOM.2015.7417101">https://doi.org/10.1109/GLOCOM.2015.7417101</a>
+</div>
+<div id="ref-8024002" class="csl-entry" role="listitem">
+Nguyen, V.-D., Duong, T. Q., Shin, O.-S., Nallanathan, A., &amp; Karagiannidis, G. K. (2017a). Enhancing PHY security of cooperative cognitive radio multicast communications. <em>IEEE Transactions on Cognitive Communications and Networking</em>, <em>3</em>(4), 599–613. <a href="https://doi.org/10.1109/TCCN.2017.2748132">https://doi.org/10.1109/TCCN.2017.2748132</a>
+</div>
+<div id="ref-7996605" class="csl-entry" role="listitem">
+Nguyen, V.-D., Duong, T. Q., Shin, O.-S., Nallanathan, A., &amp; Karagiannidis, G. K. (2017b). Robust beamforming for secrecy rate in cooperative cognitive radio multicast communications. <em>2017 IEEE International Conference on Communications (ICC)</em>, 1–6. <a href="https://doi.org/10.1109/ICC.2017.7996605">https://doi.org/10.1109/ICC.2017.7996605</a>
+</div>
+<div id="ref-7845589" class="csl-entry" role="listitem">
+Nguyen, V.-D., Duong, T. Q., Tuan, H. D., Shin, O.-S., &amp; Poor, H. V. (2017). Spectral and energy efficiencies in full-duplex wireless information and power transfer. <em>IEEE Transactions on Communications</em>, <em>65</em>(5), 2220–2233. <a href="https://doi.org/10.1109/TCOMM.2017.2665488">https://doi.org/10.1109/TCOMM.2017.2665488</a>
+</div>
+<div id="ref-6905826" class="csl-entry" role="listitem">
+Nguyen, V.-D., Hoang, T. M., &amp; Shin, O.-S. (2015). Secrecy capacity of the primary system in a cognitive radio network. <em>IEEE Transactions on Vehicular Technology</em>, <em>64</em>(8), 3834–3843. <a href="https://doi.org/10.1109/TVT.2014.2359246">https://doi.org/10.1109/TVT.2014.2359246</a>
+</div>
+<div id="ref-7873235" class="csl-entry" role="listitem">
+Nguyen, V.-D., Nguyen, C. T., Nguyen, H. V., &amp; Shin, O.-S. (2017a). Joint beamforming and antenna selection for sum rate maximization in cognitive radio networks. <em>IEEE Communications Letters</em>, <em>21</em>(6), 1369–1372. <a href="https://doi.org/10.1109/LCOMM.2017.2679186">https://doi.org/10.1109/LCOMM.2017.2679186</a>
+</div>
+<div id="ref-8333690" class="csl-entry" role="listitem">
+Nguyen, V.-D., Nguyen, H. V., Dobre, O. A., &amp; Shin, O.-S. (2018a). A new design paradigm for secure full-duplex multiuser systems. <em>IEEE Journal on Selected Areas in Communications</em>, <em>36</em>(7), 1480–1498. <a href="https://doi.org/10.1109/JSAC.2018.2824379">https://doi.org/10.1109/JSAC.2018.2824379</a>
+</div>
+<div id="ref-8422451" class="csl-entry" role="listitem">
+Nguyen, V.-D., Nguyen, H. V., Dobre, O. A., &amp; Shin, O.-S. (2018b). On the design of secure full-duplex multiuser systems under user grouping method. <em>2018 IEEE International Conference on Communications (ICC)</em>, 1–6. <a href="https://doi.org/10.1109/ICC.2018.8422451">https://doi.org/10.1109/ICC.2018.8422451</a>
+</div>
+<div id="ref-7760358" class="csl-entry" role="listitem">
+Nguyen, V.-D., Nguyen, H. V., Kang, G.-M., Kim, H. M., &amp; Shin, O.-S. (2016). Sum rate maximization for full duplex wireless-powered communication networks. <em>2016 24th European Signal Processing Conference (EUSIPCO)</em>, 798–802. <a href="https://doi.org/10.1109/EUSIPCO.2016.7760358">https://doi.org/10.1109/EUSIPCO.2016.7760358</a>
+</div>
+<div id="ref-7866857" class="csl-entry" role="listitem">
+Nguyen, V.-D., Nguyen, H. V., Nguyen, C. T., &amp; Shin, O.-S. (2017b). Spectral efficiency of full-duplex multi-user system: Beamforming design, user grouping, and time allocation. <em>IEEE Access</em>, <em>5</em>, 5785–5797. <a href="https://doi.org/10.1109/ACCESS.2017.2668384">https://doi.org/10.1109/ACCESS.2017.2668384</a>
+</div>
+<div id="ref-7394265" class="csl-entry" role="listitem">
+Nguyen, V.-D., Nguyen, H. V., &amp; Shin, O.-S. (2015). Channel estimation based on time-shifted pilots in multicell massive MIMO systems. <em>2015 International Conference on Communications, Management and Telecommunications (ComManTel)</em>, 83–87. <a href="https://doi.org/10.1109/ComManTel.2015.7394265">https://doi.org/10.1109/ComManTel.2015.7394265</a>
+</div>
+<div id="ref-7484669" class="csl-entry" role="listitem">
+Nguyen, V.-D., Nguyen, H. V., &amp; Shin, O.-S. (2016). An efficient zero-forcing precoding design for cognitive MIMO broadcast channels. <em>IEEE Communications Letters</em>, <em>20</em>(8), 1575–1578. <a href="https://doi.org/10.1109/LCOMM.2016.2576445">https://doi.org/10.1109/LCOMM.2016.2576445</a>
+</div>
+<div id="ref-9187874" class="csl-entry" role="listitem">
+Nguyen, V.-D., Sharma, S. K., Vu, T. X., Chatzinotas, S., &amp; Ottersten, B. (2021). Efficient federated learning algorithm for resource allocation in wireless IoT networks. <em>IEEE Internet of Things Journal</em>, <em>8</em>(5), 3394–3409. <a href="https://doi.org/10.1109/JIOT.2020.3022534">https://doi.org/10.1109/JIOT.2020.3022534</a>
+</div>
+<div id="ref-7354527" class="csl-entry" role="listitem">
+Nguyen, V.-D., &amp; Shin, O.-S. (2015). Energy harvesting for cooperative wireless sensor networks with a nonlinear power consumption model. <em>2015 International Conference on Information and Communication Technology Convergence (ICTC)</em>, 197–199. <a href="https://doi.org/10.1109/ICTC.2015.7354527">https://doi.org/10.1109/ICTC.2015.7354527</a>
+</div>
+<div id="ref-8116681" class="csl-entry" role="listitem">
+Nguyen, V.-D., &amp; Shin, O.-S. (2018). Cooperative prediction-and-sensing-based spectrum sharing in cognitive radio networks. <em>IEEE Transactions on Cognitive Communications and Networking</em>, <em>4</em>(1), 108–120. <a href="https://doi.org/10.1109/TCCN.2017.2776138">https://doi.org/10.1109/TCCN.2017.2776138</a>
+</div>
+<div id="ref-8763935" class="csl-entry" role="listitem">
+Nguyen, V.-D., &amp; Shin, O.-S. (2019). An efficient design for NOMA-assisted MISO-SWIPT systems with AC computing. <em>IEEE Access</em>, <em>7</em>, 97094–97105. <a href="https://doi.org/10.1109/ACCESS.2019.2928877">https://doi.org/10.1109/ACCESS.2019.2928877</a>
+</div>
+<div id="ref-7552576" class="csl-entry" role="listitem">
+Nguyen, V.-D., Tran, L.-N., Duong, T. Q., Shin, O.-S., &amp; Farrell, R. (2017). An efficient precoder design for multiuser MIMO cognitive radio networks with interference constraints. <em>IEEE Transactions on Vehicular Technology</em>, <em>66</em>(5), 3991–4004. <a href="https://doi.org/10.1109/TVT.2016.2602844">https://doi.org/10.1109/TVT.2016.2602844</a>
+</div>
+<div id="ref-8254177" class="csl-entry" role="listitem">
+Nguyen, V.-D., Tuan, H. D., Duong, T. Q., Poor, H. V., &amp; Shin, O.-S. (2017a). Convex quadratic programming for maximizing sum throughput in MIMO-NOMA multicell networks. <em>GLOBECOM 2017 - 2017 IEEE Global Communications Conference</em>, 1–6. <a href="https://doi.org/10.1109/GLOCOM.2017.8254177">https://doi.org/10.1109/GLOCOM.2017.8254177</a>
+</div>
+<div id="ref-7974739" class="csl-entry" role="listitem">
+Nguyen, V.-D., Tuan, H. D., Duong, T. Q., Poor, H. V., &amp; Shin, O.-S. (2017b). Precoder design for signal superposition in MIMO-NOMA multicell networks. <em>IEEE Journal on Selected Areas in Communications</em>, <em>35</em>(12), 2681–2695. <a href="https://doi.org/10.1109/JSAC.2017.2726007">https://doi.org/10.1109/JSAC.2017.2726007</a>
+</div>
+<div id="ref-8023773" class="csl-entry" role="listitem">
+Nguyen, V.-D., Tuan, H. D., Duong, T. Q., Shin, O.-S., &amp; Poor, H. V. (2017). Joint fractional time allocation and beamforming for downlink multiuser MISO systems. <em>IEEE Communications Letters</em>, <em>21</em>(12), 2650–2653. <a href="https://doi.org/10.1109/LCOMM.2017.2747544">https://doi.org/10.1109/LCOMM.2017.2747544</a>
+</div>
+<div id="ref-10437249" class="csl-entry" role="listitem">
+Nguyen, V.-D., Vu, T. X., Nguyen, N. T., Nguyen, D. C., Juntti, M., Luong, N. C., Hoang, D. T., Nguyen, D. N., &amp; Chatzinotas, S. (2023). Enabling intelligent traffic steering in a hierarchical open radio access network. <em>GLOBECOM 2023 - 2023 IEEE Global Communications Conference</em>, 5232–5237. <a href="https://doi.org/10.1109/GLOBECOM54140.2023.10437249">https://doi.org/10.1109/GLOBECOM54140.2023.10437249</a>
+</div>
+<div id="ref-10330565" class="csl-entry" role="listitem">
+Nguyen, V.-D., Vu, T. X., Nguyen, N. T., Nguyen, D. C., Juntti, M., Luong, N. C., Hoang, D. T., Nguyen, D. N., &amp; Chatzinotas, S. (2024). Network-aided intelligent traffic steering in 6G o-RAN: A multi-layer optimization framework. <em>IEEE Journal on Selected Areas in Communications</em>, <em>42</em>(2), 389–405. <a href="https://doi.org/10.1109/JSAC.2023.3336183">https://doi.org/10.1109/JSAC.2023.3336183</a>
+</div>
+<div id="ref-10149099" class="csl-entry" role="listitem">
+Nhat Le, Q., Nguyen, V.-D., Dobre, O. A., &amp; Shin, H. (2023). RIS-assisted full-duplex integrated sensing and communication. <em>IEEE Wireless Communications Letters</em>, <em>12</em>(10), 1677–1681. <a href="https://doi.org/10.1109/LWC.2023.3285391">https://doi.org/10.1109/LWC.2023.3285391</a>
+</div>
+<div id="ref-9477418" class="csl-entry" role="listitem">
+Papazafeiropoulos, A., Pan, C., Elbir, A. M., Nguyen, V.-D., Kourtessis, P., &amp; Chatzinotas, S. (2023). Asymptotic analysis of max-min weighted SINR for IRS-assisted MISO systems with hardware impairments. <em>IEEE Wireless Communications Letters</em>, <em>12</em>(2), 192–196. <a href="https://doi.org/10.1109/LWC.2021.3095678">https://doi.org/10.1109/LWC.2021.3095678</a>
+</div>
+<div id="ref-10498074" class="csl-entry" role="listitem">
+Quan, M. K., Nguyen, D. C., Nguyen, V.-D., Wijayasundara, M., Setunge, S., &amp; Pathirana, P. N. (2024). Toward privacy-preserving waste classification in the internet of things. <em>IEEE Internet of Things Journal</em>, <em>11</em>(14), 24814–24830. <a href="https://doi.org/10.1109/JIOT.2024.3386727">https://doi.org/10.1109/JIOT.2024.3386727</a>
+</div>
+<div id="ref-10684702" class="csl-entry" role="listitem">
+Sang, N. H., Hai, N. D., Anh, N. D. D., Cong Luong, N., Nguyen, V.-D., Gong, S., Niyato, D., &amp; In Kim, D. (2025). Wireless power transfer meets semantic communication for resource-constrained IoT networks: A joint transmission mode selection and resource management approach. <em>IEEE Internet of Things Journal</em>, <em>12</em>(1), 556–568. <a href="https://doi.org/10.1109/JIOT.2024.3464646">https://doi.org/10.1109/JIOT.2024.3464646</a>
+</div>
+<div id="ref-11029176" class="csl-entry" role="listitem">
+Shaon, S., Nguyen, V.-D., &amp; Nguyen, D. C. (2025). Latency optimization for wireless federated learning in multihop networks. <em>IEEE Transactions on Vehicular Technology</em>, <em>74</em>(11), 18318–18323. <a href="https://doi.org/10.1109/TVT.2025.3577530">https://doi.org/10.1109/TVT.2025.3577530</a>
+</div>
+<div id="ref-10908341" class="csl-entry" role="listitem">
+Tan, H. N. L., Nguyen, V.-D., Huynh-The, T., Nguyen, T.-V., &amp; Vo, P. L. (2024). Security improvement for deep learning-based semantic communication systems. <em>2024 International Conference on Advanced Technologies for Communications (ATC)</em>, 717–721. <a href="https://doi.org/10.1109/ATC63255.2024.10908341">https://doi.org/10.1109/ATC63255.2024.10908341</a>
+</div>
+<div id="ref-10032158" class="csl-entry" role="listitem">
+Thanh Van, N. T., Luong, N. C., Feng, S., Nguyen, V.-D., &amp; Kim, D. I. (2023). Evolutionary games for dynamic network resource selection in RSMA-enabled 6G networks. <em>IEEE Journal on Selected Areas in Communications</em>, <em>41</em>(5), 1320–1335. <a href="https://doi.org/10.1109/JSAC.2023.3240779">https://doi.org/10.1109/JSAC.2023.3240779</a>
+</div>
+<div id="ref-9522072" class="csl-entry" role="listitem">
+Tran, D.-H., Nguyen, V.-D., Chatzinotas, S., Vu, T. X., &amp; Ottersten, B. (2022). UAV relay-assisted emergency communications in IoT networks: Resource allocation and trajectory optimization. <em>IEEE Transactions on Wireless Communications</em>, <em>21</em>(3), 1621–1637. <a href="https://doi.org/10.1109/TWC.2021.3105821">https://doi.org/10.1109/TWC.2021.3105821</a>
+</div>
+<div id="ref-9367522" class="csl-entry" role="listitem">
+Tran, D.-H., Nguyen, V.-D., Gautam, S., Chatzinotas, S., Vu, T. X., &amp; Ottersten, B. (2020). Resource allocation for UAV relay-assisted IoT communication networks. <em>2020 IEEE Globecom Workshops (GC Wkshps</em>, 1–7. <a href="https://doi.org/10.1109/GCWkshps50303.2020.9367522">https://doi.org/10.1109/GCWkshps50303.2020.9367522</a>
+</div>
+<div id="ref-10634735" class="csl-entry" role="listitem">
+Truong, T.-V., Luu, Q.-T., &amp; Nguyen, V.-D. (2024). Efficient resource allocation framework for network slicing-enabled open RAN. <em>2024 Tenth International Conference on Communications and Electronics (ICCE)</em>, 747–752. <a href="https://doi.org/10.1109/ICCE62051.2024.10634735">https://doi.org/10.1109/ICCE62051.2024.10634735</a>
+</div>
+<div id="ref-11397754" class="csl-entry" role="listitem">
+Truong, T.-V., Nguyen, V.-D., Luu, Q.-T., Vo, P.-S., Nguyen, X.-P., Kavehmadavani, F., &amp; Chatzinotas, S. (2026). Accelerating resource allocation in open RAN slicing via deep reinforcement learning. <em>IEEE Transactions on Network and Service Management</em>, <em>23</em>, 3055–3070. <a href="https://doi.org/10.1109/TNSM.2026.3665553">https://doi.org/10.1109/TNSM.2026.3665553</a>
+</div>
+<div id="ref-11442290" class="csl-entry" role="listitem">
+Tuan, B. M., Nguyen, V.-D., Nguyen, D. N., Trung, N. L., Huynh, N. V., Hoang, D. T., Krunz, M., &amp; Dutkiewicz, E. (2026). Deep learning-driven friendly jamming for secure multicarrier ISAC under channel uncertainty. <em>IEEE Transactions on Communications</em>, 1–1. <a href="https://doi.org/10.1109/TCOMM.2026.3675471">https://doi.org/10.1109/TCOMM.2026.3675471</a>
+</div>
+<div id="ref-10947208" class="csl-entry" role="listitem">
+Van Chien, T., Minh Quan, N., Shin, O.-S., &amp; Nguyen, V.-D. (2025). Metaheuristic optimization of trajectory and dynamic time splitting for UAV communication systems. <em>IEEE Communications Letters</em>, <em>29</em>(6), 1200–1204. <a href="https://doi.org/10.1109/LCOMM.2025.3556714">https://doi.org/10.1109/LCOMM.2025.3556714</a>
+</div>
+<div id="ref-9978295" class="csl-entry" role="listitem">
+Van Huynh, D., Nguyen, V.-D., Chatzinotas, S., Khosravirad, S. R., Poor, H. V., &amp; Duong, T. Q. (2023). Joint communication and computation offloading for ultra-reliable and low-latency with multi-tier computing. <em>IEEE Journal on Selected Areas in Communications</em>, <em>41</em>(2), 521–537. <a href="https://doi.org/10.1109/JSAC.2022.3227088">https://doi.org/10.1109/JSAC.2022.3227088</a>
+</div>
+<div id="ref-10279120" class="csl-entry" role="listitem">
+Van Huynh, D., Nguyen, V.-D., Dobre, O. A., Khosravirad, S. R., &amp; Duong, T. Q. (2023). Adaptive service placement, task offloading and bandwidth allocation in task-oriented URLLC edge networks. <em>ICC 2023 - IEEE International Conference on Communications</em>, 5755–5760. <a href="https://doi.org/10.1109/ICC45041.2023.10279120">https://doi.org/10.1109/ICC45041.2023.10279120</a>
+</div>
+<div id="ref-10051857" class="csl-entry" role="listitem">
+Van Huynh, D., Nguyen, V.-D., Khosravirad, S. R., &amp; Duong, T. Q. (2022a). Fairness-aware latency minimisation in digital twin-aided edge computing with ultra-reliable and low-latency communications: A distributed optimisation approach (invited paper). <em>2022 56th Asilomar Conference on Signals, Systems, and Computers</em>, 1045–1049. <a href="https://doi.org/10.1109/IEEECONF56349.2022.10051857">https://doi.org/10.1109/IEEECONF56349.2022.10051857</a>
+</div>
+<div id="ref-9839148" class="csl-entry" role="listitem">
+Van Huynh, D., Nguyen, V.-D., Khosravirad, S. R., &amp; Duong, T. Q. (2022b). Minimising offloading latency for edge-cloud systems with ultra-reliable and low-latency communications. <em>ICC 2022 - IEEE International Conference on Communications</em>, 5122–5127. <a href="https://doi.org/10.1109/ICC45855.2022.9839148">https://doi.org/10.1109/ICC45855.2022.9839148</a>
+</div>
+<div id="ref-10234534" class="csl-entry" role="listitem">
+Van Huynh, D., Nguyen, V.-D., Khosravirad, S. R., Karagiannidis, G. K., &amp; Duong, T. Q. (2023). Distributed communication and computation resource management for digital twin-aided edge computing with short-packet communications. <em>IEEE Journal on Selected Areas in Communications</em>, <em>41</em>(10), 3008–3021. <a href="https://doi.org/10.1109/JSAC.2023.3310087">https://doi.org/10.1109/JSAC.2023.3310087</a>
+</div>
+<div id="ref-9885226" class="csl-entry" role="listitem">
+Van Huynh, D., Nguyen, V.-D., Khosravirad, S. R., Sharma, V., Dobre, O. A., Shin, H., &amp; Duong, T. Q. (2022). URLLC edge networks with joint optimal user association, task offloading and resource allocation: A digital twin approach. <em>IEEE Transactions on Communications</em>, <em>70</em>(11), 7669–7682. <a href="https://doi.org/10.1109/TCOMM.2022.3205692">https://doi.org/10.1109/TCOMM.2022.3205692</a>
+</div>
+<div id="ref-9838860" class="csl-entry" role="listitem">
+Van Huynh, D., Nguyen, V.-D., Sharma, V., Dobre, O. A., &amp; Duong, T. Q. (2022). Digital twin empowered ultra-reliable and low-latency communications-based edge networks in industrial IoT environment. <em>ICC 2022 - IEEE International Conference on Communications</em>, 5651–5656. <a href="https://doi.org/10.1109/ICC45855.2022.9838860">https://doi.org/10.1109/ICC45855.2022.9838860</a>
+</div>
+<div id="ref-11358911" class="csl-entry" role="listitem">
+Vu, B.-M., Dang, N. T., Moon, S., Shin, O.-S., &amp; Nguyen, V.-D. (2026). Optimizing mixed FSO-RF downlink systems with active RIS and SLIPT-enabled UAV-BSs. <em>IEEE Transactions on Communications</em>, <em>74</em>, 3600–3616. <a href="https://doi.org/10.1109/TCOMM.2026.3655761">https://doi.org/10.1109/TCOMM.2026.3655761</a>
+</div>
+<div id="ref-9337188" class="csl-entry" role="listitem">
+Vu, T. X., Chatzinotas, S., Nguyen, V.-D., Hoang, D. T., Nguyen, D. N., Renzo, M. D., &amp; Ottersten, B. (2021). Machine learning-enabled joint antenna selection and precoding design: From offline complexity to online performance. <em>IEEE Transactions on Wireless Communications</em>, <em>20</em>(6), 3710–3722. <a href="https://doi.org/10.1109/TWC.2021.3052973">https://doi.org/10.1109/TWC.2021.3052973</a>
+</div>
+<div id="ref-10908307" class="csl-entry" role="listitem">
+Wanasekara, S. H., Dung, H. H., Nguyen, N. H., &amp; Nguyen, V.-D. (2024). Lossy compression of multi-channel EEG and PPG signals based on golomb-rice coding with parameter estimation. <em>2024 International Conference on Advanced Technologies for Communications (ATC)</em>, 756–761. <a href="https://doi.org/10.1109/ATC63255.2024.10908307">https://doi.org/10.1109/ATC63255.2024.10908307</a>
+</div>
+<div id="ref-11129868" class="csl-entry" role="listitem">
+Wanasekara, S. H., Nguyen, V.-D., Wong, K.-S., Nguyen, M.-D., Chatzinotas, S., &amp; Dobre, O. A. (2026). SC-GIR: Goal-oriented semantic communication via invariant representation learning for image transmission. <em>IEEE Transactions on Mobile Computing</em>, <em>25</em>(2), 1483–1498. <a href="https://doi.org/10.1109/TMC.2025.3600434">https://doi.org/10.1109/TMC.2025.3600434</a>
+</div>
+<div id="ref-10271702" class="csl-entry" role="listitem">
+Zivuku, P., Kisseleff, S., Nguyen, V.-D., Martins, W. A., Ntontin, K., Chatzinotas, S., &amp; Ottersten, B. (2024). Joint RIS-aided precoding and multislot scheduling for maximum user admission in smart cities. <em>IEEE Transactions on Communications</em>, <em>72</em>(1), 418–433. <a href="https://doi.org/10.1109/TCOMM.2023.3321731">https://doi.org/10.1109/TCOMM.2023.3321731</a>
+</div>
+<div id="ref-9771746" class="csl-entry" role="listitem">
+Zivuku, P., Kisseleff, S., Nguyen, V.-D., Ntontin, K., Martins, W. A., Chatzinotas, S., &amp; Ottersten, B. (2022). Maximizing the number of served users in a smart city using reconfigurable intelligent surfaces. <em>2022 IEEE Wireless Communications and Networking Conference (WCNC)</em>, 494–499. <a href="https://doi.org/10.1109/WCNC51071.2022.9771746">https://doi.org/10.1109/WCNC51071.2022.9771746</a>
+</div>
+<div id="ref-11268332" class="csl-entry" role="listitem">
+Zivuku, P., Nguyen, V.-D., Nguyen, N. T., Ntontin, K., Chatzinotas, S., &amp; Ottersten, B. (2026). Resource allocation for RIS-enhanced OFDM-MIMO ISAC systems. <em>IEEE Transactions on Communications</em>, <em>74</em>, 1777–1792. <a href="https://doi.org/10.1109/TCOMM.2025.3637097">https://doi.org/10.1109/TCOMM.2025.3637097</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
