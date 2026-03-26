@@ -21,23 +21,14 @@ The most up-to-date publication can be found on my [Google Scholar](https://scho
 
 ## Journals
 
+::: {#refs-journals}
 ---
-bibliography: publications.bib
+bibliography: Publications.bib
 nocite: |
   @*
 csl: ieee.csl
 ---
-
----
-
-## Conferences
-
----
-bibliography: conferences.bib
-nocite: |
-  @*
-csl: ieee.csl
----
+:::
 
 
 
