@@ -17,13 +17,9 @@ comments:
     label: joinvinuni2022
 ---
 
-In celebration of my promotion in August, I was invited to give a "tenure talk"
-to the department of psychology, reflecting on the last five years of my work as
-an assistant professor at the University of Kansas. In the slides below, I walk
-through my accomplishments, how my research framework has evolved over time, and
-provide two examples of my interdisciplinary work: one psychological project
-that was enhanced by my computational and quantitative background and one
-computational project that was enhanced by my psychological background.
+I have joined College of Engineering and Computer Science, VinUniversity, Hanoi, Vietnam, after spending 10 years working and studying oversea. I am excited to be back and contribute to my home country.
+
+VinUniversity (VinUni) is a private, not-for-profit university in Vietnam established by Vingroup, the country’s largest private conglomerate. Founded with an investment of VND 6,500 billion, it is designed to meet international standards and is often recognized as one of the most prestigious and modern academic institutions in Vietnam
 
 <!--
 > Affective and Interpersonal Communication: Advancing an Interdisciplinary
