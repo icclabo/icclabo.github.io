@@ -6,7 +6,7 @@ date: "2022-09-05"
 image: vinuni2022.jpg
 draft: false
 categories:
-  - presentation
+  - update
 format:
   html:
     page-layout: full
