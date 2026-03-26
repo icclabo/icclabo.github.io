@@ -22,7 +22,7 @@ The most up-to-date publication can be found on my [Google Scholar](https://scho
 ## Journals
 
 ---
-bibliography: journals.bib
+bibliography: publications.bib
 nocite: |
   @*
 csl: ieee.csl
