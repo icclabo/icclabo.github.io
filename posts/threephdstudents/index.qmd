@@ -3,10 +3,10 @@ title: "Three PhD candidates joined ICC"
 description: "ICC Lab welcomes the first three PhD candidates at VinUni"
 author: "Dinh Nguyen"
 date: "2023-03-01"
-image: vinuni2022.jpg
+image: iccphdstudent.jpg
 draft: false
 categories:
-  - update
+  - position
 format:
   html:
     page-layout: full

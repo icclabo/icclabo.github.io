@@ -6,7 +6,7 @@ date: "2025-09-01"
 image: phdposition2025.jpg
 draft: false
 categories:
-  - update
+  - position
 format:
   html:
     page-layout: full
@@ -14,7 +14,7 @@ format:
 comments:
   utterances: 
     repo: https://github.com/icclabo/icc
-    label: threephdstudents
+    label: phdposition2025
 ---
 
 I am inviting applications for a fully funded PhD position in Distributed Machine Learning for Open RAN (start date: Spring 2026). This project will explore federated learning, reinforcement learning, and scalable AI frameworks for next-generation open mobile networks.

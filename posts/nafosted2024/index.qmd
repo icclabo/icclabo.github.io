@@ -1,7 +1,6 @@
 ---
 title: "NAFOSTED research was funded"
-description: "Enhancing the Performance of 6G Open RAN Integrating Edge Computing and Network
-Slicing"
+description: "Enhancing the Performance of 6G Open RAN Integrating Edge Computing and Network Slicing"
 author: "Dinh Nguyen"
 date: "2024-02-01"
 image: nafosted2024.png
