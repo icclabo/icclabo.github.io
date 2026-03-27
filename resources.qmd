@@ -14,38 +14,74 @@ toc: true
 
 ## Datasets
 
-- **Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset**<br />
-  A large-scale collection of over 4,000 hours of face-to-face interaction footage<br />
-  from over participants (n = 4000) in diverse contexts for social AI research.<br />
-  *Primary Article/Citation:* [Agrawal et al. (2025)](https://arxiv.org/abs/2506.22554)<br />
-  *Website:* <https://ai.meta.com/research/seamless-interaction/><br />
-  *Open Access:* <https://github.com/facebookresearch/seamless_interaction>
+ ***Data source and Modalities in Recent Aquaculture/Ocean Literature***
 
-- **DynAMoS: Dynamic Affective Movie Clip Database for Subjectivity Analysis**<br />
-  A curated collection of affective movie clips (n = 22), metadata about those clips, and<br />
-  ratings of the emotional content of those movie clips from research participants (n = 83)<br />
-  *Primary Article/Citation:* [Girard, Tie, & Liebenthal (2023)](https://affcom.ku.edu/publications/proceedings/girard2023a.html)<br />
-  *Website/Request Access:* <https://dynamos.mgb.org>
+- **Surface Water Quality**<br />
+  Task: *Monitoring*; Modality: *Tabular*; Feature: *Global surface water quality measurements*<br />
+  *Primary Article/Citation:* [Karim et al. (2025)](https://www.nature.com/articles/s41597-025-04715-4)<br />
+  *Open Access:* [Link](https://figshare.com/articles/dataset/A_Comprehensive_Surface_Water_Quality_Monitoring_Dataset_1940-2023_2_82Million_Record_Resource_for_Empirical_and_ML-Based_Research/27800394/2?file=50757303)
 
-- **GFT: Group Formation Task Spontaneous Facial Expression Database**<br />
-  A 2D video database of spontaneous behavior during unscripted social interactions<br />
-  Complete with frame-level FACS annotations of facial behavior (n = 96)<br />
-  *Primary Article/Citation:* [Girard et al. (2017)](https://affcom.ku.edu/publications/proceedings/girard2017b.html)<br />
-  *Website/Request Access:* <http://osf.io/7wcyz>
-  
-- **MMSE/BP4D+: Multimodal Spontaneous Emotion Database**<br />
-  An extension of BP4D that includes thermal and physiological data<br />
-  Complete with frame-level FACS annotations of facial behavior (n = 140)<br />
-  *Primary Article/Citation:* [Zhang et al. (2016)](https://affcom.ku.edu/publications/proceedings/zhang2016.html)<br />
-  *Website/Request Access:* <http://bit.ly/2yg39Cn>
+- **World Ocean Database**<br />
+  Task: *Monitoring*; Modality: *Tabular*; Feature: *Large-scale oceanographic observations*<br />
+  *Primary Article/Citation:* [Mishonov et al. (2025)](https://www.ncei.noaa.gov/products/world-ocean-database)<br />
+  *Open Access:* <https://www.ncei.noaa.gov/products/world-ocean-database>
 
-- **BP4D: Binghamton-Pittsburgh 4D Spontaneous Emotion Database**<br />
-  A 3D video database of spontaneous behavior during emotion elicitation<br />
-  Complete with frame-level FACS annotations of facial behavior (n = 41)<br />
-  *Primary Article/Citation:* [Zhang et al. (2014)](https://affcom.ku.edu/publications/articles/girard2014c.html)<br />
-  *Website/Request Access:* <http://bit.ly/2yg39Cn>
+- **Water Quality Metrics of Pond**<br />
+  Task: *Monitoring*; Modality: *Tabular*; Feature: *Sensor-based pond water monitoring*<br />
+  *Primary Article/Citation:* [Islam et al. (2023)](https://www.sciencedirect.com/science/article/abs/pii/S0141933123001746)<br />
+  *Open Access:* <https://www.sciencedirect.com/science/article/abs/pii/S0141933123001746>
+
+- **DeepFish**<br />
+  Task: *Segmentation*; Modality: *RGB*; Feature: *Fish instance segmentation dataset*<br />
+  *Primary Article/Citation:* [Nahuel et al. (2022)](https://www.nature.com/articles/s41597-022-01416-0)<br />
+  *Open Access:* <https://github.com/icclabo/DeepFishDatasetScripts>
+
+- **Fish4Knowledge**<br />
+  Task: *Tracking*; Modality: *Multi-camera*; Feature: *Large-scale reef fish video dataset*<br />
+  *Primary Article/Citation:* [Fisher et al. (2016)](https://link.springer.com/book/10.1007/978-3-319-30208-9)<br />
+  *Open Access:* <https://github.com/icclabo/Fish-Detection-Tracking-and-Classification>
+
+- **FishNet**<br />
+  Task: *Recognition*; Modality: *RGB*; Feature: *Fish species recognition benchmark*<br />
+  *Primary Article/Citation:* [Khan et al. (2023)](https://ieeexplore.ieee.org/document/10377207)<br />
+  *Open Access:* <https://github.com/icclabo/FishNet>
+
+- **FishTrack23**<br />
+  Task: *Segmentation*; Modality: *RGB*; Feature: *Underwater image segmentation benchmark*<br />
+  *Primary Article/Citation:* [Dawkins et al. (2023)](https://ieeexplore.ieee.org/document/10483862)<br />
+  *Open Access:* <https://github.com/icclabo/ConvertFishTrack23>
+
+- **DIDIDSONAR**<br />
+  Task: *Identification*; Modality: *Sonar*; Feature: *DIDSON sonar fish identification dataset*<br />
+  *Primary Article/Citation:* [McCann et al. (2018)](https://www.nature.com/articles/sdata2018190)<br />
+  *Open Access:* [Link](https://springernature.figshare.com/collections/An_Underwater_Observation_Dataset_for_Fish_Classification_and_Fishery_Ecology/4039202)
+
+- **SOLAQUA**<br />
+  Task: *Autonomous*; Modality: *Multimodal*; Feature: *Autonomous aquaculture perception dataset*<br />
+  *Primary Article/Citation:* [Ohrem et al. (2025)](https://arxiv.org/abs/2504.01790)<br />
+  *Open Access:* <https://data.sintef.no/feature/fe-a8f86232-5107-495e-a3dd-a86460eebef6>
+
+- **AQUALOC**<br />
+  Task: *Autonomous*; Modality: *Multimodal*; Feature: *Multimodal underwater localization dataset*<br />
+  *Primary Article/Citation:* [Ferrera et al. (2019)](https://arxiv.org/abs/1910.14532)<br />
+  *Open Access:* <https://www.lirmm.fr/aqualoc/>
+
+- **FCNet**<br />
+  Task: *Counting*; Modality: *RGB*; Feature: *Multi-scale fish counting dataset*<br />
+  *Primary Article/Citation:* [Wang et al. (2025)](https://www.sciencedirect.com/science/article/pii/S0168169925012785)<br />
+  *Open Access:* <https://github.com/icclabo/FCNet>
+
+
 
 ## Software
+
+### Convex Tools and Solvers:
+- [CVX][CVX] - A  MATLAB-based modeling system used for defining and solving disciplined convex programs (DCPs).
+- [SeDuMi][SeDuMi] - A Matlab/GNU Octave package for solving convex optimization problems involving linear equations and inequalities, second-order cone constraints, and semidefinite constraints (linear matrix inequalities).
+- [SDPT3][SDPT3] - A MATLAB software for semidefinite-quadratic-linear programming.
+- [Gurobi][Gurobi] - A commercial mathematical optimization solver (engine) used for decision intelligence and prescriptive analytics.
+- [MOSEK][MOSEK] - A specialized, high-performance software package designed for solving large-scale mathematical optimization problems.
+- [GLPK][GLPK] - A GNU Linear Programming Kit is a software package intended for solving large-scale linear programming, mixed integer programming, and other related problems.
 
 ### Statistics Software:
 - [circumplex][circumplex] - A stable R package for analyzing and visualizing circular data.
@@ -73,6 +109,12 @@ toc: true
 - [rocker-bayes][rocker-bayes] - A multiarchitecture (amd64/arm64) image for Bayesian analysis in R
 - [wsl-whisper][wsl-whisper] - A WSL (amd64) image for AI transcription from R with CUDA-support
 
+[CVX]: https://cvxr.com/cvx/doc/solver.html
+[SeDuMi]: https://github.com/icclabo/sedumi
+[SDPT3]: https://blog.nus.edu.sg/mattohkc/softwares/sdpt3/
+[Gurobi]: https://www.gurobi.com/
+[MOSEK]: https://www.mosek.com/
+[GLPK]: https://www.gnu.org/software/glpk/
 [circumplex]: https://circumplex.jmgirard.com/
 [mreliability]: https://mreliability.jmgirard.com
 [wcc]: https://github.com/jmgirard/wcc
