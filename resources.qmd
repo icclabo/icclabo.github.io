@@ -84,19 +84,10 @@ toc: true
 - [GLPK][GLPK] - A GNU Linear Programming Kit is a software package intended for solving large-scale linear programming, mixed integer programming, and other related problems.
 
 ### Statistics Software:
-- [circumplex][circumplex] - A stable R package for analyzing and visualizing circular data.
-- [mReliability][mreliability] - A stable (but approaching end-of-life) set of MATLAB functions for estimating inter-rater reliability.
 - [wcc][wcc] - An experimental R package for conducting windowed cross-correlation analyses.
 - [varde][varde] - An experimental R package for decomposing the variance in mixed effects models.
 - [agreement][agreement] - An experimental R package for estimating inter-rater reliability.
 
-### Research Software:
-- [CARMA][carma] - A stable (but approaching end-of-life) software for collecting continuous media annotations.
-- [DARMA][darma] - A stable (but approaching end-of-life) software for collecting continuous two-dimensional media annotations.
-- [tidymedia][tidymedia] - An experimental R package for working with audio, video, and image files.
-- [openac][openac] - An experimental R package for automating common affective computing (and social signal processing) tasks.
-- [facs][facs] - An experimental R package for working with Facial Action Coding System (FACS) data.
-- [hitop][hitop] - An experimental R package for working with Hierarchical Taxonomy of Psychopathology (HiTOP) data.
 
 ### Quarto Extensions
 - [lordicon][lordicon] - A stable Quarto extension for embedding animated [Lordicon](https://www.lordicon.com/icons) icons in HTML.
@@ -115,22 +106,14 @@ toc: true
 [Gurobi]: https://www.gurobi.com/
 [MOSEK]: https://www.mosek.com/
 [GLPK]: https://www.gnu.org/software/glpk/
-[circumplex]: https://circumplex.jmgirard.com/
-[mreliability]: https://mreliability.jmgirard.com
-[wcc]: https://github.com/jmgirard/wcc
-[varde]: https://github.com/affcomlab/varde
-[agreement]: https://github.com/jmgirard/agreement
-[carma]: https://carma.jmgirard.com
-[darma]: https://darma.jmgirard.com
-[tidymedia]: https://github.com/jmgirard/tidymedia
-[openac]: https://github.com/jmgirard/openac
-[facs]: https://github.com/jmgirard/facs
-[hitop]: https://github.com/jmgirard/hitop
-[lordicon]: https://github.com/jmgirard/lordicon
-[honeypot]: https://github.com/jmgirard/honeypot
-[details]: https://github.com/jmgirard/details
-[embedpdf]: https://github.com/jmgirard/embedpdf
-[rstudio2u]: https://github.com/jmgirard/rstudio2u
-[rocker-bayes]: https://github.com/jmgirard/rocker-bayes
-[wsl-whisper]: https://github.com/jmgirard/wsl-whisper
-[wsl-ollama]: https://github.com/jmgirard/wsl-ollama
+[wcc]: https://github.com/icclabo/wcc
+[varde]: https://github.com/icclabo/varde
+[agreement]: https://github.com/icclabo/agreement
+[lordicon]: https://github.com/icclabo/lordicon
+[honeypot]: https://github.com/icclabo/honeypot
+[details]: https://github.com/icclabo/details
+[embedpdf]: https://github.com/icclabo/embedpdf
+[rstudio2u]: https://github.com/icclabo/rstudio2u
+[rocker-bayes]: https://github.com/icclabo/rocker-bayes
+[wsl-whisper]: https://github.com/icclabo/wsl-whisper
+[wsl-ollama]: https://github.com/icclabo/wsl-ollama
