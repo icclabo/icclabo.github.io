@@ -1,8 +1,8 @@
 ---
-title: "Dr. Dinh Nguyen joined VinUni"
-description: "Starting a new journey with VinUni as an Assistant Professor"
+title: "Three PhD candidates joined ICC"
+description: "ICC Lab welcomes the first three PhD candidates at VinUni"
 author: "Dinh Nguyen"
-date: "2022-09-05"
+date: "2023-03-01"
 image: vinuni2022.jpg
 draft: false
 categories:
@@ -14,7 +14,7 @@ format:
 comments:
   utterances: 
     repo: https://github.com/icclabo/icc
-    label: joinvinuni2022
+    label: threephdstudents
 ---
 
 I have joined College of Engineering and Computer Science, VinUniversity, Hanoi, Vietnam, after spending 10 years working and studying oversea. I am excited to be back and contribute to my home country.

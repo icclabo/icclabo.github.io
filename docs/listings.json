@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/news.html",
+    "items": [
+      "/posts/threephdstudents/index.html",
+      "/posts/joinvinuni2022/index.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/faculty/dinhnguyen.html",
@@ -13,12 +20,6 @@
       "/people/under/nguyenhong_phuc.html",
       "/people/under/nguyenthanh_trung.html",
       "/people/under/phantuan_khoi.html"
-    ]
-  },
-  {
-    "listing": "/news.html",
-    "items": [
-      "/posts/joinvinuni2022/index.html"
     ]
   }
 ]

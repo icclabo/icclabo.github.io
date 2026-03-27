@@ -25,6 +25,9 @@ execute:
 
 The most up-to-date publication can be found on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=wgsX_zIAAAAJ){.text-primary .text-decoration-none .fw-bolder}  profile.
 
+The source code for our work is publicly available at [ICC Github](https://github.com/icclabo?tab=repositories){.text-primary .text-decoration-none .fw-bolder}  profile.
+
+
 
 ```{r setup}
 library(tidyverse)
