@@ -16,52 +16,27 @@ toc: true
 
 ### Current Funding
 
-- *"Assessment of Eating Disorder and Comorbidity Risk and Resilience in Recent Military Enlistees"*
-    - Department of Defense (DoD)
-    - Forbush (PI), Co-I: **Girard**
-    - 04/2025 -- 03/2027
-
-- *"Building Healthy Eating and Self-Esteem Together for University Students (BEST-U): A Pilot Randomized Controlled Trial of an mHealth Intervention for Binge-Spectrum Disorders"*
-    - R34, National Institutes of Health (NIMH)
-    - Forbush, Christensen-Pacella (PIs), Co-I: **Girard**
-    - 01/2025 -- 12/2027
-
-- *"COBRE Computational Assessment of Communicative Behaviors in Posttraumatic Stress"*
-    - P20, National Institutes of Health (COBRE)
-    - **Girard** (PI)
-    - 01/2025 -- 12/2026
+- *"NextGShield – Proactive AI Resilience in NextG Open Wireless"*
+    - Australia-Vietnam Strategic Technologies Centre (AVSTC)
+    - PI: **Dinh Nguyen**
+    - 08/2025 -- 01/2026
 
 ### Completed Funding
 
-- *"Context-Adaptive Multimodal Informatics for Psychiatric Discharge Planning"*
-    - R01, National Institutes of Health (NIMH)
-    - Baker (PI), Co-Is: **Girard**, Morency
-    - 04/2021 -- 02/2025
+- *"Optimizing Energy Efficiency in Mobile Edge Systems with AI-Powered Sustainable Solutions"*
+    - VinUniversity
+    - PI: **Dinh Nguyen**
+    - 01/2025 -- 01/2026
 
-- *"Kansas Data Science Training Pathways | An Integrated Model"*
-  - National Science Foundation (EPSCoR REI)
-  - **Girard** (PI)
-  - 01/2024 -- 12/2024
-
-- *"Novel Scalable Mental Health Screening Procedures on Ubiquitous Sensing Devices"*
-    - Googler-Initiated Grant, Google LLC
-    - **Girard** (PI)
-    - 11/2022
-
-- *"Multimodal Dynamics of Parent-Child Interactions and Suicide Risk"*
-    - R21, National Institutes of Health (NIMH)
-    - Burke (PI), Co-Is: **Girard**, Li, Morency
-    - 09/2022 -- 07/2023
-
-- *"Towards Automated Multimodal Behavioral Screening for Depression"*
-    - Pittsburgh Health Data Alliance (CMLH)
-    - Morency (PI), Co-I: **Girard**
-    - 03/2019 -- 02/2021
+- *"Enhancing the Performance of 6G Open RAN Integrating Edge Computing and Network licing"*
+    - National Foundation for Science and Technology (NAFOSTED), ietnam
+    - PI: **Dinh Nguyen** (not sign the contract)
+    - 2024 -- 2026
     
-- *"Dyadic Behavior Informatics for Psychotherapy Process and Outcome"*
-    - National Science Foundation (IIS, SCH)
-    - Cohn, Morency, Swartz (PIs), Co-Is: Bylsma, Fournier, **Girard**
-    - 09/2020 -- 08/2022
+- *"Resilience-Aware Edge Computing for Massive and Secure Internet-of-Things Networks"*
+    - Seed grant, VinUniversity
+    - PI: **Dinh Nguyen**
+    - 2023 -- 2025
 
 ## Research Framework
 
