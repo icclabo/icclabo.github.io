@@ -19,7 +19,7 @@ comments:
 
 I have joined College of Engineering and Computer Science, VinUniversity, Hanoi, Vietnam, after spending 10 years working and studying oversea. I am excited to be back and contribute to my home country.
 
-VinUniversity (VinUni) is a private, not-for-profit university in Vietnam established by Vingroup, the country’s largest private conglomerate. Founded with an investment of VND 6,500 billion, it is designed to meet international standards and is often recognized as one of the most prestigious and modern academic institutions in Vietnam
+VinUniversity (VinUni) is a private, not-for-profit university in Vietnam established by Vingroup, the country’s largest private conglomerate. Founded with an investment of VND 6,500 billion, it is designed to meet international standards and is often recognized as one of the most prestigious and modern academic institutions in Vietnam.
 
 <!--
 > Intelligence, Computing & Communication Lab: Advancing an Interdisciplinary

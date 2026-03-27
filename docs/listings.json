@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/posts/threephdstudents/index.html",
-      "/posts/joinvinuni2022/index.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/faculty/dinhnguyen.html",
@@ -20,6 +13,16 @@
       "/people/under/nguyenhong_phuc.html",
       "/people/under/nguyenthanh_trung.html",
       "/people/under/phantuan_khoi.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/phdposition2025/index.html",
+      "/posts/avstc2025/index.html",
+      "/posts/nafosted2024/index.html",
+      "/posts/threephdstudents/index.html",
+      "/posts/joinvinuni2022/index.html"
     ]
   }
 ]
