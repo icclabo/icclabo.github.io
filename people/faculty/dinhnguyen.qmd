@@ -16,7 +16,7 @@ about:
       href: https://www.tcd.ie/scss/people/academic-staff/nguyenva/
     - icon: file-earmark-text
       text: vitae
-      href: ./people/faculty/dinhnguyen_cv.pdf
+      href: .icc/people/faculty/dinhnguyen_cv.pdf
     - icon: mortarboard
       text: scholar
       href: https://scholar.google.com/citations?hl=en&user=wgsX_zIAAAAJ
@@ -76,6 +76,41 @@ Dr. Nguyen received the four best conference paper awards, IEEE Communications L
 
 - **Technical Program Committee (TPC)** <br />
   TPC Chair/Member, Session Chair, and Reviewer for 20+ Conferences (e.g. IEEE GLOBECOM, ICC, INFOCOM, VTC, WCNC, PIMRC, etc.)
+
+
+## Awards
+
+- **Faculty of the Year Award**, VinUniversity for Academic Year | 2023-2024
+
+- **Researcher of the Award**, VinUniversity for Academic Year | 2023-2024
+
+- **Outstanding Contribution Award**, VinUniversity for Academic Year | 2022-2023
+
+- **Best Conference Paper Award**, IEEE ATC | 2024
+
+- **Exemplary Editor Award**, IEEE Open Journal of the Communications Society | 2023
+
+- **Outstanding Contribution Award**, VinUniversity for Academic Year 2022-2023 | 2023
+
+- **Best Conference Paper Award**, IEEE Statistical Signal Processing (SSP) Workshop | 2023
+
+- **Exemplary Editor Award**, IEEE Open Journal of the Communications Society | 2021
+
+- **Exemplary Editor Award**, IEEE Communications Letters | 2021
+
+- **Exemplary Editor Award**, IEEE Communications Letters | 2019
+
+- **Exemplary Reviewer Award**, IEEE Transactions on Communications | 2018
+
+- **Best Conference Paper Award**, SigTelCom | 2018
+
+- **Student Travel Grant Award**, IEEE Global Communications Conference (GLOBECOM) $500 | 2017
+
+- **Best Conference Paper Award**, IEEE Seoul Section Student Paper Contest $1,000.00 | 2015
+
+- **Best Conference Paper Award**, International Conference on Computing, Management &
+Telecommunications (ComManTel) | 2015
+
 
 
 ## Education
