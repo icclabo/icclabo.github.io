@@ -11,14 +11,11 @@ toc: true
   </ol>
 </nav>
 ```
+
 ## Writing great papers in high impact journals (by Alice Wood)
 
-{{< pdf Writing_great_paper.pdf width=600 height=400 image_width=600 image_border=1 image=firstslide.png >}}
-
-<#Writing great papers in high impact journals: An Introduction for Researchers (Alice Wood)
-
 {{< pdf documents/Writing_great_paper.pdf width=600 height=400 image_width=600 image_border=1 image=firstslide.png >}}
->
+
 
 
 ## Datasets
