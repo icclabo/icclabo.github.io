@@ -12,6 +12,12 @@ toc: true
 </nav>
 ```
 
+<#Writing great papers in high impact journals: An Introduction for Researchers (Alice Wood)
+
+{{< pdf phdtcd.pdf width=600 height=400 image_width=600 image_border=1 image=firstslide.png >}}
+>
+
+
 ## Datasets
 
  ***Data source and Modalities in Recent Aquaculture/Ocean Literature***
