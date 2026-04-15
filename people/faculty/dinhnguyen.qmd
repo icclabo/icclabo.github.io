@@ -16,7 +16,7 @@ about:
       href: https://www.tcd.ie/scss/people/academic-staff/nguyenva/
     - icon: file-earmark-text
       text: vitae
-      href: .icc/people/faculty/dinhnguyen_cv.pdf
+      href: people/faculty/dinhnguyen_cv.pdf
     - icon: mortarboard
       text: scholar
       href: https://scholar.google.com/citations?hl=en&user=wgsX_zIAAAAJ
