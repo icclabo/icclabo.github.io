@@ -21,8 +21,7 @@ I am inviting applications for a fully funded PhD position in Distributed Machin
 
 The position offers a €25K annual stipend, EU fees coverage for 4 years, and the chance to collaborate with both academic and industry leaders in AI and telecommunications. Please refer to the pdf file for more details.
 
-<
-> Intelligence, Computing & Communication Lab: Advancing an Interdisciplinary Program of Research
+<Intelligence, Computing & Communication Lab: Advancing an Interdisciplinary Program of Research
 
 {{< pdf phdtcd.pdf width=600 height=400 image_width=600 image_border=1 image=firstslide.png >}}
 >
