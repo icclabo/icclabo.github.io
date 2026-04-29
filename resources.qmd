@@ -17,6 +17,21 @@ toc: true
 {{< pdf documents/Writing_great_paper.pdf width=750 height=400 image_width=750 image_border=1 image=firstslide.png >}}
 
 
+## Good Technical Papers and Slides
+
+ ***Convex Optimization***
+
+- **Hidden convexity in a class of optimization problems with bilinear terms**<br />
+  Authors: *Bram L. Gorissen, Dick den Hertog, and Meike Reusken*<br />
+  *Primary Article/Citation:* [Gorissen et al. (2025)](https://pubsonline.informs.org/doi/10.1287/opre.2022.0383)<br />
+  *Open Access:* [Link](https://optimization-online.org/wp-content/uploads/2022/07/8973-1.pdf)
+
+
+- **Convex Optimization**<br />
+  Authors: *Stephen Boyd and Lieven Vandenberghe*<br />
+  *Primary Source/Citation:* [Boyd et al. (2025)](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)<br />
+  *Slides Access:* [Link](https://web.stanford.edu/class/ee364a/lectures.html)
+
 
 ## Datasets
 
